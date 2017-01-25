@@ -1,0 +1,68 @@
+dd ecx + 0x254
+dd ecx + 0x230
+
+dd poi(ecx + 0x3f8) + 0x25d
+
+dd (x + 10)
+dd (x + 48?)
+
+dd (x + 14)
+dd (x + 30)
+
+dd ebp + 1c
+dd (x + 48)
+dd (x)
+
+s -d 0 L?80000000 0C0C0C0D
+dd poi(poi(ebp+1c)+48)
+
+
+memgc:
+khong alloc bang HeapAlloc() sử dụng một handle (như g_hIsolatedHeap hay g_hProcessHeap)
+nó sử dụng TLS Thread Local Storage, page VirtualAlloc
+
+struct wtf
+	index: 26 -> 951ad00
+	
+wtf + 0x110 + 0x43E4 + 0x154 * 3 + 0x5c
+
+small bucket được alloc sẵn (> ?)
+nếu chưa được alloc thì?
+
+? 05723400 + 4440 + 154*3
+
+netsh winhttp set proxy myproxy
+0x800705b4
+
+
+====================================
+Turn off tab recovery
+====================================
+HKEY_CURRENT_USER/Software/policies/Microsoft/
+HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft/
+
+Create Key "MicrosoftEdge"
+Create subKey "Recovery" of "MicrosoftEdge"
+Creat DWORD-32 "AutoRecover" set value = 2
+
+====================================
+AutoRun
+====================================
+create file bat
+create shortcut
+open folder startup: Windows + R \ shell:startup
+copy shortcut into startup folder
+
+====================================
+AutoLogon
+====================================
+Windows + R \ netplwiz
+dis select on "User must enter username and password to logon ..." (or smt like that)
+select acc and type password
+ok
+
+====================================
+Auto Restart
+====================================
+task scheduler
+create basic task

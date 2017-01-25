@@ -1,0 +1,14 @@
+
+
+$$ $$>a<"C:\Users\hungtt28\Desktop\BigPool.txt"
+
+r? @$t0 = (nt!_POOL_TRACKER_BIG_PAGES*)@@(poi(nt!PoolBigPageTable))
+r? @$t1 = *(int*)@@(nt!PoolBigPageTableSize) / sizeof(nt!_POOL_TRACKER_BIG_PAGES)
+.for (r @$t2 = 0; @$t2 < @$t1; r? @$t2 = @$t2 + 1)
+{
+    r? @$t3 = @$t0[@$t2];
+    .if (@@(@$t3.Va != 1))
+    {
+        .printf "VA: 0x%p Size: 0x%lx Tag: %c%c%c%c Freed: %d Paged: %d CacheAligned: %d\n", @@((int)@$t3.Va & ~1), @@(@$t3.NumberOfBytes), @@(@$t3.Key >> 0 & 0xFF), @@(@$t3.Key >> 8 & 0xFF), @@(@$t3.Key >> 16 & 0xFF), @@(@$t3.Key >> 24 & 0xFF), @@((int)@$t3.Va & 1), @@(@$t3.PoolType & 1), @@(@$t3.PoolType & 4) == 4
+    }
+}

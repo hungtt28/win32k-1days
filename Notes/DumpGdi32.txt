@@ -1,0 +1,104 @@
+$$ Run as: $$>a<DumpGdi32.txt
+$$ Written by Alois Kraus 2016
+$$ uses pseudo registers r0-5 and r8-r14
+$$ Rewrite for 32 bits by hungtt28 
+
+$$ $$>a<"C:\Users\hungtt28\Desktop\DumpGdi32.txt" 1
+$$	param 0: all object
+$$	param 1: object assign current pid
+$$	param 5: bitmap object
+
+r $t6 = ${$arg1}
+r @$t1=0
+r @$t8=0
+r @$t9=0
+r @$t10=0
+r @$t11=0
+r @$t12=0
+r @$t13=0
+r @$t14=0
+$$ Increment count is 1 byte until we find a matching field with the current pid
+r @$t4=1
+
+r @$t0=$peb
+$$ Get address of GDI handle table into t5
+.foreach /pS 3 /ps 1 ( @$GdiSharedHandleTable { dt ntdll!_PEB GdiSharedHandleTable @$t0 } ) { r @$t5 = @$GdiSharedHandleTable }
+
+$$ GdiSharedHandleTable not enough handle, use kernel handle table
+$$ NtGdiCreateBitmap > GreCreateBitmap > bCreateDIB > HmgInsertObject > hGetFreeHandle
+r @$t5 = poi(win32k!gpentHmgr)
+
+r @$t2 = @$t5
+r @$t3 = @$t5+0x10000
+r @$t4 = 0x10
+
+.for(; @$t2 < @$t3; r @$t2 = @$t2 + @$t4) 
+{
+
+  $$ since we walk bytewise through potentially invalid memory we need first to check if it points to valid memory
+  .if($vvalid(@$t2,4) == 1 ) 
+  {
+	.if (@$t6 == 5)
+	{
+		$$ print bitmap object
+		.if (by(@$t2+8) == 0x5 )  
+		{
+			r @$t1 = @$t1+1
+			.printf "\ndword      %p, %p, %p", @$t2, poi(@$t2), poi(poi(@$t2)+2c)
+		}
+	}
+	.if (@$t6 == 1)
+	{
+		 $$ Check if pid matches
+		 .if (wo(@$t2+4) == @$tpid ) 
+		 { 
+			.if (by(@$t2+8) == 0x5 )
+			{
+				.printf "\ndword      %p, %p, %p", @$t2, poi(@$t2), poi(poi(@$t2)+2c)
+			}
+			
+			$$ increase handle count stored in $t1 and increase step size by 0x18 because we know the cell structure GDICell has a size of 0x18 bytes.
+			r @$t1 = @$t1+1
+			$$ Access wType of GDICELL and increment per GDI handle type
+			.if (by(@$t2+8) == 0x1 )  { r @$t8 =  @$t8+1  }
+			.if (by(@$t2+8) == 0x4 )  { r @$t9 =  @$t9+1  }
+			.if (by(@$t2+8) == 0x5 )  { r @$t10 = @$t10+1 }
+			.if (by(@$t2+8) == 0x8 )  { r @$t11 = @$t11+1 }
+			.if (by(@$t2+8) == 0xa )  { r @$t12 = @$t12+1 }
+			.if (by(@$t2+8) == 0x10 ) { r @$t13 = @$t13+1 }
+			.if (by(@$t2+8) == 0x30 ) { r @$t14 = @$t14+1 }
+		 } 
+	} 
+	.if (@$t6 == 0)
+	{
+			.printf "\ndword      %p, %p", @$t2, poi(@$t2)
+			$$ increase handle count stored in $t1 and increase step size by 0x18 because we know the cell structure GDICell has a size of 0x18 bytes.
+			r @$t1 = @$t1+1
+			$$ Access wType of GDICELL and increment per GDI handle type
+			.if (by(@$t2+8) == 0x1 )  { r @$t8 =  @$t8+1  }
+			.if (by(@$t2+8) == 0x4 )  { r @$t9 =  @$t9+1  }
+			.if (by(@$t2+8) == 0x5 )  { r @$t10 = @$t10+1 }
+			.if (by(@$t2+8) == 0x8 )  { r @$t11 = @$t11+1 }
+			.if (by(@$t2+8) == 0xa )  { r @$t12 = @$t12+1 }
+			.if (by(@$t2+8) == 0x10 ) { r @$t13 = @$t13+1 }
+			.if (by(@$t2+8) == 0x30 ) { r @$t14 = @$t14+1 }
+	} 
+  } 
+  .else
+  {
+	$$ .continue
+	.break
+  }
+}
+
+.printf "\nGDI Handle Count      %d", @$t1
+.printf "\n\tDeviceContexts: %d", @$t8
+.printf "\n\tRegions:        %d", @$t9
+.printf "\n\tBitmaps:        %d", @$t10
+.printf "\n\tPalettes:       %d", @$t11
+.printf "\n\tFonts:          %d", @$t12
+.printf "\n\tBrushes:        %d", @$t13
+.printf "\n\tPens:           %d", @$t14
+.printf "\n\tUncategorized:  %d\n", @$t1-(@$t14+@$t13+@$t12+@$t11+@$t10+@$t9+@$t8)
+
+.printf "\nGdiSharedHandleTable %p", @$t5

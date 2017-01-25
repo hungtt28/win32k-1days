@@ -1,0 +1,4820 @@
+dt win32k!LIST_ENTRY64
+dt win32k!LIST_ENTRY32
+dt win32k!_KSYSTEM_TIME
+dt win32k!_KSYSTEM_TIME
+dt win32k!_KUSER_SHARED_DATA
+dt win32k!_NT_PRODUCT_TYPE
+dt win32k!_ALTERNATIVE_ARCHITECTURE_TYPE
+dt win32k!_LARGE_INTEGER
+dt win32k!_XSTATE_CONFIGURATION
+dt win32k!_ULARGE_INTEGER
+dt win32k!_TP_CALLBACK_ENVIRON_V3
+dt win32k!_TP_POOL
+dt win32k!_TP_CLEANUP_GROUP
+dt win32k!_ACTIVATION_CONTEXT
+dt win32k!_TP_CALLBACK_INSTANCE
+dt win32k!_TP_CALLBACK_PRIORITY
+dt win32k!_TP_TASK
+dt win32k!_TP_TASK_CALLBACKS
+dt win32k!_TP_TASK_CALLBACKS
+dt win32k!_TP_NBQ_GUARD
+dt win32k!_TP_DIRECT
+dt win32k!_IO_STATUS_BLOCK
+dt win32k!_TEB
+dt win32k!_NT_TIB
+dt win32k!_CLIENT_ID
+dt win32k!_PEB
+dt win32k!_ACTIVATION_CONTEXT_STACK
+dt win32k!_GDI_TEB_BATCH
+dt win32k!_UNICODE_STRING
+dt win32k!_LIST_ENTRY
+dt win32k!_GUID
+dt win32k!_PROCESSOR_NUMBER
+dt win32k!_TEB_ACTIVE_FRAME
+dt win32k!_LIST_ENTRY
+dt win32k!_SINGLE_LIST_ENTRY
+dt win32k!_RTL_DYNAMIC_HASH_TABLE_CONTEXT
+dt win32k!_RTL_DYNAMIC_HASH_TABLE_ENUMERATOR
+dt win32k!_RTL_DYNAMIC_HASH_TABLE_ENTRY
+dt win32k!_RTL_DYNAMIC_HASH_TABLE
+dt win32k!_STRING
+dt win32k!_LUID
+dt win32k!_IMAGE_NT_HEADERS
+dt win32k!_IMAGE_FILE_HEADER
+dt win32k!_IMAGE_OPTIONAL_HEADER
+dt win32k!_IMAGE_DOS_HEADER
+dt win32k!_KPRCB
+dt win32k!_KTHREAD
+dt win32k!_KPROCESSOR_STATE
+dt win32k!_KSPIN_LOCK_QUEUE
+dt win32k!_EVENT_DATA_DESCRIPTOR
+dt win32k!_EVENT_DESCRIPTOR
+dt win32k!_EVENT_DESCRIPTOR
+dt win32k!_FAST_MUTEX
+dt win32k!_KEVENT
+dt win32k!_EVENT_TYPE
+dt win32k!_DISPATCHER_HEADER
+dt win32k!_SLIST_HEADER
+dt win32k!_LOOKASIDE_LIST_EX
+dt win32k!_GENERAL_LOOKASIDE_POOL
+dt win32k!_POOL_TYPE
+dt win32k!_NPAGED_LOOKASIDE_LIST
+dt win32k!_GENERAL_LOOKASIDE
+dt win32k!_PAGED_LOOKASIDE_LIST
+dt win32k!_QUAD
+dt win32k!_QUAD
+dt win32k!_QUAD
+dt win32k!_LARGE_INTEGER
+dt win32k!_LARGE_INTEGER
+dt win32k!_ULARGE_INTEGER
+dt win32k!_ULARGE_INTEGER
+dt win32k!_UNICODE_STRING
+dt win32k!_UNICODE_STRING
+dt win32k!_IO_STATUS_BLOCK
+dt win32k!_EX_PUSH_LOCK
+dt win32k!_EX_PUSH_LOCK_CACHE_AWARE
+dt win32k!_IRP
+dt win32k!_MDL
+dt win32k!_DEVICE_OBJECT
+dt win32k!_KDEVICE_QUEUE_ENTRY
+dt win32k!_ETHREAD
+dt win32k!_IO_STACK_LOCATION
+dt win32k!_FILE_OBJECT
+dt win32k!_KAPC
+dt win32k!_IO_SECURITY_CONTEXT
+dt win32k!_NAMED_PIPE_CREATE_PARAMETERS
+dt win32k!_MAILSLOT_CREATE_PARAMETERS
+dt win32k!_FILE_INFORMATION_CLASS
+dt win32k!_FSINFOCLASS
+dt win32k!_VPB
+dt win32k!_SCSI_REQUEST_BLOCK
+dt win32k!_DEVICE_RELATION_TYPE
+dt win32k!_GUID
+dt win32k!_INTERFACE
+dt win32k!_DEVICE_CAPABILITIES
+dt win32k!_IO_RESOURCE_REQUIREMENTS_LIST
+dt win32k!BUS_QUERY_ID_TYPE
+dt win32k!DEVICE_TEXT_TYPE
+dt win32k!_DEVICE_USAGE_NOTIFICATION_TYPE
+dt win32k!_SYSTEM_POWER_STATE
+dt win32k!_POWER_SEQUENCE
+dt win32k!_SYSTEM_POWER_STATE_CONTEXT
+dt win32k!_POWER_STATE_TYPE
+dt win32k!_POWER_STATE
+dt win32k!POWER_ACTION
+dt win32k!_CM_RESOURCE_LIST
+dt win32k!_KDPC
+dt win32k!_DRIVER_OBJECT
+dt win32k!_IO_TIMER
+dt win32k!_WAIT_CONTEXT_BLOCK
+dt win32k!_KDEVICE_QUEUE
+dt win32k!_DEVOBJ_EXTENSION
+dt win32k!_IO_DRIVER_CREATE_CONTEXT
+dt win32k!_ECP_LIST
+dt win32k!_TXN_PARAMETER_BLOCK
+dt win32k!_ACCESS_STATE
+dt win32k!_SECURITY_SUBJECT_CONTEXT
+dt win32k!_INITIAL_PRIVILEGE_SET
+dt win32k!_PRIVILEGE_SET
+dt win32k!_AUX_ACCESS_DATA
+dt win32k!_GENERIC_MAPPING
+dt win32k!_ACCESS_REASONS
+dt win32k!_EPROCESS
+dt win32k!_KPROCESS
+dt win32k!_OBJECT_TYPE
+dt win32k!_OBJECT_ATTRIBUTES
+dt win32k!_OBJECT_TYPE_INITIALIZER
+dt win32k!_OBJECT_HANDLE_INFORMATION
+dt win32k!_WHEA_ERROR_PACKET_V2
+dt win32k!_WHEA_ERROR_PACKET_FLAGS
+dt win32k!_WHEA_ERROR_TYPE
+dt win32k!_WHEA_ERROR_SEVERITY
+dt win32k!_WHEA_ERROR_SOURCE_TYPE
+dt win32k!_WHEA_ERROR_PACKET_DATA_FORMAT
+dt win32k!_WHEA_ERROR_RECORD
+dt win32k!_WHEA_ERROR_RECORD_HEADER
+dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+dt win32k!_WHEA_REVISION
+dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS
+dt win32k!_W32THREAD
+dt win32k!_TL
+dt win32k!_TLSPRITESTATE
+dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY_DEPRECATED
+dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY_DEPRECATED
+dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+dt win32k!_DMM_VIDPN_SERIALIZATION
+dt win32k!_DMM_VIDPN_SERIALIZATION
+dt win32k!_DMM_VIDPNPATHSFROMSOURCE_SERIALIZATION
+dt win32k!_D3DKMDT_VIDPN_SOURCE_MODE
+dt win32k!_DMM_VIDPNPATHANDTARGETMODE_SERIALIZATION
+dt win32k!_DMM_VIDPNSET_SERIALIZATION
+dt win32k!_DMM_VIDPNSET_SERIALIZATION
+dt win32k!_DMM_MONITOR_SERIALIZATION
+dt win32k!_DMM_MONITOR_SERIALIZATION
+dt win32k!_D3DKMDT_MONITOR_ORIENTATION
+dt win32k!_DMM_MODE_PRUNING_ALGORITHM
+dt win32k!_DEVICE_POWER_STATE
+dt win32k!_DMM_VIDPN_MONITOR_TYPE
+dt win32k!_DMM_MONITORSOURCEMODESET_SERIALIZATION
+dt win32k!_DMM_MONITOR_SOURCE_MODE_SERIALIZATION
+dt win32k!_DMM_MONITORFREQUENCYRANGESET_SERIALIZATION
+dt win32k!_D3DKMDT_MONITOR_FREQUENCY_RANGE
+dt win32k!_DMM_MONITORDESCRIPTORSET_SERIALIZATION
+dt win32k!_DMM_MONITORDESCRIPTOR_SERIALIZATION
+dt win32k!_DMM_COMMITVIDPNREQUESTSET_SERIALIZATION
+dt win32k!_DMM_COMMITVIDPNREQUESTSET_SERIALIZATION
+dt win32k!_DMM_COMMITVIDPNREQUEST_SERIALIZATION
+dt win32k!_DMM_COMMITVIDPNREQUEST_DIAGINFO
+dt win32k!_DMM_COFUNCPATHSMODALITY_SERIALIZATION
+dt win32k!_DMM_COFUNCPATHSMODALITY_SERIALIZATION
+dt win32k!_DMM_VIDPNPATHANDTARGETMODESET_SERIALIZATION
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH
+dt win32k!_DMM_VIDPNTARGETMODESET_SERIALIZATION
+dt win32k!_DXGK_DIAG_HEADER
+dt win32k!_DXGK_DIAG_TYPE
+dt win32k!_DXGK_DIAG_TYPE
+dt win32k!_DXGK_DIAG_CODE_POINT_PACKET
+dt win32k!_DXGK_DIAG_CODE_POINT_TYPE
+dt win32k!_DXGK_DIAG_CODE_POINT_TYPE
+dt win32k!_SECTION_OBJECT_POINTERS
+dt win32k!_IO_COMPLETION_CONTEXT
+dt win32k!_EX_POOL_PRIORITY
+dt win32k!tagRECT
+dt win32k!tagRECT
+dt win32k!_HANDLEENTRY
+dt win32k!_HEAD
+dt win32k!tagCLIENTTHREADINFO
+dt win32k!_ERESOURCE
+dt win32k!_OWNER_ENTRY
+dt win32k!_KSEMAPHORE
+dt win32k!tagHID_TLC_INFO
+dt win32k!tagMSGPPINFO
+dt win32k!tagTHREADINFO
+dt win32k!tagPROCESSINFO
+dt win32k!tagQ
+dt win32k!tagKL
+dt win32k!tagDESKTOP
+dt win32k!tagDESKTOPINFO
+dt win32k!tagCLIENTINFO
+dt win32k!tagSMS
+dt win32k!HDESK__
+dt win32k!tagMENUSTATE
+dt win32k!tagTDB
+dt win32k!tagWINDOWSTATION
+dt win32k!tagSVR_INSTANCE_INFO
+dt win32k!_MOVESIZEDATA
+dt win32k!tagHOOK
+dt win32k!tagSBTRACK
+dt win32k!tagPOINT
+dt win32k!tagWND
+dt win32k!tagIMC
+dt win32k!HKL__
+dt win32k!tagMLIST
+dt win32k!HTOUCHINPUT__
+dt win32k!HGESTUREINFO__
+dt win32k!_W32PROCESS
+dt win32k!_RTL_AVL_TABLE
+dt win32k!tagCLS
+dt win32k!tagWOWPROCESSINFO
+dt win32k!HWINSTA__
+dt win32k!HMONITOR__
+dt win32k!tagDESKTOPVIEW
+dt win32k!_RTL_BITMAP
+dt win32k!tagCURSOR
+dt win32k!tagW32JOB
+dt win32k!tagUSERSTARTUPINFO
+dt win32k!tagPROCESS_HID_TABLE
+dt win32k!VWPL
+dt win32k!_CALLBACKWND
+dt win32k!tagMSG
+dt win32k!tagKBDFILE
+dt win32k!tagIMEINFOEX
+dt win32k!HWND__
+dt win32k!tagCARET
+dt win32k!_THRDESKHEAD
+dt win32k!HRGN__
+dt win32k!tagPROPLIST
+dt win32k!tagSBINFO
+dt win32k!tagMENU
+dt win32k!_LARGE_UNICODE_STRING
+dt win32k!HIMC__
+dt win32k!_D3DMATRIX
+dt win32k!_THROBJHEAD
+dt win32k!tagTOUCHINPUTINFO
+dt win32k!tagTOUCHINPUT
+dt win32k!tagQMSG
+dt win32k!tagPOPUPMENU
+dt win32k!HDC__
+dt win32k!HBITMAP__
+dt win32k!_PROCDESKHEAD
+dt win32k!tagITEM
+dt win32k!tagMENULIST
+dt win32k!HBRUSH__
+dt win32k!tagUAHMENUPOPUPMETRICS
+dt win32k!tagUAHMENUITEMMETRICS
+dt win32k!tagDISPLAYINFO
+dt win32k!tagWIN32HEAP
+dt win32k!_CONSOLE_CARET_INFO
+dt win32k!_MAGNIFICATION_INPUT_TRANSFORM
+dt win32k!tagTERMINAL
+dt win32k!tagPROFILEVALUEINFO
+dt win32k!tagDCE
+dt win32k!tagSPB
+dt win32k!tagMONITOR
+dt win32k!_KLIST_ENTRY
+dt win32k!_KFLOATING_SAVE
+dt win32k!_ETW_THREAD_FLAG
+dt win32k!WINDOWCOMPOSITIONATTRIB
+dt win32k!_INTERFACE_TYPE
+dt win32k!_IO_RESOURCE_LIST
+dt win32k!_LUID_AND_ATTRIBUTES
+dt win32k!_CALLPROCDATA
+dt win32k!_TEB_ACTIVE_FRAME_CONTEXT
+dt win32k!_TEB_ACTIVE_FRAME_CONTEXT
+dt win32k!DISPLAYCONFIG_SCANLINE_ORDERING
+dt win32k!tagKbdLayer
+dt win32k!tagKbdNlsLayer
+dt win32k!_PROFILE_MAP
+dt win32k!_EXCEPTION_REGISTRATION_RECORD
+dt win32k!_WHEA_ERROR_RECORD_HEADER_VALIDBITS
+dt win32k!_WHEA_TIMESTAMP
+dt win32k!_WHEA_ERROR_RECORD_HEADER_FLAGS
+dt win32k!_WHEA_PERSISTENCE_INFO
+dt win32k!_DMM_MONITOR_PRESENCE_EVENT_TYPE
+dt win32k!TOUCHSTATE
+dt win32k!_VK_VALUES_STRINGS
+dt win32k!_DRIVER_EXTENSION
+dt win32k!_FAST_IO_DISPATCH
+dt win32k!_D3DKMDT_MONITOR_DESCRIPTOR_TYPE
+dt win32k!_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+dt win32k!tagSHAREDINFO
+dt win32k!tagSERVERINFO
+dt win32k!tagSERVERINFO
+dt win32k!_WNDMSG
+dt win32k!MODIFIERS
+dt win32k!_VK_TO_WCHAR_TABLE
+dt win32k!DEADKEY
+dt win32k!VSC_LPWSTR
+dt win32k!_VSC_VK
+dt win32k!_LIGATURE1
+dt win32k!tagSIZE
+dt win32k!_PEB_LDR_DATA
+dt win32k!_RTL_USER_PROCESS_PARAMETERS
+dt win32k!_RTL_CRITICAL_SECTION
+dt win32k!_ACTIVATION_CONTEXT_DATA
+dt win32k!_ACTIVATION_CONTEXT_DATA
+dt win32k!_ASSEMBLY_STORAGE_MAP
+dt win32k!_FLS_CALLBACK_INFO
+dt win32k!tagSBCALC
+dt win32k!_XSTATE_FEATURE
+dt win32k!_D3DKMDT_VIDPN_TARGET_MODE
+dt win32k!_CM_FULL_RESOURCE_DESCRIPTOR
+dt win32k!_CM_PARTIAL_RESOURCE_LIST
+dt win32k!_D3DKMDT_FREQUENCY_RANGE
+dt win32k!_D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+dt win32k!_D3DKMDT_2DREGION
+dt win32k!tagWOWTHREADINFO
+dt win32k!VWPLELEMENT
+dt win32k!VK_TO_BIT
+dt win32k!_PFNCLIENT
+dt win32k!_PFNCLIENTWORKER
+dt win32k!tagMBSTRING
+dt win32k!tagTEXTMETRICW
+dt win32k!tagDPISERVERINFO
+dt win32k!HICON__
+dt win32k!tagOEMBITMAPINFO
+dt win32k!tagWin32AllocStats
+dt win32k!tagWin32PoolHead
+dt win32k!_D3DKMDT_VIDEO_SIGNAL_INFO
+dt win32k!_D3DKMDT_MODE_PREFERENCE
+dt win32k!_D3DKMDT_VIDEO_SIGNAL_STANDARD
+dt win32k!_D3DDDI_RATIONAL
+dt win32k!_D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
+dt win32k!_PROCMARKHEAD
+dt win32k!_DMM_CLIENT_TYPE
+dt win32k!_DMM_VIDPNCHANGE_TYPE
+dt win32k!eTHRESHOLD_MARGIN_DIRECTION
+dt win32k!_MOVERECT_STYLE
+dt win32k!_EJOB
+dt win32k!_THRESHOLD_SELECTOR
+dt win32k!_CM_PARTIAL_RESOURCE_DESCRIPTOR
+dt win32k!_D3DKMDT_MONITOR_SOURCE_MODE
+dt win32k!_D3DKMDT_MONITOR_TIMING_TYPE
+dt win32k!_OBJECT_DUMP_CONTROL
+dt win32k!_OB_OPEN_REASON
+dt win32k!_SECURITY_QUALITY_OF_SERVICE
+dt win32k!_SECURITY_OPERATION_CODE
+dt win32k!_OBJECT_NAME_INFORMATION
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+dt win32k!_D3DKMDT_COLOR_BASIS
+dt win32k!_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
+dt win32k!_D3DKMDT_GAMMA_RAMP
+dt win32k!tagPROCESS_HID_REQUEST
+dt win32k!HFONT__
+dt win32k!_SECURITY_IMPERSONATION_LEVEL
+dt win32k!_MEMORY_CACHING_TYPE_ORIG
+dt win32k!_EXCEPTION_DISPOSITION
+dt win32k!_EXCEPTION_RECORD
+dt win32k!_CONTEXT
+dt win32k!_KSPIN_LOCK_QUEUE_NUMBER
+dt win32k!_FLOATING_SAVE_AREA
+dt win32k!_IMAGE_DATA_DIRECTORY
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT
+dt win32k!tagCLIP
+dt win32k!tagSBDATA
+dt win32k!_MODE
+dt win32k!_IO_RESOURCE_DESCRIPTOR
+dt win32k!_RTL_CRITICAL_SECTION_DEBUG
+dt win32k!_IO_ALLOCATION_ACTION
+dt win32k!_VK_TO_FUNCTION_TABLE
+dt win32k!_D3DDDI_GAMMARAMP_TYPE
+dt win32k!_D3DDDI_GAMMA_RAMP_RGB256x3x16
+dt win32k!_D3DDDI_GAMMA_RAMP_DXGI_1
+dt win32k!_FILE_BASIC_INFORMATION
+dt win32k!_FILE_STANDARD_INFORMATION
+dt win32k!_FILE_NETWORK_OPEN_INFORMATION
+dt win32k!_COMPRESSED_DATA_INFO
+dt win32k!_CURDIR
+dt win32k!_RTL_DRIVE_LETTER_CURDIR
+dt win32k!_D3DDDIFORMAT
+dt win32k!_D3DKMT_QUERYSTATISTICS_QUEUE_PACKET_TYPE
+dt win32k!_D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+dt win32k!_D3DKMDT_GRAPHICS_RENDERING_FORMAT
+dt win32k!_D3DKMDT_TEXT_RENDERING_FORMAT
+dt win32k!D3DDDI_DXGI_RGB
+dt win32k!_SM_STORAGE_MODIFIER
+dt win32k!ReplacesCorHdrNumericDefines
+dt win32k!_D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT
+dt win32k!tagIMEINFO
+dt win32k!_RTL_ACTIVATION_CONTEXT_STACK_FRAME
+dt win32k!tagPROP
+dt win32k!_DEVICE_OBJECT_POWER_EXTENSION
+dt win32k!_VK_FUNCTION_PARAM
+dt win32k!tagHID_PAGEONLY_REQUEST
+dt win32k!_WM_VALUES_STRINGS
+dt win32k!_RTL_BALANCED_LINKS
+dt win32k!_RTL_GENERIC_COMPARE_RESULTS
+dt win32k!_DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
+dt win32k!_VK_TO_WCHARS1
+dt win32k!_D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS
+dt win32k!_SM_VALUES_STRINGS
+dt win32k!_SM_RANGE_TYPES
+dt win32k!_D3DKMT_QUERYSTATISTICS_DMA_PACKET_TYPE
+dt win32k!_KSPECIAL_REGISTERS
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
+dt win32k!_REG_NOTIFY_CLASS
+dt win32k!tagPOOLRECORD
+dt win32k!_WINDOW_ARRANGEMENT_COMMAND
+dt win32k!_IRQ_PRIORITY
+dt win32k!_D3DKMDT_PIXEL_VALUE_ACCESS_MODE
+dt win32k!_DESCRIPTOR
+
+kd> dt win32k!LIST_ENTRY64
+   +0x000 Flink            : Uint8B
+   +0x008 Blink            : Uint8B
+kd> dt win32k!LIST_ENTRY32
+   +0x000 Flink            : Uint4B
+   +0x004 Blink            : Uint4B
+kd> dt win32k!_KSYSTEM_TIME
+   +0x000 LowPart          : Uint4B
+   +0x004 High1Time        : Int4B
+   +0x008 High2Time        : Int4B
+kd> dt win32k!_KSYSTEM_TIME
+   +0x000 LowPart          : Uint4B
+   +0x004 High1Time        : Int4B
+   +0x008 High2Time        : Int4B
+kd> dt win32k!_KUSER_SHARED_DATA
+   +0x000 TickCountLowDeprecated : Uint4B
+   +0x004 TickCountMultiplier : Uint4B
+   +0x008 InterruptTime    : _KSYSTEM_TIME
+   +0x014 SystemTime       : _KSYSTEM_TIME
+   +0x020 TimeZoneBias     : _KSYSTEM_TIME
+   +0x02c ImageNumberLow   : Uint2B
+   +0x02e ImageNumberHigh  : Uint2B
+   +0x030 NtSystemRoot     : [260] Wchar
+   +0x238 MaxStackTraceDepth : Uint4B
+   +0x23c CryptoExponent   : Uint4B
+   +0x240 TimeZoneId       : Uint4B
+   +0x244 LargePageMinimum : Uint4B
+   +0x248 Reserved2        : [7] Uint4B
+   +0x264 NtProductType    : _NT_PRODUCT_TYPE
+   +0x268 ProductTypeIsValid : UChar
+   +0x26c NtMajorVersion   : Uint4B
+   +0x270 NtMinorVersion   : Uint4B
+   +0x274 ProcessorFeatures : [64] UChar
+   +0x2b4 Reserved1        : Uint4B
+   +0x2b8 Reserved3        : Uint4B
+   +0x2bc TimeSlip         : Uint4B
+   +0x2c0 AlternativeArchitecture : _ALTERNATIVE_ARCHITECTURE_TYPE
+   +0x2c4 AltArchitecturePad : [1] Uint4B
+   +0x2c8 SystemExpirationDate : _LARGE_INTEGER
+   +0x2d0 SuiteMask        : Uint4B
+   +0x2d4 KdDebuggerEnabled : UChar
+   +0x2d5 NXSupportPolicy  : UChar
+   +0x2d8 ActiveConsoleId  : Uint4B
+   +0x2dc DismountCount    : Uint4B
+   +0x2e0 ComPlusPackage   : Uint4B
+   +0x2e4 LastSystemRITEventTickCount : Uint4B
+   +0x2e8 NumberOfPhysicalPages : Uint4B
+   +0x2ec SafeBootMode     : UChar
+   +0x2ed TscQpcData       : UChar
+   +0x2ed TscQpcEnabled    : Pos 0, 1 Bit
+   +0x2ed TscQpcSpareFlag  : Pos 1, 1 Bit
+   +0x2ed TscQpcShift      : Pos 2, 6 Bits
+   +0x2ee TscQpcPad        : [2] UChar
+   +0x2f0 SharedDataFlags  : Uint4B
+   +0x2f0 DbgErrorPortPresent : Pos 0, 1 Bit
+   +0x2f0 DbgElevationEnabled : Pos 1, 1 Bit
+   +0x2f0 DbgVirtEnabled   : Pos 2, 1 Bit
+   +0x2f0 DbgInstallerDetectEnabled : Pos 3, 1 Bit
+   +0x2f0 DbgSystemDllRelocated : Pos 4, 1 Bit
+   +0x2f0 DbgDynProcessorEnabled : Pos 5, 1 Bit
+   +0x2f0 DbgSEHValidationEnabled : Pos 6, 1 Bit
+   +0x2f0 SpareBits        : Pos 7, 25 Bits
+   +0x2f4 DataFlagsPad     : [1] Uint4B
+   +0x2f8 TestRetInstruction : Uint8B
+   +0x300 SystemCall       : Uint4B
+   +0x304 SystemCallReturn : Uint4B
+   +0x308 SystemCallPad    : [3] Uint8B
+   +0x320 TickCount        : _KSYSTEM_TIME
+   +0x320 TickCountQuad    : Uint8B
+   +0x320 ReservedTickCountOverlay : [3] Uint4B
+   +0x32c TickCountPad     : [1] Uint4B
+   +0x330 Cookie           : Uint4B
+   +0x334 CookiePad        : [1] Uint4B
+   +0x338 ConsoleSessionForegroundProcessId : Int8B
+   +0x340 Wow64SharedInformation : [16] Uint4B
+   +0x380 UserModeGlobalLogger : [16] Uint2B
+   +0x3a0 ImageFileExecutionOptions : Uint4B
+   +0x3a4 LangGenerationCount : Uint4B
+   +0x3a8 Reserved5        : Uint8B
+   +0x3b0 InterruptTimeBias : Uint8B
+   +0x3b8 TscQpcBias       : Uint8B
+   +0x3c0 ActiveProcessorCount : Uint4B
+   +0x3c4 ActiveGroupCount : Uint2B
+   +0x3c6 Reserved4        : Uint2B
+   +0x3c8 AitSamplingValue : Uint4B
+   +0x3cc AppCompatFlag    : Uint4B
+   +0x3d0 SystemDllNativeRelocation : Uint8B
+   +0x3d8 SystemDllWowRelocation : Uint4B
+   +0x3dc XStatePad        : [1] Uint4B
+   +0x3e0 XState           : _XSTATE_CONFIGURATION
+kd> dt win32k!_NT_PRODUCT_TYPE
+   NtProductWinNt = 1
+   NtProductLanManNt = 2
+   NtProductServer = 3
+kd> dt win32k!_ALTERNATIVE_ARCHITECTURE_TYPE
+   StandardDesign = 0
+   NEC98x86 = 1
+   EndAlternatives = 2
+kd> dt win32k!_LARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Int4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Int8B
+kd> dt win32k!_XSTATE_CONFIGURATION
+   +0x000 EnabledFeatures  : Uint8B
+   +0x008 Size             : Uint4B
+   +0x00c OptimizedSave    : Pos 0, 1 Bit
+   +0x010 Features         : [64] _XSTATE_FEATURE
+kd> dt win32k!_ULARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Uint4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Uint8B
+kd> dt win32k!_TP_CALLBACK_ENVIRON_V3
+   +0x000 Version          : Uint4B
+   +0x004 Pool             : Ptr32 _TP_POOL
+   +0x008 CleanupGroup     : Ptr32 _TP_CLEANUP_GROUP
+   +0x00c CleanupGroupCancelCallback : Ptr32     void 
+   +0x010 RaceDll          : Ptr32 Void
+   +0x014 ActivationContext : Ptr32 _ACTIVATION_CONTEXT
+   +0x018 FinalizationCallback : Ptr32     void 
+   +0x01c u                : <unnamed-tag>
+   +0x020 CallbackPriority : _TP_CALLBACK_PRIORITY
+   +0x024 Size             : Uint4B
+kd> dt win32k!_TP_POOL
+Symbol win32k!_TP_POOL not found.
+kd> dt win32k!_TP_CLEANUP_GROUP
+Symbol win32k!_TP_CLEANUP_GROUP not found.
+kd> dt win32k!_ACTIVATION_CONTEXT
+Symbol win32k!_ACTIVATION_CONTEXT not found.
+kd> dt win32k!_TP_CALLBACK_INSTANCE
+Symbol win32k!_TP_CALLBACK_INSTANCE not found.
+kd> dt win32k!_TP_CALLBACK_PRIORITY
+   TP_CALLBACK_PRIORITY_HIGH = 0
+   TP_CALLBACK_PRIORITY_NORMAL = 1
+   TP_CALLBACK_PRIORITY_LOW = 2
+   TP_CALLBACK_PRIORITY_INVALID = 3
+kd> dt win32k!_TP_TASK
+   +0x000 Callbacks        : Ptr32 _TP_TASK_CALLBACKS
+   +0x004 NumaNode         : Uint4B
+   +0x008 IdealProcessor   : UChar
+   +0x00c PostGuard        : _TP_NBQ_GUARD
+   +0x01c NBQNode          : Ptr32 Void
+kd> dt win32k!_TP_TASK_CALLBACKS
+   +0x000 ExecuteCallback  : Ptr32     void 
+   +0x004 Unposted         : Ptr32     void 
+kd> dt win32k!_TP_TASK_CALLBACKS
+   +0x000 ExecuteCallback  : Ptr32     void 
+   +0x004 Unposted         : Ptr32     void 
+kd> dt win32k!_TP_NBQ_GUARD
+   +0x000 GuardLinks       : _LIST_ENTRY
+   +0x008 Guards           : [2] Ptr32 Void
+kd> dt win32k!_TP_DIRECT
+   +0x000 Callback         : Ptr32     void 
+   +0x004 NumaNode         : Uint4B
+   +0x008 IdealProcessor   : UChar
+kd> dt win32k!_IO_STATUS_BLOCK
+   +0x000 Status           : Int4B
+   +0x000 Pointer          : Ptr32 Void
+   +0x004 Information      : Uint4B
+kd> dt win32k!_TEB
+   +0x000 NtTib            : _NT_TIB
+   +0x01c EnvironmentPointer : Ptr32 Void
+   +0x020 ClientId         : _CLIENT_ID
+   +0x028 ActiveRpcHandle  : Ptr32 Void
+   +0x02c ThreadLocalStoragePointer : Ptr32 Void
+   +0x030 ProcessEnvironmentBlock : Ptr32 _PEB
+   +0x034 LastErrorValue   : Uint4B
+   +0x038 CountOfOwnedCriticalSections : Uint4B
+   +0x03c CsrClientThread  : Ptr32 Void
+   +0x040 Win32ThreadInfo  : Ptr32 Void
+   +0x044 User32Reserved   : [26] Uint4B
+   +0x0ac UserReserved     : [5] Uint4B
+   +0x0c0 WOW32Reserved    : Ptr32 Void
+   +0x0c4 CurrentLocale    : Uint4B
+   +0x0c8 FpSoftwareStatusRegister : Uint4B
+   +0x0cc SystemReserved1  : [54] Ptr32 Void
+   +0x1a4 ExceptionCode    : Int4B
+   +0x1a8 ActivationContextStackPointer : Ptr32 _ACTIVATION_CONTEXT_STACK
+   +0x1ac SpareBytes       : [36] UChar
+   +0x1d0 TxFsContext      : Uint4B
+   +0x1d4 GdiTebBatch      : _GDI_TEB_BATCH
+   +0x6b4 RealClientId     : _CLIENT_ID
+   +0x6bc GdiCachedProcessHandle : Ptr32 Void
+   +0x6c0 GdiClientPID     : Uint4B
+   +0x6c4 GdiClientTID     : Uint4B
+   +0x6c8 GdiThreadLocalInfo : Ptr32 Void
+   +0x6cc Win32ClientInfo  : [62] Uint4B
+   +0x7c4 glDispatchTable  : [233] Ptr32 Void
+   +0xb68 glReserved1      : [29] Uint4B
+   +0xbdc glReserved2      : Ptr32 Void
+   +0xbe0 glSectionInfo    : Ptr32 Void
+   +0xbe4 glSection        : Ptr32 Void
+   +0xbe8 glTable          : Ptr32 Void
+   +0xbec glCurrentRC      : Ptr32 Void
+   +0xbf0 glContext        : Ptr32 Void
+   +0xbf4 LastStatusValue  : Uint4B
+   +0xbf8 StaticUnicodeString : _UNICODE_STRING
+   +0xc00 StaticUnicodeBuffer : [261] Wchar
+   +0xe0c DeallocationStack : Ptr32 Void
+   +0xe10 TlsSlots         : [64] Ptr32 Void
+   +0xf10 TlsLinks         : _LIST_ENTRY
+   +0xf18 Vdm              : Ptr32 Void
+   +0xf1c ReservedForNtRpc : Ptr32 Void
+   +0xf20 DbgSsReserved    : [2] Ptr32 Void
+   +0xf28 HardErrorMode    : Uint4B
+   +0xf2c Instrumentation  : [9] Ptr32 Void
+   +0xf50 ActivityId       : _GUID
+   +0xf60 SubProcessTag    : Ptr32 Void
+   +0xf64 EtwLocalData     : Ptr32 Void
+   +0xf68 EtwTraceData     : Ptr32 Void
+   +0xf6c WinSockData      : Ptr32 Void
+   +0xf70 GdiBatchCount    : Uint4B
+   +0xf74 CurrentIdealProcessor : _PROCESSOR_NUMBER
+   +0xf74 IdealProcessorValue : Uint4B
+   +0xf74 ReservedPad0     : UChar
+   +0xf75 ReservedPad1     : UChar
+   +0xf76 ReservedPad2     : UChar
+   +0xf77 IdealProcessor   : UChar
+   +0xf78 GuaranteedStackBytes : Uint4B
+   +0xf7c ReservedForPerf  : Ptr32 Void
+   +0xf80 ReservedForOle   : Ptr32 Void
+   +0xf84 WaitingOnLoaderLock : Uint4B
+   +0xf88 SavedPriorityState : Ptr32 Void
+   +0xf8c SoftPatchPtr1    : Uint4B
+   +0xf90 ThreadPoolData   : Ptr32 Void
+   +0xf94 TlsExpansionSlots : Ptr32 Ptr32 Void
+   +0xf98 MuiGeneration    : Uint4B
+   +0xf9c IsImpersonating  : Uint4B
+   +0xfa0 NlsCache         : Ptr32 Void
+   +0xfa4 pShimData        : Ptr32 Void
+   +0xfa8 HeapVirtualAffinity : Uint4B
+   +0xfac CurrentTransactionHandle : Ptr32 Void
+   +0xfb0 ActiveFrame      : Ptr32 _TEB_ACTIVE_FRAME
+   +0xfb4 FlsData          : Ptr32 Void
+   +0xfb8 PreferredLanguages : Ptr32 Void
+   +0xfbc UserPrefLanguages : Ptr32 Void
+   +0xfc0 MergedPrefLanguages : Ptr32 Void
+   +0xfc4 MuiImpersonation : Uint4B
+   +0xfc8 CrossTebFlags    : Uint2B
+   +0xfc8 SpareCrossTebBits : Pos 0, 16 Bits
+   +0xfca SameTebFlags     : Uint2B
+   +0xfca SafeThunkCall    : Pos 0, 1 Bit
+   +0xfca InDebugPrint     : Pos 1, 1 Bit
+   +0xfca HasFiberData     : Pos 2, 1 Bit
+   +0xfca SkipThreadAttach : Pos 3, 1 Bit
+   +0xfca WerInShipAssertCode : Pos 4, 1 Bit
+   +0xfca RanProcessInit   : Pos 5, 1 Bit
+   +0xfca ClonedThread     : Pos 6, 1 Bit
+   +0xfca SuppressDebugMsg : Pos 7, 1 Bit
+   +0xfca DisableUserStackWalk : Pos 8, 1 Bit
+   +0xfca RtlExceptionAttached : Pos 9, 1 Bit
+   +0xfca InitialThread    : Pos 10, 1 Bit
+   +0xfca SpareSameTebBits : Pos 11, 5 Bits
+   +0xfcc TxnScopeEnterCallback : Ptr32 Void
+   +0xfd0 TxnScopeExitCallback : Ptr32 Void
+   +0xfd4 TxnScopeContext  : Ptr32 Void
+   +0xfd8 LockCount        : Uint4B
+   +0xfdc SpareUlong0      : Uint4B
+   +0xfe0 ResourceRetValue : Ptr32 Void
+kd> dt win32k!_NT_TIB
+   +0x000 ExceptionList    : Ptr32 _EXCEPTION_REGISTRATION_RECORD
+   +0x004 StackBase        : Ptr32 Void
+   +0x008 StackLimit       : Ptr32 Void
+   +0x00c SubSystemTib     : Ptr32 Void
+   +0x010 FiberData        : Ptr32 Void
+   +0x010 Version          : Uint4B
+   +0x014 ArbitraryUserPointer : Ptr32 Void
+   +0x018 Self             : Ptr32 _NT_TIB
+kd> dt win32k!_CLIENT_ID
+   +0x000 UniqueProcess    : Ptr32 Void
+   +0x004 UniqueThread     : Ptr32 Void
+kd> dt win32k!_PEB
+   +0x000 InheritedAddressSpace : UChar
+   +0x001 ReadImageFileExecOptions : UChar
+   +0x002 BeingDebugged    : UChar
+   +0x003 BitField         : UChar
+   +0x003 ImageUsesLargePages : Pos 0, 1 Bit
+   +0x003 IsProtectedProcess : Pos 1, 1 Bit
+   +0x003 IsLegacyProcess  : Pos 2, 1 Bit
+   +0x003 IsImageDynamicallyRelocated : Pos 3, 1 Bit
+   +0x003 SkipPatchingUser32Forwarders : Pos 4, 1 Bit
+   +0x003 SpareBits        : Pos 5, 3 Bits
+   +0x004 Mutant           : Ptr32 Void
+   +0x008 ImageBaseAddress : Ptr32 Void
+   +0x00c Ldr              : Ptr32 _PEB_LDR_DATA
+   +0x010 ProcessParameters : Ptr32 _RTL_USER_PROCESS_PARAMETERS
+   +0x014 SubSystemData    : Ptr32 Void
+   +0x018 ProcessHeap      : Ptr32 Void
+   +0x01c FastPebLock      : Ptr32 _RTL_CRITICAL_SECTION
+   +0x020 AtlThunkSListPtr : Ptr32 Void
+   +0x024 IFEOKey          : Ptr32 Void
+   +0x028 CrossProcessFlags : Uint4B
+   +0x028 ProcessInJob     : Pos 0, 1 Bit
+   +0x028 ProcessInitializing : Pos 1, 1 Bit
+   +0x028 ProcessUsingVEH  : Pos 2, 1 Bit
+   +0x028 ProcessUsingVCH  : Pos 3, 1 Bit
+   +0x028 ProcessUsingFTH  : Pos 4, 1 Bit
+   +0x028 ReservedBits0    : Pos 5, 27 Bits
+   +0x02c KernelCallbackTable : Ptr32 Void
+   +0x02c UserSharedInfoPtr : Ptr32 Void
+   +0x030 SystemReserved   : [1] Uint4B
+   +0x034 AtlThunkSListPtr32 : Uint4B
+   +0x038 ApiSetMap        : Ptr32 Void
+   +0x03c TlsExpansionCounter : Uint4B
+   +0x040 TlsBitmap        : Ptr32 Void
+   +0x044 TlsBitmapBits    : [2] Uint4B
+   +0x04c ReadOnlySharedMemoryBase : Ptr32 Void
+   +0x050 HotpatchInformation : Ptr32 Void
+   +0x054 ReadOnlyStaticServerData : Ptr32 Ptr32 Void
+   +0x058 AnsiCodePageData : Ptr32 Void
+   +0x05c OemCodePageData  : Ptr32 Void
+   +0x060 UnicodeCaseTableData : Ptr32 Void
+   +0x064 NumberOfProcessors : Uint4B
+   +0x068 NtGlobalFlag     : Uint4B
+   +0x070 CriticalSectionTimeout : _LARGE_INTEGER
+   +0x078 HeapSegmentReserve : Uint4B
+   +0x07c HeapSegmentCommit : Uint4B
+   +0x080 HeapDeCommitTotalFreeThreshold : Uint4B
+   +0x084 HeapDeCommitFreeBlockThreshold : Uint4B
+   +0x088 NumberOfHeaps    : Uint4B
+   +0x08c MaximumNumberOfHeaps : Uint4B
+   +0x090 ProcessHeaps     : Ptr32 Ptr32 Void
+   +0x094 GdiSharedHandleTable : Ptr32 Void
+   +0x098 ProcessStarterHelper : Ptr32 Void
+   +0x09c GdiDCAttributeList : Uint4B
+   +0x0a0 LoaderLock       : Ptr32 _RTL_CRITICAL_SECTION
+   +0x0a4 OSMajorVersion   : Uint4B
+   +0x0a8 OSMinorVersion   : Uint4B
+   +0x0ac OSBuildNumber    : Uint2B
+   +0x0ae OSCSDVersion     : Uint2B
+   +0x0b0 OSPlatformId     : Uint4B
+   +0x0b4 ImageSubsystem   : Uint4B
+   +0x0b8 ImageSubsystemMajorVersion : Uint4B
+   +0x0bc ImageSubsystemMinorVersion : Uint4B
+   +0x0c0 ActiveProcessAffinityMask : Uint4B
+   +0x0c4 GdiHandleBuffer  : [34] Uint4B
+   +0x14c PostProcessInitRoutine : Ptr32     void 
+   +0x150 TlsExpansionBitmap : Ptr32 Void
+   +0x154 TlsExpansionBitmapBits : [32] Uint4B
+   +0x1d4 SessionId        : Uint4B
+   +0x1d8 AppCompatFlags   : _ULARGE_INTEGER
+   +0x1e0 AppCompatFlagsUser : _ULARGE_INTEGER
+   +0x1e8 pShimData        : Ptr32 Void
+   +0x1ec AppCompatInfo    : Ptr32 Void
+   +0x1f0 CSDVersion       : _UNICODE_STRING
+   +0x1f8 ActivationContextData : Ptr32 _ACTIVATION_CONTEXT_DATA
+   +0x1fc ProcessAssemblyStorageMap : Ptr32 _ASSEMBLY_STORAGE_MAP
+   +0x200 SystemDefaultActivationContextData : Ptr32 _ACTIVATION_CONTEXT_DATA
+   +0x204 SystemAssemblyStorageMap : Ptr32 _ASSEMBLY_STORAGE_MAP
+   +0x208 MinimumStackCommit : Uint4B
+   +0x20c FlsCallback      : Ptr32 _FLS_CALLBACK_INFO
+   +0x210 FlsListHead      : _LIST_ENTRY
+   +0x218 FlsBitmap        : Ptr32 Void
+   +0x21c FlsBitmapBits    : [4] Uint4B
+   +0x22c FlsHighIndex     : Uint4B
+   +0x230 WerRegistrationData : Ptr32 Void
+   +0x234 WerShipAssertPtr : Ptr32 Void
+   +0x238 pContextData     : Ptr32 Void
+   +0x23c pImageHeaderHash : Ptr32 Void
+   +0x240 TracingFlags     : Uint4B
+   +0x240 HeapTracingEnabled : Pos 0, 1 Bit
+   +0x240 CritSecTracingEnabled : Pos 1, 1 Bit
+   +0x240 SpareTracingBits : Pos 2, 30 Bits
+kd> dt win32k!_ACTIVATION_CONTEXT_STACK
+   +0x000 ActiveFrame      : Ptr32 _RTL_ACTIVATION_CONTEXT_STACK_FRAME
+   +0x004 FrameListCache   : _LIST_ENTRY
+   +0x00c Flags            : Uint4B
+   +0x010 NextCookieSequenceNumber : Uint4B
+   +0x014 StackId          : Uint4B
+kd> dt win32k!_GDI_TEB_BATCH
+   +0x000 Offset           : Uint4B
+   +0x004 HDC              : Uint4B
+   +0x008 Buffer           : [310] Uint4B
+kd> dt win32k!_UNICODE_STRING
+   +0x000 Length           : Uint2B
+   +0x002 MaximumLength    : Uint2B
+   +0x004 Buffer           : Ptr32 Uint2B
+kd> dt win32k!_LIST_ENTRY
+   +0x000 Flink            : Ptr32 _LIST_ENTRY
+   +0x004 Blink            : Ptr32 _LIST_ENTRY
+kd> dt win32k!_GUID
+   +0x000 Data1            : Uint4B
+   +0x004 Data2            : Uint2B
+   +0x006 Data3            : Uint2B
+   +0x008 Data4            : [8] UChar
+kd> dt win32k!_PROCESSOR_NUMBER
+   +0x000 Group            : Uint2B
+   +0x002 Number           : UChar
+   +0x003 Reserved         : UChar
+kd> dt win32k!_TEB_ACTIVE_FRAME
+   +0x000 Flags            : Uint4B
+   +0x004 Previous         : Ptr32 _TEB_ACTIVE_FRAME
+   +0x008 Context          : Ptr32 _TEB_ACTIVE_FRAME_CONTEXT
+kd> dt win32k!_LIST_ENTRY
+   +0x000 Flink            : Ptr32 _LIST_ENTRY
+   +0x004 Blink            : Ptr32 _LIST_ENTRY
+kd> dt win32k!_SINGLE_LIST_ENTRY
+   +0x000 Next             : Ptr32 _SINGLE_LIST_ENTRY
+kd> dt win32k!_RTL_DYNAMIC_HASH_TABLE_CONTEXT
+   +0x000 ChainHead        : Ptr32 _LIST_ENTRY
+   +0x004 PrevLinkage      : Ptr32 _LIST_ENTRY
+   +0x008 Signature        : Uint4B
+kd> dt win32k!_RTL_DYNAMIC_HASH_TABLE_ENUMERATOR
+   +0x000 HashEntry        : _RTL_DYNAMIC_HASH_TABLE_ENTRY
+   +0x00c ChainHead        : Ptr32 _LIST_ENTRY
+   +0x010 BucketIndex      : Uint4B
+kd> dt win32k!_RTL_DYNAMIC_HASH_TABLE_ENTRY
+   +0x000 Linkage          : _LIST_ENTRY
+   +0x008 Signature        : Uint4B
+kd> dt win32k!_RTL_DYNAMIC_HASH_TABLE
+   +0x000 Flags            : Uint4B
+   +0x004 Shift            : Uint4B
+   +0x008 TableSize        : Uint4B
+   +0x00c Pivot            : Uint4B
+   +0x010 DivisorMask      : Uint4B
+   +0x014 NumEntries       : Uint4B
+   +0x018 NonEmptyBuckets  : Uint4B
+   +0x01c NumEnumerators   : Uint4B
+   +0x020 Directory        : Ptr32 Void
+kd> dt win32k!_STRING
+   +0x000 Length           : Uint2B
+   +0x002 MaximumLength    : Uint2B
+   +0x004 Buffer           : Ptr32 Char
+kd> dt win32k!_LUID
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Int4B
+kd> dt win32k!_IMAGE_NT_HEADERS
+   +0x000 Signature        : Uint4B
+   +0x004 FileHeader       : _IMAGE_FILE_HEADER
+   +0x018 OptionalHeader   : _IMAGE_OPTIONAL_HEADER
+kd> dt win32k!_IMAGE_FILE_HEADER
+   +0x000 Machine          : Uint2B
+   +0x002 NumberOfSections : Uint2B
+   +0x004 TimeDateStamp    : Uint4B
+   +0x008 PointerToSymbolTable : Uint4B
+   +0x00c NumberOfSymbols  : Uint4B
+   +0x010 SizeOfOptionalHeader : Uint2B
+   +0x012 Characteristics  : Uint2B
+kd> dt win32k!_IMAGE_OPTIONAL_HEADER
+   +0x000 Magic            : Uint2B
+   +0x002 MajorLinkerVersion : UChar
+   +0x003 MinorLinkerVersion : UChar
+   +0x004 SizeOfCode       : Uint4B
+   +0x008 SizeOfInitializedData : Uint4B
+   +0x00c SizeOfUninitializedData : Uint4B
+   +0x010 AddressOfEntryPoint : Uint4B
+   +0x014 BaseOfCode       : Uint4B
+   +0x018 BaseOfData       : Uint4B
+   +0x01c ImageBase        : Uint4B
+   +0x020 SectionAlignment : Uint4B
+   +0x024 FileAlignment    : Uint4B
+   +0x028 MajorOperatingSystemVersion : Uint2B
+   +0x02a MinorOperatingSystemVersion : Uint2B
+   +0x02c MajorImageVersion : Uint2B
+   +0x02e MinorImageVersion : Uint2B
+   +0x030 MajorSubsystemVersion : Uint2B
+   +0x032 MinorSubsystemVersion : Uint2B
+   +0x034 Win32VersionValue : Uint4B
+   +0x038 SizeOfImage      : Uint4B
+   +0x03c SizeOfHeaders    : Uint4B
+   +0x040 CheckSum         : Uint4B
+   +0x044 Subsystem        : Uint2B
+   +0x046 DllCharacteristics : Uint2B
+   +0x048 SizeOfStackReserve : Uint4B
+   +0x04c SizeOfStackCommit : Uint4B
+   +0x050 SizeOfHeapReserve : Uint4B
+   +0x054 SizeOfHeapCommit : Uint4B
+   +0x058 LoaderFlags      : Uint4B
+   +0x05c NumberOfRvaAndSizes : Uint4B
+   +0x060 DataDirectory    : [16] _IMAGE_DATA_DIRECTORY
+kd> dt win32k!_IMAGE_DOS_HEADER
+   +0x000 e_magic          : Uint2B
+   +0x002 e_cblp           : Uint2B
+   +0x004 e_cp             : Uint2B
+   +0x006 e_crlc           : Uint2B
+   +0x008 e_cparhdr        : Uint2B
+   +0x00a e_minalloc       : Uint2B
+   +0x00c e_maxalloc       : Uint2B
+   +0x00e e_ss             : Uint2B
+   +0x010 e_sp             : Uint2B
+   +0x012 e_csum           : Uint2B
+   +0x014 e_ip             : Uint2B
+   +0x016 e_cs             : Uint2B
+   +0x018 e_lfarlc         : Uint2B
+   +0x01a e_ovno           : Uint2B
+   +0x01c e_res            : [4] Uint2B
+   +0x024 e_oemid          : Uint2B
+   +0x026 e_oeminfo        : Uint2B
+   +0x028 e_res2           : [10] Uint2B
+   +0x03c e_lfanew         : Int4B
+kd> dt win32k!_KPRCB
+   +0x000 MinorVersion     : Uint2B
+   +0x002 MajorVersion     : Uint2B
+   +0x004 CurrentThread    : Ptr32 _KTHREAD
+   +0x008 NextThread       : Ptr32 _KTHREAD
+   +0x00c IdleThread       : Ptr32 _KTHREAD
+   +0x010 LegacyNumber     : UChar
+   +0x011 NestingLevel     : UChar
+   +0x012 BuildType        : Uint2B
+   +0x014 CpuType          : Char
+   +0x015 CpuID            : Char
+   +0x016 CpuStep          : Uint2B
+   +0x016 CpuStepping      : UChar
+   +0x017 CpuModel         : UChar
+   +0x018 ProcessorState   : _KPROCESSOR_STATE
+   +0x338 KernelReserved   : [16] Uint4B
+   +0x378 HalReserved      : [16] Uint4B
+   +0x3b8 CFlushSize       : Uint4B
+   +0x3bc CoresPerPhysicalProcessor : UChar
+   +0x3bd LogicalProcessorsPerCore : UChar
+   +0x3be PrcbPad0         : [2] UChar
+   +0x3c0 MHz              : Uint4B
+   +0x3c4 CpuVendor        : UChar
+   +0x3c5 GroupIndex       : UChar
+   +0x3c6 Group            : Uint2B
+   +0x3c8 GroupSetMember   : Uint4B
+   +0x3cc Number           : Uint4B
+   +0x3d0 PrcbPad1         : [72] UChar
+   +0x418 LockQueue        : [17] _KSPIN_LOCK_QUEUE
+kd> dt win32k!_KTHREAD
+Symbol win32k!_KTHREAD not found.
+kd> dt win32k!_KPROCESSOR_STATE
+   +0x000 ContextFrame     : _CONTEXT
+   +0x2cc SpecialRegisters : _KSPECIAL_REGISTERS
+kd> dt win32k!_KSPIN_LOCK_QUEUE
+   +0x000 Next             : Ptr32 _KSPIN_LOCK_QUEUE
+   +0x004 Lock             : Ptr32 Uint4B
+kd> dt win32k!_EVENT_DATA_DESCRIPTOR
+   +0x000 Ptr              : Uint8B
+   +0x008 Size             : Uint4B
+   +0x00c Reserved         : Uint4B
+kd> dt win32k!_EVENT_DESCRIPTOR
+   +0x000 Id               : Uint2B
+   +0x002 Version          : UChar
+   +0x003 Channel          : UChar
+   +0x004 Level            : UChar
+   +0x005 Opcode           : UChar
+   +0x006 Task             : Uint2B
+   +0x008 Keyword          : Uint8B
+kd> dt win32k!_EVENT_DESCRIPTOR
+   +0x000 Id               : Uint2B
+   +0x002 Version          : UChar
+   +0x003 Channel          : UChar
+   +0x004 Level            : UChar
+   +0x005 Opcode           : UChar
+   +0x006 Task             : Uint2B
+   +0x008 Keyword          : Uint8B
+kd> dt win32k!_FAST_MUTEX
+   +0x000 Count            : Int4B
+   +0x004 Owner            : Ptr32 _KTHREAD
+   +0x008 Contention       : Uint4B
+   +0x00c Event            : _KEVENT
+   +0x01c OldIrql          : Uint4B
+kd> dt win32k!_KEVENT
+   +0x000 Header           : _DISPATCHER_HEADER
+kd> dt win32k!_EVENT_TYPE
+   NotificationEvent = 0
+   SynchronizationEvent = 1
+kd> dt win32k!_DISPATCHER_HEADER
+   +0x000 Type             : UChar
+   +0x001 TimerControlFlags : UChar
+   +0x001 Absolute         : Pos 0, 1 Bit
+   +0x001 Coalescable      : Pos 1, 1 Bit
+   +0x001 KeepShifting     : Pos 2, 1 Bit
+   +0x001 EncodedTolerableDelay : Pos 3, 5 Bits
+   +0x001 Abandoned        : UChar
+   +0x001 Signalling       : UChar
+   +0x002 ThreadControlFlags : UChar
+   +0x002 CpuThrottled     : Pos 0, 1 Bit
+   +0x002 CycleProfiling   : Pos 1, 1 Bit
+   +0x002 CounterProfiling : Pos 2, 1 Bit
+   +0x002 Reserved         : Pos 3, 5 Bits
+   +0x002 Hand             : UChar
+   +0x002 Size             : UChar
+   +0x003 TimerMiscFlags   : UChar
+   +0x003 Index            : Pos 0, 1 Bit
+   +0x003 Processor        : Pos 1, 5 Bits
+   +0x003 Inserted         : Pos 6, 1 Bit
+   +0x003 Expired          : Pos 7, 1 Bit
+   +0x003 DebugActive      : UChar
+   +0x003 ActiveDR7        : Pos 0, 1 Bit
+   +0x003 Instrumented     : Pos 1, 1 Bit
+   +0x003 Reserved2        : Pos 2, 4 Bits
+   +0x003 UmsScheduled     : Pos 6, 1 Bit
+   +0x003 UmsPrimary       : Pos 7, 1 Bit
+   +0x003 DpcActive        : UChar
+   +0x000 Lock             : Int4B
+   +0x004 SignalState      : Int4B
+   +0x008 WaitListHead     : _LIST_ENTRY
+kd> dt win32k!_SLIST_HEADER
+   +0x000 Alignment        : Uint8B
+   +0x000 Next             : _SINGLE_LIST_ENTRY
+   +0x004 Depth            : Uint2B
+   +0x006 Sequence         : Uint2B
+kd> dt win32k!_LOOKASIDE_LIST_EX
+   +0x000 L                : _GENERAL_LOOKASIDE_POOL
+kd> dt win32k!_GENERAL_LOOKASIDE_POOL
+   +0x000 ListHead         : _SLIST_HEADER
+   +0x000 SingleListHead   : _SINGLE_LIST_ENTRY
+   +0x008 Depth            : Uint2B
+   +0x00a MaximumDepth     : Uint2B
+   +0x00c TotalAllocates   : Uint4B
+   +0x010 AllocateMisses   : Uint4B
+   +0x010 AllocateHits     : Uint4B
+   +0x014 TotalFrees       : Uint4B
+   +0x018 FreeMisses       : Uint4B
+   +0x018 FreeHits         : Uint4B
+   +0x01c Type             : _POOL_TYPE
+   +0x020 Tag              : Uint4B
+   +0x024 Size             : Uint4B
+   +0x028 AllocateEx       : Ptr32     void* 
+   +0x028 Allocate         : Ptr32     void* 
+   +0x02c FreeEx           : Ptr32     void 
+   +0x02c Free             : Ptr32     void 
+   +0x030 ListEntry        : _LIST_ENTRY
+   +0x038 LastTotalAllocates : Uint4B
+   +0x03c LastAllocateMisses : Uint4B
+   +0x03c LastAllocateHits : Uint4B
+   +0x040 Future           : [2] Uint4B
+kd> dt win32k!_POOL_TYPE
+   NonPagedPool = 0
+   PagedPool = 1
+   NonPagedPoolMustSucceed = 2
+   DontUseThisType = 3
+   NonPagedPoolCacheAligned = 4
+   PagedPoolCacheAligned = 5
+   NonPagedPoolCacheAlignedMustS = 6
+   MaxPoolType = 7
+   NonPagedPoolSession = 32
+   PagedPoolSession = 33
+   NonPagedPoolMustSucceedSession = 34
+   DontUseThisTypeSession = 35
+   NonPagedPoolCacheAlignedSession = 36
+   PagedPoolCacheAlignedSession = 37
+   NonPagedPoolCacheAlignedMustSSession = 38
+kd> dt win32k!_NPAGED_LOOKASIDE_LIST
+   +0x000 L                : _GENERAL_LOOKASIDE
+   +0x048 Lock__ObsoleteButDoNotDelete : Uint4B
+kd> dt win32k!_GENERAL_LOOKASIDE
+   +0x000 ListHead         : _SLIST_HEADER
+   +0x000 SingleListHead   : _SINGLE_LIST_ENTRY
+   +0x008 Depth            : Uint2B
+   +0x00a MaximumDepth     : Uint2B
+   +0x00c TotalAllocates   : Uint4B
+   +0x010 AllocateMisses   : Uint4B
+   +0x010 AllocateHits     : Uint4B
+   +0x014 TotalFrees       : Uint4B
+   +0x018 FreeMisses       : Uint4B
+   +0x018 FreeHits         : Uint4B
+   +0x01c Type             : _POOL_TYPE
+   +0x020 Tag              : Uint4B
+   +0x024 Size             : Uint4B
+   +0x028 AllocateEx       : Ptr32     void* 
+   +0x028 Allocate         : Ptr32     void* 
+   +0x02c FreeEx           : Ptr32     void 
+   +0x02c Free             : Ptr32     void 
+   +0x030 ListEntry        : _LIST_ENTRY
+   +0x038 LastTotalAllocates : Uint4B
+   +0x03c LastAllocateMisses : Uint4B
+   +0x03c LastAllocateHits : Uint4B
+   +0x040 Future           : [2] Uint4B
+kd> dt win32k!_PAGED_LOOKASIDE_LIST
+   +0x000 L                : _GENERAL_LOOKASIDE
+   +0x048 Lock__ObsoleteButDoNotDelete : _FAST_MUTEX
+kd> dt win32k!_QUAD
+   +0x000 UseThisFieldToCopy : Int8B
+   +0x000 DoNotUseThisField : Float
+kd> dt win32k!_QUAD
+   +0x000 UseThisFieldToCopy : Int8B
+   +0x000 DoNotUseThisField : Float
+kd> dt win32k!_QUAD
+   +0x000 UseThisFieldToCopy : Int8B
+   +0x000 DoNotUseThisField : Float
+kd> dt win32k!_LARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Int4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Int8B
+kd> dt win32k!_LARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Int4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Int8B
+kd> dt win32k!_ULARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Uint4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Uint8B
+kd> dt win32k!_ULARGE_INTEGER
+   +0x000 LowPart          : Uint4B
+   +0x004 HighPart         : Uint4B
+   +0x000 u                : <unnamed-tag>
+   +0x000 QuadPart         : Uint8B
+kd> dt win32k!_UNICODE_STRING
+   +0x000 Length           : Uint2B
+   +0x002 MaximumLength    : Uint2B
+   +0x004 Buffer           : Ptr32 Uint2B
+kd> dt win32k!_UNICODE_STRING
+   +0x000 Length           : Uint2B
+   +0x002 MaximumLength    : Uint2B
+   +0x004 Buffer           : Ptr32 Uint2B
+kd> dt win32k!_IO_STATUS_BLOCK
+   +0x000 Status           : Int4B
+   +0x000 Pointer          : Ptr32 Void
+   +0x004 Information      : Uint4B
+kd> dt win32k!_EX_PUSH_LOCK
+   +0x000 Locked           : Pos 0, 1 Bit
+   +0x000 Waiting          : Pos 1, 1 Bit
+   +0x000 Waking           : Pos 2, 1 Bit
+   +0x000 MultipleShared   : Pos 3, 1 Bit
+   +0x000 Shared           : Pos 4, 28 Bits
+   +0x000 Value            : Uint4B
+   +0x000 Ptr              : Ptr32 Void
+kd> dt win32k!_EX_PUSH_LOCK_CACHE_AWARE
+   +0x000 Locks            : [1] Ptr32 _EX_PUSH_LOCK
+kd> dt win32k!_IRP
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x004 MdlAddress       : Ptr32 _MDL
+   +0x008 Flags            : Uint4B
+   +0x00c AssociatedIrp    : <unnamed-tag>
+   +0x010 ThreadListEntry  : _LIST_ENTRY
+   +0x018 IoStatus         : _IO_STATUS_BLOCK
+   +0x020 RequestorMode    : Char
+   +0x021 PendingReturned  : UChar
+   +0x022 StackCount       : Char
+   +0x023 CurrentLocation  : Char
+   +0x024 Cancel           : UChar
+   +0x025 CancelIrql       : UChar
+   +0x026 ApcEnvironment   : Char
+   +0x027 AllocationFlags  : UChar
+   +0x028 UserIosb         : Ptr32 _IO_STATUS_BLOCK
+   +0x02c UserEvent        : Ptr32 _KEVENT
+   +0x030 Overlay          : <unnamed-tag>
+   +0x038 CancelRoutine    : Ptr32     void 
+   +0x03c UserBuffer       : Ptr32 Void
+   +0x040 Tail             : <unnamed-tag>
+kd> dt win32k!_MDL
+   +0x000 Next             : Ptr32 _MDL
+   +0x004 Size             : Int2B
+   +0x006 MdlFlags         : Int2B
+   +0x008 Process          : Ptr32 _EPROCESS
+   +0x00c MappedSystemVa   : Ptr32 Void
+   +0x010 StartVa          : Ptr32 Void
+   +0x014 ByteCount        : Uint4B
+   +0x018 ByteOffset       : Uint4B
+kd> dt win32k!_DEVICE_OBJECT
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x004 ReferenceCount   : Int4B
+   +0x008 DriverObject     : Ptr32 _DRIVER_OBJECT
+   +0x00c NextDevice       : Ptr32 _DEVICE_OBJECT
+   +0x010 AttachedDevice   : Ptr32 _DEVICE_OBJECT
+   +0x014 CurrentIrp       : Ptr32 _IRP
+   +0x018 Timer            : Ptr32 _IO_TIMER
+   +0x01c Flags            : Uint4B
+   +0x020 Characteristics  : Uint4B
+   +0x024 Vpb              : Ptr32 _VPB
+   +0x028 DeviceExtension  : Ptr32 Void
+   +0x02c DeviceType       : Uint4B
+   +0x030 StackSize        : Char
+   +0x034 Queue            : <unnamed-tag>
+   +0x05c AlignmentRequirement : Uint4B
+   +0x060 DeviceQueue      : _KDEVICE_QUEUE
+   +0x074 Dpc              : _KDPC
+   +0x094 ActiveThreadCount : Uint4B
+   +0x098 SecurityDescriptor : Ptr32 Void
+   +0x09c DeviceLock       : _KEVENT
+   +0x0ac SectorSize       : Uint2B
+   +0x0ae Spare1           : Uint2B
+   +0x0b0 DeviceObjectExtension : Ptr32 _DEVOBJ_EXTENSION
+   +0x0b4 Reserved         : Ptr32 Void
+kd> dt win32k!_KDEVICE_QUEUE_ENTRY
+   +0x000 DeviceListEntry  : _LIST_ENTRY
+   +0x008 SortKey          : Uint4B
+   +0x00c Inserted         : UChar
+kd> dt win32k!_ETHREAD
+Symbol win32k!_ETHREAD not found.
+kd> dt win32k!_IO_STACK_LOCATION
+   +0x000 MajorFunction    : UChar
+   +0x001 MinorFunction    : UChar
+   +0x002 Flags            : UChar
+   +0x003 Control          : UChar
+   +0x004 Parameters       : <unnamed-tag>
+   +0x014 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x018 FileObject       : Ptr32 _FILE_OBJECT
+   +0x01c CompletionRoutine : Ptr32     long 
+   +0x020 Context          : Ptr32 Void
+kd> dt win32k!_FILE_OBJECT
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x008 Vpb              : Ptr32 _VPB
+   +0x00c FsContext        : Ptr32 Void
+   +0x010 FsContext2       : Ptr32 Void
+   +0x014 SectionObjectPointer : Ptr32 _SECTION_OBJECT_POINTERS
+   +0x018 PrivateCacheMap  : Ptr32 Void
+   +0x01c FinalStatus      : Int4B
+   +0x020 RelatedFileObject : Ptr32 _FILE_OBJECT
+   +0x024 LockOperation    : UChar
+   +0x025 DeletePending    : UChar
+   +0x026 ReadAccess       : UChar
+   +0x027 WriteAccess      : UChar
+   +0x028 DeleteAccess     : UChar
+   +0x029 SharedRead       : UChar
+   +0x02a SharedWrite      : UChar
+   +0x02b SharedDelete     : UChar
+   +0x02c Flags            : Uint4B
+   +0x030 FileName         : _UNICODE_STRING
+   +0x038 CurrentByteOffset : _LARGE_INTEGER
+   +0x040 Waiters          : Uint4B
+   +0x044 Busy             : Uint4B
+   +0x048 LastLock         : Ptr32 Void
+   +0x04c Lock             : _KEVENT
+   +0x05c Event            : _KEVENT
+   +0x06c CompletionContext : Ptr32 _IO_COMPLETION_CONTEXT
+   +0x070 IrpListLock      : Uint4B
+   +0x074 IrpList          : _LIST_ENTRY
+   +0x07c FileObjectExtension : Ptr32 Void
+kd> dt win32k!_KAPC
+   +0x000 Type             : UChar
+   +0x001 SpareByte0       : UChar
+   +0x002 Size             : UChar
+   +0x003 SpareByte1       : UChar
+   +0x004 SpareLong0       : Uint4B
+   +0x008 Thread           : Ptr32 _KTHREAD
+   +0x00c ApcListEntry     : _LIST_ENTRY
+   +0x014 KernelRoutine    : Ptr32     void 
+   +0x018 RundownRoutine   : Ptr32     void 
+   +0x01c NormalRoutine    : Ptr32     void 
+   +0x020 NormalContext    : Ptr32 Void
+   +0x024 SystemArgument1  : Ptr32 Void
+   +0x028 SystemArgument2  : Ptr32 Void
+   +0x02c ApcStateIndex    : Char
+   +0x02d ApcMode          : Char
+   +0x02e Inserted         : UChar
+kd> dt win32k!_IO_SECURITY_CONTEXT
+   +0x000 SecurityQos      : Ptr32 _SECURITY_QUALITY_OF_SERVICE
+   +0x004 AccessState      : Ptr32 _ACCESS_STATE
+   +0x008 DesiredAccess    : Uint4B
+   +0x00c FullCreateOptions : Uint4B
+kd> dt win32k!_NAMED_PIPE_CREATE_PARAMETERS
+   +0x000 NamedPipeType    : Uint4B
+   +0x004 ReadMode         : Uint4B
+   +0x008 CompletionMode   : Uint4B
+   +0x00c MaximumInstances : Uint4B
+   +0x010 InboundQuota     : Uint4B
+   +0x014 OutboundQuota    : Uint4B
+   +0x018 DefaultTimeout   : _LARGE_INTEGER
+   +0x020 TimeoutSpecified : UChar
+kd> dt win32k!_MAILSLOT_CREATE_PARAMETERS
+   +0x000 MailslotQuota    : Uint4B
+   +0x004 MaximumMessageSize : Uint4B
+   +0x008 ReadTimeout      : _LARGE_INTEGER
+   +0x010 TimeoutSpecified : UChar
+kd> dt win32k!_FILE_INFORMATION_CLASS
+   FileDirectoryInformation = 1
+   FileFullDirectoryInformation = 2
+   FileBothDirectoryInformation = 3
+   FileBasicInformation = 4
+   FileStandardInformation = 5
+   FileInternalInformation = 6
+   FileEaInformation = 7
+   FileAccessInformation = 8
+   FileNameInformation = 9
+   FileRenameInformation = 10
+   FileLinkInformation = 11
+   FileNamesInformation = 12
+   FileDispositionInformation = 13
+   FilePositionInformation = 14
+   FileFullEaInformation = 15
+   FileModeInformation = 16
+   FileAlignmentInformation = 17
+   FileAllInformation = 18
+   FileAllocationInformation = 19
+   FileEndOfFileInformation = 20
+   FileAlternateNameInformation = 21
+   FileStreamInformation = 22
+   FilePipeInformation = 23
+   FilePipeLocalInformation = 24
+   FilePipeRemoteInformation = 25
+   FileMailslotQueryInformation = 26
+   FileMailslotSetInformation = 27
+   FileCompressionInformation = 28
+   FileObjectIdInformation = 29
+   FileCompletionInformation = 30
+   FileMoveClusterInformation = 31
+   FileQuotaInformation = 32
+   FileReparsePointInformation = 33
+   FileNetworkOpenInformation = 34
+   FileAttributeTagInformation = 35
+   FileTrackingInformation = 36
+   FileIdBothDirectoryInformation = 37
+   FileIdFullDirectoryInformation = 38
+   FileValidDataLengthInformation = 39
+   FileShortNameInformation = 40
+   FileIoCompletionNotificationInformation = 41
+   FileIoStatusBlockRangeInformation = 42
+   FileIoPriorityHintInformation = 43
+   FileSfioReserveInformation = 44
+   FileSfioVolumeInformation = 45
+   FileHardLinkInformation = 46
+   FileProcessIdsUsingFileInformation = 47
+   FileNormalizedNameInformation = 48
+   FileNetworkPhysicalNameInformation = 49
+   FileIdGlobalTxDirectoryInformation = 50
+   FileIsRemoteDeviceInformation = 51
+   FileAttributeCacheInformation = 52
+   FileNumaNodeInformation = 53
+   FileStandardLinkInformation = 54
+   FileRemoteProtocolInformation = 55
+   FileMaximumInformation = 56
+kd> dt win32k!_FSINFOCLASS
+   FileFsVolumeInformation = 1
+   FileFsLabelInformation = 2
+   FileFsSizeInformation = 3
+   FileFsDeviceInformation = 4
+   FileFsAttributeInformation = 5
+   FileFsControlInformation = 6
+   FileFsFullSizeInformation = 7
+   FileFsObjectIdInformation = 8
+   FileFsDriverPathInformation = 9
+   FileFsVolumeFlagsInformation = 10
+   FileFsMaximumInformation = 11
+kd> dt win32k!_VPB
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 Flags            : Uint2B
+   +0x006 VolumeLabelLength : Uint2B
+   +0x008 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x00c RealDevice       : Ptr32 _DEVICE_OBJECT
+   +0x010 SerialNumber     : Uint4B
+   +0x014 ReferenceCount   : Uint4B
+   +0x018 VolumeLabel      : [32] Wchar
+kd> dt win32k!_SCSI_REQUEST_BLOCK
+Symbol win32k!_SCSI_REQUEST_BLOCK not found.
+kd> dt win32k!_DEVICE_RELATION_TYPE
+   BusRelations = 0
+   EjectionRelations = 1
+   PowerRelations = 2
+   RemovalRelations = 3
+   TargetDeviceRelation = 4
+   SingleBusRelations = 5
+   TransportRelations = 6
+kd> dt win32k!_GUID
+   +0x000 Data1            : Uint4B
+   +0x004 Data2            : Uint2B
+   +0x006 Data3            : Uint2B
+   +0x008 Data4            : [8] UChar
+kd> dt win32k!_INTERFACE
+   +0x000 Size             : Uint2B
+   +0x002 Version          : Uint2B
+   +0x004 Context          : Ptr32 Void
+   +0x008 InterfaceReference : Ptr32     void 
+   +0x00c InterfaceDereference : Ptr32     void 
+kd> dt win32k!_DEVICE_CAPABILITIES
+   +0x000 Size             : Uint2B
+   +0x002 Version          : Uint2B
+   +0x004 DeviceD1         : Pos 0, 1 Bit
+   +0x004 DeviceD2         : Pos 1, 1 Bit
+   +0x004 LockSupported    : Pos 2, 1 Bit
+   +0x004 EjectSupported   : Pos 3, 1 Bit
+   +0x004 Removable        : Pos 4, 1 Bit
+   +0x004 DockDevice       : Pos 5, 1 Bit
+   +0x004 UniqueID         : Pos 6, 1 Bit
+   +0x004 SilentInstall    : Pos 7, 1 Bit
+   +0x004 RawDeviceOK      : Pos 8, 1 Bit
+   +0x004 SurpriseRemovalOK : Pos 9, 1 Bit
+   +0x004 WakeFromD0       : Pos 10, 1 Bit
+   +0x004 WakeFromD1       : Pos 11, 1 Bit
+   +0x004 WakeFromD2       : Pos 12, 1 Bit
+   +0x004 WakeFromD3       : Pos 13, 1 Bit
+   +0x004 HardwareDisabled : Pos 14, 1 Bit
+   +0x004 NonDynamic       : Pos 15, 1 Bit
+   +0x004 WarmEjectSupported : Pos 16, 1 Bit
+   +0x004 NoDisplayInUI    : Pos 17, 1 Bit
+   +0x004 Reserved1        : Pos 18, 1 Bit
+   +0x004 Reserved         : Pos 19, 13 Bits
+   +0x008 Address          : Uint4B
+   +0x00c UINumber         : Uint4B
+   +0x010 DeviceState      : [7] _DEVICE_POWER_STATE
+   +0x02c SystemWake       : _SYSTEM_POWER_STATE
+   +0x030 DeviceWake       : _DEVICE_POWER_STATE
+   +0x034 D1Latency        : Uint4B
+   +0x038 D2Latency        : Uint4B
+   +0x03c D3Latency        : Uint4B
+kd> dt win32k!_IO_RESOURCE_REQUIREMENTS_LIST
+   +0x000 ListSize         : Uint4B
+   +0x004 InterfaceType    : _INTERFACE_TYPE
+   +0x008 BusNumber        : Uint4B
+   +0x00c SlotNumber       : Uint4B
+   +0x010 Reserved         : [3] Uint4B
+   +0x01c AlternativeLists : Uint4B
+   +0x020 List             : [1] _IO_RESOURCE_LIST
+kd> dt win32k!BUS_QUERY_ID_TYPE
+   BusQueryDeviceID = 0
+   BusQueryHardwareIDs = 1
+   BusQueryCompatibleIDs = 2
+   BusQueryInstanceID = 3
+   BusQueryDeviceSerialNumber = 4
+   BusQueryContainerID = 5
+kd> dt win32k!DEVICE_TEXT_TYPE
+   DeviceTextDescription = 0
+   DeviceTextLocationInformation = 1
+kd> dt win32k!_DEVICE_USAGE_NOTIFICATION_TYPE
+   DeviceUsageTypeUndefined = 0
+   DeviceUsageTypePaging = 1
+   DeviceUsageTypeHibernation = 2
+   DeviceUsageTypeDumpFile = 3
+kd> dt win32k!_SYSTEM_POWER_STATE
+   PowerSystemUnspecified = 0
+   PowerSystemWorking = 1
+   PowerSystemSleeping1 = 2
+   PowerSystemSleeping2 = 3
+   PowerSystemSleeping3 = 4
+   PowerSystemHibernate = 5
+   PowerSystemShutdown = 6
+   PowerSystemMaximum = 7
+kd> dt win32k!_POWER_SEQUENCE
+   +0x000 SequenceD1       : Uint4B
+   +0x004 SequenceD2       : Uint4B
+   +0x008 SequenceD3       : Uint4B
+kd> dt win32k!_SYSTEM_POWER_STATE_CONTEXT
+   +0x000 Reserved1        : Pos 0, 8 Bits
+   +0x000 TargetSystemState : Pos 8, 4 Bits
+   +0x000 EffectiveSystemState : Pos 12, 4 Bits
+   +0x000 CurrentSystemState : Pos 16, 4 Bits
+   +0x000 IgnoreHibernationPath : Pos 20, 1 Bit
+   +0x000 PseudoTransition : Pos 21, 1 Bit
+   +0x000 Reserved2        : Pos 22, 10 Bits
+   +0x000 ContextAsUlong   : Uint4B
+kd> dt win32k!_POWER_STATE_TYPE
+   SystemPowerState = 0
+   DevicePowerState = 1
+kd> dt win32k!_POWER_STATE
+   +0x000 SystemState      : _SYSTEM_POWER_STATE
+   +0x000 DeviceState      : _DEVICE_POWER_STATE
+kd> dt win32k!POWER_ACTION
+   PowerActionNone = 0
+   PowerActionReserved = 1
+   PowerActionSleep = 2
+   PowerActionHibernate = 3
+   PowerActionShutdown = 4
+   PowerActionShutdownReset = 5
+   PowerActionShutdownOff = 6
+   PowerActionWarmEject = 7
+kd> dt win32k!_CM_RESOURCE_LIST
+   +0x000 Count            : Uint4B
+   +0x004 List             : [1] _CM_FULL_RESOURCE_DESCRIPTOR
+kd> dt win32k!_KDPC
+   +0x000 Type             : UChar
+   +0x001 Importance       : UChar
+   +0x002 Number           : Uint2B
+   +0x004 DpcListEntry     : _LIST_ENTRY
+   +0x00c DeferredRoutine  : Ptr32     void 
+   +0x010 DeferredContext  : Ptr32 Void
+   +0x014 SystemArgument1  : Ptr32 Void
+   +0x018 SystemArgument2  : Ptr32 Void
+   +0x01c DpcData          : Ptr32 Void
+kd> dt win32k!_DRIVER_OBJECT
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x008 Flags            : Uint4B
+   +0x00c DriverStart      : Ptr32 Void
+   +0x010 DriverSize       : Uint4B
+   +0x014 DriverSection    : Ptr32 Void
+   +0x018 DriverExtension  : Ptr32 _DRIVER_EXTENSION
+   +0x01c DriverName       : _UNICODE_STRING
+   +0x024 HardwareDatabase : Ptr32 _UNICODE_STRING
+   +0x028 FastIoDispatch   : Ptr32 _FAST_IO_DISPATCH
+   +0x02c DriverInit       : Ptr32     long 
+   +0x030 DriverStartIo    : Ptr32     void 
+   +0x034 DriverUnload     : Ptr32     void 
+   +0x038 MajorFunction    : [28] Ptr32     long 
+kd> dt win32k!_IO_TIMER
+Symbol win32k!_IO_TIMER not found.
+kd> dt win32k!_WAIT_CONTEXT_BLOCK
+   +0x000 WaitQueueEntry   : _KDEVICE_QUEUE_ENTRY
+   +0x010 DeviceRoutine    : Ptr32     _IO_ALLOCATION_ACTION 
+   +0x014 DeviceContext    : Ptr32 Void
+   +0x018 NumberOfMapRegisters : Uint4B
+   +0x01c DeviceObject     : Ptr32 Void
+   +0x020 CurrentIrp       : Ptr32 Void
+   +0x024 BufferChainingDpc : Ptr32 _KDPC
+kd> dt win32k!_KDEVICE_QUEUE
+   +0x000 Type             : Int2B
+   +0x002 Size             : Int2B
+   +0x004 DeviceListHead   : _LIST_ENTRY
+   +0x00c Lock             : Uint4B
+   +0x010 Busy             : UChar
+kd> dt win32k!_DEVOBJ_EXTENSION
+   +0x000 Type             : Int2B
+   +0x002 Size             : Uint2B
+   +0x004 DeviceObject     : Ptr32 _DEVICE_OBJECT
+   +0x008 PowerFlags       : Uint4B
+   +0x00c Dope             : Ptr32 _DEVICE_OBJECT_POWER_EXTENSION
+   +0x010 ExtensionFlags   : Uint4B
+   +0x014 DeviceNode       : Ptr32 Void
+   +0x018 AttachedTo       : Ptr32 _DEVICE_OBJECT
+   +0x01c StartIoCount     : Int4B
+   +0x020 StartIoKey       : Int4B
+   +0x024 StartIoFlags     : Uint4B
+   +0x028 Vpb              : Ptr32 _VPB
+   +0x02c DependentList    : _LIST_ENTRY
+   +0x034 ProviderList     : _LIST_ENTRY
+kd> dt win32k!_IO_DRIVER_CREATE_CONTEXT
+   +0x000 Size             : Int2B
+   +0x004 ExtraCreateParameter : Ptr32 _ECP_LIST
+   +0x008 DeviceObjectHint : Ptr32 Void
+   +0x00c TxnParameters    : Ptr32 _TXN_PARAMETER_BLOCK
+kd> dt win32k!_ECP_LIST
+Symbol win32k!_ECP_LIST not found.
+kd> dt win32k!_TXN_PARAMETER_BLOCK
+   +0x000 Length           : Uint2B
+   +0x002 TxFsContext      : Uint2B
+   +0x004 TransactionObject : Ptr32 Void
+kd> dt win32k!_ACCESS_STATE
+   +0x000 OperationID      : _LUID
+   +0x008 SecurityEvaluated : UChar
+   +0x009 GenerateAudit    : UChar
+   +0x00a GenerateOnClose  : UChar
+   +0x00b PrivilegesAllocated : UChar
+   +0x00c Flags            : Uint4B
+   +0x010 RemainingDesiredAccess : Uint4B
+   +0x014 PreviouslyGrantedAccess : Uint4B
+   +0x018 OriginalDesiredAccess : Uint4B
+   +0x01c SubjectSecurityContext : _SECURITY_SUBJECT_CONTEXT
+   +0x02c SecurityDescriptor : Ptr32 Void
+   +0x030 AuxData          : Ptr32 Void
+   +0x034 Privileges       : <unnamed-tag>
+   +0x060 AuditPrivileges  : UChar
+   +0x064 ObjectName       : _UNICODE_STRING
+   +0x06c ObjectTypeName   : _UNICODE_STRING
+kd> dt win32k!_SECURITY_SUBJECT_CONTEXT
+   +0x000 ClientToken      : Ptr32 Void
+   +0x004 ImpersonationLevel : _SECURITY_IMPERSONATION_LEVEL
+   +0x008 PrimaryToken     : Ptr32 Void
+   +0x00c ProcessAuditId   : Ptr32 Void
+kd> dt win32k!_INITIAL_PRIVILEGE_SET
+   +0x000 PrivilegeCount   : Uint4B
+   +0x004 Control          : Uint4B
+   +0x008 Privilege        : [3] _LUID_AND_ATTRIBUTES
+kd> dt win32k!_PRIVILEGE_SET
+   +0x000 PrivilegeCount   : Uint4B
+   +0x004 Control          : Uint4B
+   +0x008 Privilege        : [1] _LUID_AND_ATTRIBUTES
+kd> dt win32k!_AUX_ACCESS_DATA
+   +0x000 PrivilegesUsed   : Ptr32 _PRIVILEGE_SET
+   +0x004 GenericMapping   : _GENERIC_MAPPING
+   +0x014 AccessesToAudit  : Uint4B
+   +0x018 MaximumAuditMask : Uint4B
+   +0x01c TransactionId    : _GUID
+   +0x02c NewSecurityDescriptor : Ptr32 Void
+   +0x030 ExistingSecurityDescriptor : Ptr32 Void
+   +0x034 ParentSecurityDescriptor : Ptr32 Void
+   +0x038 DeRefSecurityDescriptor : Ptr32     void 
+   +0x03c SDLock           : Ptr32 Void
+   +0x040 AccessReasons    : _ACCESS_REASONS
+kd> dt win32k!_GENERIC_MAPPING
+   +0x000 GenericRead      : Uint4B
+   +0x004 GenericWrite     : Uint4B
+   +0x008 GenericExecute   : Uint4B
+   +0x00c GenericAll       : Uint4B
+kd> dt win32k!_ACCESS_REASONS
+   +0x000 Data             : [32] Uint4B
+kd> dt win32k!_EPROCESS
+Symbol win32k!_EPROCESS not found.
+kd> dt win32k!_KPROCESS
+Symbol win32k!_KPROCESS not found.
+kd> dt win32k!_OBJECT_TYPE
+   +0x000 TypeList         : _LIST_ENTRY
+   +0x008 Name             : _UNICODE_STRING
+   +0x010 DefaultObject    : Ptr32 Void
+   +0x014 Index            : UChar
+   +0x018 TotalNumberOfObjects : Uint4B
+   +0x01c TotalNumberOfHandles : Uint4B
+   +0x020 HighWaterNumberOfObjects : Uint4B
+   +0x024 HighWaterNumberOfHandles : Uint4B
+   +0x028 TypeInfo         : _OBJECT_TYPE_INITIALIZER
+   +0x078 TypeLock         : _EX_PUSH_LOCK
+   +0x07c Key              : Uint4B
+   +0x080 CallbackList     : _LIST_ENTRY
+kd> dt win32k!_OBJECT_ATTRIBUTES
+   +0x000 Length           : Uint4B
+   +0x004 RootDirectory    : Ptr32 Void
+   +0x008 ObjectName       : Ptr32 _UNICODE_STRING
+   +0x00c Attributes       : Uint4B
+   +0x010 SecurityDescriptor : Ptr32 Void
+   +0x014 SecurityQualityOfService : Ptr32 Void
+kd> dt win32k!_OBJECT_TYPE_INITIALIZER
+   +0x000 Length           : Uint2B
+   +0x002 ObjectTypeFlags  : UChar
+   +0x002 CaseInsensitive  : Pos 0, 1 Bit
+   +0x002 UnnamedObjectsOnly : Pos 1, 1 Bit
+   +0x002 UseDefaultObject : Pos 2, 1 Bit
+   +0x002 SecurityRequired : Pos 3, 1 Bit
+   +0x002 MaintainHandleCount : Pos 4, 1 Bit
+   +0x002 MaintainTypeList : Pos 5, 1 Bit
+   +0x002 SupportsObjectCallbacks : Pos 6, 1 Bit
+   +0x004 ObjectTypeCode   : Uint4B
+   +0x008 InvalidAttributes : Uint4B
+   +0x00c GenericMapping   : _GENERIC_MAPPING
+   +0x01c ValidAccessMask  : Uint4B
+   +0x020 RetainAccess     : Uint4B
+   +0x024 PoolType         : _POOL_TYPE
+   +0x028 DefaultPagedPoolCharge : Uint4B
+   +0x02c DefaultNonPagedPoolCharge : Uint4B
+   +0x030 DumpProcedure    : Ptr32     void 
+   +0x034 OpenProcedure    : Ptr32     long 
+   +0x038 CloseProcedure   : Ptr32     void 
+   +0x03c DeleteProcedure  : Ptr32     void 
+   +0x040 ParseProcedure   : Ptr32     long 
+   +0x044 SecurityProcedure : Ptr32     long 
+   +0x048 QueryNameProcedure : Ptr32     long 
+   +0x04c OkayToCloseProcedure : Ptr32     unsigned char 
+kd> dt win32k!_OBJECT_HANDLE_INFORMATION
+   +0x000 HandleAttributes : Uint4B
+   +0x004 GrantedAccess    : Uint4B
+kd> dt win32k!_WHEA_ERROR_PACKET_V2
+   +0x000 Signature        : Uint4B
+   +0x004 Version          : Uint4B
+   +0x008 Length           : Uint4B
+   +0x00c Flags            : _WHEA_ERROR_PACKET_FLAGS
+   +0x010 ErrorType        : _WHEA_ERROR_TYPE
+   +0x014 ErrorSeverity    : _WHEA_ERROR_SEVERITY
+   +0x018 ErrorSourceId    : Uint4B
+   +0x01c ErrorSourceType  : _WHEA_ERROR_SOURCE_TYPE
+   +0x020 NotifyType       : _GUID
+   +0x030 Context          : Uint8B
+   +0x038 DataFormat       : _WHEA_ERROR_PACKET_DATA_FORMAT
+   +0x03c Reserved1        : Uint4B
+   +0x040 DataOffset       : Uint4B
+   +0x044 DataLength       : Uint4B
+   +0x048 PshedDataOffset  : Uint4B
+   +0x04c PshedDataLength  : Uint4B
+kd> dt win32k!_WHEA_ERROR_PACKET_FLAGS
+   +0x000 PreviousError    : Pos 0, 1 Bit
+   +0x000 Reserved1        : Pos 1, 1 Bit
+   +0x000 HypervisorError  : Pos 2, 1 Bit
+   +0x000 Simulated        : Pos 3, 1 Bit
+   +0x000 PlatformPfaControl : Pos 4, 1 Bit
+   +0x000 PlatformDirectedOffline : Pos 5, 1 Bit
+   +0x000 Reserved2        : Pos 6, 26 Bits
+   +0x000 AsULONG          : Uint4B
+kd> dt win32k!_WHEA_ERROR_TYPE
+   WheaErrTypeProcessor = 0
+   WheaErrTypeMemory = 1
+   WheaErrTypePCIExpress = 2
+   WheaErrTypeNMI = 3
+   WheaErrTypePCIXBus = 4
+   WheaErrTypePCIXDevice = 5
+   WheaErrTypeGeneric = 6
+kd> dt win32k!_WHEA_ERROR_SEVERITY
+   WheaErrSevRecoverable = 0
+   WheaErrSevFatal = 1
+   WheaErrSevCorrected = 2
+   WheaErrSevInformational = 3
+kd> dt win32k!_WHEA_ERROR_SOURCE_TYPE
+   WheaErrSrcTypeMCE = 0
+   WheaErrSrcTypeCMC = 1
+   WheaErrSrcTypeCPE = 2
+   WheaErrSrcTypeNMI = 3
+   WheaErrSrcTypePCIe = 4
+   WheaErrSrcTypeGeneric = 5
+   WheaErrSrcTypeINIT = 6
+   WheaErrSrcTypeBOOT = 7
+   WheaErrSrcTypeSCIGeneric = 8
+   WheaErrSrcTypeIPFMCA = 9
+   WheaErrSrcTypeIPFCMC = 10
+   WheaErrSrcTypeIPFCPE = 11
+   WheaErrSrcTypeMax = 12
+kd> dt win32k!_WHEA_ERROR_PACKET_DATA_FORMAT
+   WheaDataFormatIPFSalRecord = 0
+   WheaDataFormatXPFMCA = 1
+   WheaDataFormatMemory = 2
+   WheaDataFormatPCIExpress = 3
+   WheaDataFormatNMIPort = 4
+   WheaDataFormatPCIXBus = 5
+   WheaDataFormatPCIXDevice = 6
+   WheaDataFormatGeneric = 7
+   WheaDataFormatMax = 8
+kd> dt win32k!_WHEA_ERROR_RECORD
+   +0x000 Header           : _WHEA_ERROR_RECORD_HEADER
+   +0x080 SectionDescriptor : [1] _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+kd> dt win32k!_WHEA_ERROR_RECORD_HEADER
+   +0x000 Signature        : Uint4B
+   +0x004 Revision         : _WHEA_REVISION
+   +0x006 SignatureEnd     : Uint4B
+   +0x00a SectionCount     : Uint2B
+   +0x00c Severity         : _WHEA_ERROR_SEVERITY
+   +0x010 ValidBits        : _WHEA_ERROR_RECORD_HEADER_VALIDBITS
+   +0x014 Length           : Uint4B
+   +0x018 Timestamp        : _WHEA_TIMESTAMP
+   +0x020 PlatformId       : _GUID
+   +0x030 PartitionId      : _GUID
+   +0x040 CreatorId        : _GUID
+   +0x050 NotifyType       : _GUID
+   +0x060 RecordId         : Uint8B
+   +0x068 Flags            : _WHEA_ERROR_RECORD_HEADER_FLAGS
+   +0x06c PersistenceInfo  : _WHEA_PERSISTENCE_INFO
+   +0x074 Reserved         : [12] UChar
+kd> dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
+   +0x000 SectionOffset    : Uint4B
+   +0x004 SectionLength    : Uint4B
+   +0x008 Revision         : _WHEA_REVISION
+   +0x00a ValidBits        : _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+   +0x00b Reserved         : UChar
+   +0x00c Flags            : _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS
+   +0x010 SectionType      : _GUID
+   +0x020 FRUId            : _GUID
+   +0x030 SectionSeverity  : _WHEA_ERROR_SEVERITY
+   +0x034 FRUText          : [20] Char
+kd> dt win32k!_WHEA_REVISION
+   +0x000 MinorRevision    : UChar
+   +0x001 MajorRevision    : UChar
+   +0x000 AsUSHORT         : Uint2B
+kd> dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
+   +0x000 FRUId            : Pos 0, 1 Bit
+   +0x000 FRUText          : Pos 1, 1 Bit
+   +0x000 Reserved         : Pos 2, 6 Bits
+   +0x000 AsUCHAR          : UChar
+kd> dt win32k!_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS
+   +0x000 Primary          : Pos 0, 1 Bit
+   +0x000 ContainmentWarning : Pos 1, 1 Bit
+   +0x000 Reset            : Pos 2, 1 Bit
+   +0x000 ThresholdExceeded : Pos 3, 1 Bit
+   +0x000 ResourceNotAvailable : Pos 4, 1 Bit
+   +0x000 LatentError      : Pos 5, 1 Bit
+   +0x000 Reserved         : Pos 6, 26 Bits
+   +0x000 AsULONG          : Uint4B
+kd> dt win32k!_W32THREAD
+   +0x000 pEThread         : Ptr32 _ETHREAD
+   +0x004 RefCount         : Uint4B
+   +0x008 ptlW32           : Ptr32 _TL
+   +0x00c pgdiDcattr       : Ptr32 Void
+   +0x010 pgdiBrushAttr    : Ptr32 Void
+   +0x014 pUMPDObjs        : Ptr32 Void
+   +0x018 pUMPDHeap        : Ptr32 Void
+   +0x01c pUMPDObj         : Ptr32 Void
+   +0x020 GdiTmpTgoList    : _LIST_ENTRY
+   +0x028 pRBRecursionCount : Uint4B
+   +0x02c pNonRBRecursionCount : Uint4B
+   +0x030 tlSpriteState    : _TLSPRITESTATE
+   +0x090 pSpriteState     : Ptr32 Void
+   +0x094 pDevHTInfo       : Ptr32 Void
+   +0x098 ulDevHTInfoUniqueness : Uint4B
+   +0x09c pdcoAA           : Ptr32 Void
+   +0x0a0 pdcoRender       : Ptr32 Void
+   +0x0a4 pdcoSrc          : Ptr32 Void
+   +0x0a8 bEnableEngUpdateDeviceSurface : UChar
+   +0x0a9 bIncludeSprites  : UChar
+   +0x0ac ulWindowSystemRendering : Uint4B
+   +0x0b0 iVisRgnUniqueness : Uint4B
+kd> dt win32k!_TL
+   +0x000 next             : Ptr32 _TL
+   +0x004 pobj             : Ptr32 Void
+   +0x008 pfnFree          : Ptr32     void 
+kd> dt win32k!_TLSPRITESTATE
+   +0x000 bInsideDriverCall : UChar
+   +0x004 flOriginalSurfFlags : Uint4B
+   +0x008 iOriginalType    : Uint4B
+   +0x00c flSpriteSurfFlags : Uint4B
+   +0x010 iSpriteType      : Uint4B
+   +0x014 flags            : Uint4B
+   +0x018 iType            : Uint4B
+   +0x01c pState           : Ptr32 Void
+   +0x020 pfnStrokeAndFillPath : Ptr32 Void
+   +0x024 pfnStrokePath    : Ptr32 Void
+   +0x028 pfnFillPath      : Ptr32 Void
+   +0x02c pfnPaint         : Ptr32 Void
+   +0x030 pfnBitBlt        : Ptr32 Void
+   +0x034 pfnCopyBits      : Ptr32 Void
+   +0x038 pfnStretchBlt    : Ptr32 Void
+   +0x03c pfnTextOut       : Ptr32 Void
+   +0x040 pfnLineTo        : Ptr32 Void
+   +0x044 pfnTransparentBlt : Ptr32 Void
+   +0x048 pfnAlphaBlend    : Ptr32 Void
+   +0x04c pfnPlgBlt        : Ptr32 Void
+   +0x050 pfnGradientFill  : Ptr32 Void
+   +0x054 pfnSaveScreenBits : Ptr32 Void
+   +0x058 pfnStretchBltROP : Ptr32 Void
+   +0x05c pfnDrawStream    : Ptr32 Void
+kd> dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY_DEPRECATED
+   D3DKMDT_VOT_DEPRECATED_UNINITIALIZED = 0
+   D3DKMDT_VOT_DEPRECATED_HD15 = 1
+   D3DKMDT_VOT_DEPRECATED_DVI = 2
+   D3DKMDT_VOT_DEPRECATED_HDMI = 3
+   D3DKMDT_VOT_DEPRECATED_HDMI2 = 4
+   D3DKMDT_VOT_DEPRECATED_SVIDEO_4PIN = 5
+   D3DKMDT_VOT_DEPRECATED_SVIDEO_7PIN = 6
+   D3DKMDT_VOT_DEPRECATED_RCA_COMPOSITE = 7
+   D3DKMDT_VOT_DEPRECATED_RCA_3COMPONENT = 8
+   D3DKMDT_VOT_DEPRECATED_BNC = 9
+   D3DKMDT_VOT_DEPRECATED_RF = 10
+   D3DKMDT_VOT_DEPRECATED_SDTVDONGLE = 11
+   D3DKMDT_VOT_DEPRECATED_INTERNAL = 12
+   D3DKMDT_VOT_DEPRECATED_OTHER = 255
+kd> dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY_DEPRECATED
+   D3DKMDT_VOT_DEPRECATED_UNINITIALIZED = 0
+   D3DKMDT_VOT_DEPRECATED_HD15 = 1
+   D3DKMDT_VOT_DEPRECATED_DVI = 2
+   D3DKMDT_VOT_DEPRECATED_HDMI = 3
+   D3DKMDT_VOT_DEPRECATED_HDMI2 = 4
+   D3DKMDT_VOT_DEPRECATED_SVIDEO_4PIN = 5
+   D3DKMDT_VOT_DEPRECATED_SVIDEO_7PIN = 6
+   D3DKMDT_VOT_DEPRECATED_RCA_COMPOSITE = 7
+   D3DKMDT_VOT_DEPRECATED_RCA_3COMPONENT = 8
+   D3DKMDT_VOT_DEPRECATED_BNC = 9
+   D3DKMDT_VOT_DEPRECATED_RF = 10
+   D3DKMDT_VOT_DEPRECATED_SDTVDONGLE = 11
+   D3DKMDT_VOT_DEPRECATED_INTERNAL = 12
+   D3DKMDT_VOT_DEPRECATED_OTHER = 255
+kd> dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+   D3DKMDT_VOT_UNINITIALIZED = -2
+   D3DKMDT_VOT_OTHER = -1
+   D3DKMDT_VOT_HD15 = 0
+   D3DKMDT_VOT_SVIDEO = 1
+   D3DKMDT_VOT_COMPOSITE_VIDEO = 2
+   D3DKMDT_VOT_COMPONENT_VIDEO = 3
+   D3DKMDT_VOT_DVI = 4
+   D3DKMDT_VOT_HDMI = 5
+   D3DKMDT_VOT_LVDS = 6
+   D3DKMDT_VOT_D_JPN = 8
+   D3DKMDT_VOT_SDI = 9
+   D3DKMDT_VOT_DISPLAYPORT_EXTERNAL = 10
+   D3DKMDT_VOT_DISPLAYPORT_EMBEDDED = 11
+   D3DKMDT_VOT_UDI_EXTERNAL = 12
+   D3DKMDT_VOT_UDI_EMBEDDED = 13
+   D3DKMDT_VOT_SDTVDONGLE = 14
+   D3DKMDT_VOT_INTERNAL = -2147483648
+   D3DKMDT_VOT_SVIDEO_4PIN = 1
+   D3DKMDT_VOT_SVIDEO_7PIN = 1
+   D3DKMDT_VOT_RF = 2
+   D3DKMDT_VOT_RCA_3COMPONENT = 3
+   D3DKMDT_VOT_BNC = 3
+kd> dt win32k!_D3DKMDT_VIDEO_OUTPUT_TECHNOLOGY
+   D3DKMDT_VOT_UNINITIALIZED = -2
+   D3DKMDT_VOT_OTHER = -1
+   D3DKMDT_VOT_HD15 = 0
+   D3DKMDT_VOT_SVIDEO = 1
+   D3DKMDT_VOT_COMPOSITE_VIDEO = 2
+   D3DKMDT_VOT_COMPONENT_VIDEO = 3
+   D3DKMDT_VOT_DVI = 4
+   D3DKMDT_VOT_HDMI = 5
+   D3DKMDT_VOT_LVDS = 6
+   D3DKMDT_VOT_D_JPN = 8
+   D3DKMDT_VOT_SDI = 9
+   D3DKMDT_VOT_DISPLAYPORT_EXTERNAL = 10
+   D3DKMDT_VOT_DISPLAYPORT_EMBEDDED = 11
+   D3DKMDT_VOT_UDI_EXTERNAL = 12
+   D3DKMDT_VOT_UDI_EMBEDDED = 13
+   D3DKMDT_VOT_SDTVDONGLE = 14
+   D3DKMDT_VOT_INTERNAL = -2147483648
+   D3DKMDT_VOT_SVIDEO_4PIN = 1
+   D3DKMDT_VOT_SVIDEO_7PIN = 1
+   D3DKMDT_VOT_RF = 2
+   D3DKMDT_VOT_RCA_3COMPONENT = 3
+   D3DKMDT_VOT_BNC = 3
+kd> dt win32k!_DMM_VIDPN_SERIALIZATION
+   +0x000 Size             : Uint4B
+   +0x004 NumActiveSources : UChar
+   +0x008 PathsFromSourceSerializationOffsets : [1] Uint4B
+kd> dt win32k!_DMM_VIDPN_SERIALIZATION
+   +0x000 Size             : Uint4B
+   +0x004 NumActiveSources : UChar
+   +0x008 PathsFromSourceSerializationOffsets : [1] Uint4B
+kd> dt win32k!_DMM_VIDPNPATHSFROMSOURCE_SERIALIZATION
+   +0x000 SourceMode       : _D3DKMDT_VIDPN_SOURCE_MODE
+   +0x028 NumPathsFromSource : UChar
+   +0x02c PathAndTargetModeSerialization : [1] _DMM_VIDPNPATHANDTARGETMODE_SERIALIZATION
+kd> dt win32k!_D3DKMDT_VIDPN_SOURCE_MODE
+   +0x000 Id               : Uint4B
+   +0x004 Type             : _D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+   +0x008 Format           : <unnamed-tag>
+kd> dt win32k!_DMM_VIDPNPATHANDTARGETMODE_SERIALIZATION
+   +0x000 PathInfo         : _D3DKMDT_VIDPN_PRESENT_PATH
+   +0x15c TargetMode       : _D3DKMDT_VIDPN_TARGET_MODE
+kd> dt win32k!_DMM_VIDPNSET_SERIALIZATION
+   +0x000 NumVidPns        : UChar
+   +0x004 VidPnOffset      : [1] Uint4B
+kd> dt win32k!_DMM_VIDPNSET_SERIALIZATION
+   +0x000 NumVidPns        : UChar
+   +0x004 VidPnOffset      : [1] Uint4B
+kd> dt win32k!_DMM_MONITOR_SERIALIZATION
+   +0x000 Size             : Uint4B
+   +0x004 VideoPresentTargetId : Uint4B
+   +0x008 Orientation      : _D3DKMDT_MONITOR_ORIENTATION
+   +0x00c IsSimulatedMonitor : UChar
+   +0x00d IsUsingDefaultProfile : UChar
+   +0x010 ModePruningAlgorithm : _DMM_MODE_PRUNING_ALGORITHM
+   +0x014 MonitorPowerState : _DEVICE_POWER_STATE
+   +0x018 SourceModeSetOffset : Uint4B
+   +0x01c FrequencyRangeSetOffset : Uint4B
+   +0x020 DescriptorSetOffset : Uint4B
+   +0x024 MonitorType      : _DMM_VIDPN_MONITOR_TYPE
+kd> dt win32k!_DMM_MONITOR_SERIALIZATION
+   +0x000 Size             : Uint4B
+   +0x004 VideoPresentTargetId : Uint4B
+   +0x008 Orientation      : _D3DKMDT_MONITOR_ORIENTATION
+   +0x00c IsSimulatedMonitor : UChar
+   +0x00d IsUsingDefaultProfile : UChar
+   +0x010 ModePruningAlgorithm : _DMM_MODE_PRUNING_ALGORITHM
+   +0x014 MonitorPowerState : _DEVICE_POWER_STATE
+   +0x018 SourceModeSetOffset : Uint4B
+   +0x01c FrequencyRangeSetOffset : Uint4B
+   +0x020 DescriptorSetOffset : Uint4B
+   +0x024 MonitorType      : _DMM_VIDPN_MONITOR_TYPE
+kd> dt win32k!_D3DKMDT_MONITOR_ORIENTATION
+   D3DKMDT_MO_UNINITIALIZED = 0
+   D3DKMDT_MO_0DEG = 1
+   D3DKMDT_MO_90DEG = 2
+   D3DKMDT_MO_180DEG = 3
+   D3DKMDT_MO_270DEG = 4
+kd> dt win32k!_DMM_MODE_PRUNING_ALGORITHM
+   DMM_MPA_UNINITIALIZED = 0
+   DMM_MPA_GDI = 1
+   DMM_MPA_VISTA = 2
+   DMM_MPA_GDI_VISTA_UNION = 3
+   DMM_MPA_MAXVALID = 3
+kd> dt win32k!_DEVICE_POWER_STATE
+   PowerDeviceUnspecified = 0
+   PowerDeviceD0 = 1
+   PowerDeviceD1 = 2
+   PowerDeviceD2 = 3
+   PowerDeviceD3 = 4
+   PowerDeviceMaximum = 5
+kd> dt win32k!_DMM_VIDPN_MONITOR_TYPE
+   DMM_VMT_UNINITIALIZED = 0
+   DMM_VMT_PHYSICAL_MONITOR = 1
+   DMM_VMT_BOOT_PERSISTENT_MONITOR = 2
+   DMM_VMT_PERSISTENT_MONITOR = 3
+   DMM_VMT_TEMPORARY_MONITOR = 4
+   DMM_VMT_SIMULATED_MONITOR = 5
+kd> dt win32k!_DMM_MONITORSOURCEMODESET_SERIALIZATION
+   +0x000 NumModes         : UChar
+   +0x004 ModeSerialization : [1] _DMM_MONITOR_SOURCE_MODE_SERIALIZATION
+kd> dt win32k!_DMM_MONITOR_SOURCE_MODE_SERIALIZATION
+   +0x000 Info             : _D3DKMDT_MONITOR_SOURCE_MODE
+   +0x04c TimingType       : _D3DKMDT_MONITOR_TIMING_TYPE
+kd> dt win32k!_DMM_MONITORFREQUENCYRANGESET_SERIALIZATION
+   +0x000 NumFrequencyRanges : UChar
+   +0x004 FrequencyRangeSerialization : [1] _D3DKMDT_MONITOR_FREQUENCY_RANGE
+kd> dt win32k!_D3DKMDT_MONITOR_FREQUENCY_RANGE
+   +0x000 Origin           : _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+   +0x004 RangeLimits      : _D3DKMDT_FREQUENCY_RANGE
+   +0x024 ConstraintType   : _D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+   +0x028 Constraint       : <unnamed-tag>
+kd> dt win32k!_DMM_MONITORDESCRIPTORSET_SERIALIZATION
+   +0x000 NumDescriptors   : UChar
+   +0x004 DescriptorSerialization : [1] _DMM_MONITORDESCRIPTOR_SERIALIZATION
+kd> dt win32k!_DMM_MONITORDESCRIPTOR_SERIALIZATION
+   +0x000 Id               : Uint4B
+   +0x004 Type             : _D3DKMDT_MONITOR_DESCRIPTOR_TYPE
+   +0x008 Origin           : _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+   +0x00c Data             : [128] UChar
+kd> dt win32k!_DMM_COMMITVIDPNREQUESTSET_SERIALIZATION
+   +0x000 NumCommitVidPnRequests : UChar
+   +0x004 CommitVidPnRequestOffset : [1] Uint4B
+kd> dt win32k!_DMM_COMMITVIDPNREQUESTSET_SERIALIZATION
+   +0x000 NumCommitVidPnRequests : UChar
+   +0x004 CommitVidPnRequestOffset : [1] Uint4B
+kd> dt win32k!_DMM_COMMITVIDPNREQUEST_SERIALIZATION
+   +0x000 AffectedVidPnSourceId : Uint4B
+   +0x004 RequestDiagInfo  : _DMM_COMMITVIDPNREQUEST_DIAGINFO
+   +0x010 VidPnSerialization : _DMM_VIDPN_SERIALIZATION
+kd> dt win32k!_DMM_COMMITVIDPNREQUEST_DIAGINFO
+   +0x000 ClientType       : Pos 0, 4 Bits
+   +0x000 VidPnChange      : Pos 4, 4 Bits
+   +0x004 ReclaimClonedTarget : Pos 0, 1 Bit
+   +0x004 CleanupAfterFailedCommitVidPn : Pos 1, 1 Bit
+   +0x004 ForceAllActiveVidPnModeListInvalidation : Pos 2, 1 Bit
+   +0x008 ModeChangeRequestId : Uint4B
+kd> dt win32k!_DMM_COFUNCPATHSMODALITY_SERIALIZATION
+   +0x000 NumPathsFromSource : UChar
+   +0x004 PathAndTargetModeSetOffset : [1] Uint4B
+kd> dt win32k!_DMM_COFUNCPATHSMODALITY_SERIALIZATION
+   +0x000 NumPathsFromSource : UChar
+   +0x004 PathAndTargetModeSetOffset : [1] Uint4B
+kd> dt win32k!_DMM_VIDPNPATHANDTARGETMODESET_SERIALIZATION
+   +0x000 PathInfo         : _D3DKMDT_VIDPN_PRESENT_PATH
+   +0x15c TargetModeSet    : _DMM_VIDPNTARGETMODESET_SERIALIZATION
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH
+   +0x000 VidPnSourceId    : Uint4B
+   +0x004 VidPnTargetId    : Uint4B
+   +0x008 ImportanceOrdinal : _D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+   +0x00c ContentTransformation : _D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+   +0x01c VisibleFromActiveTLOffset : _D3DKMDT_2DREGION
+   +0x024 VisibleFromActiveBROffset : _D3DKMDT_2DREGION
+   +0x02c VidPnTargetColorBasis : _D3DKMDT_COLOR_BASIS
+   +0x030 VidPnTargetColorCoeffDynamicRanges : _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+   +0x040 Content          : _D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
+   +0x044 CopyProtection   : _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
+   +0x150 GammaRamp        : _D3DKMDT_GAMMA_RAMP
+kd> dt win32k!_DMM_VIDPNTARGETMODESET_SERIALIZATION
+   +0x000 NumModes         : UChar
+   +0x004 ModeSerialization : [1] _D3DKMDT_VIDPN_TARGET_MODE
+kd> dt win32k!_DXGK_DIAG_HEADER
+   +0x000 Type             : _DXGK_DIAG_TYPE
+   +0x004 Size             : Uint4B
+   +0x008 LogTimestamp     : Uint8B
+   +0x010 ProcessName      : [16] UChar
+   +0x020 ThreadId         : Uint8B
+   +0x028 Index            : Uint4B
+   +0x02c WdLogIdx         : Uint4B
+kd> dt win32k!_DXGK_DIAG_TYPE
+   DXGK_DIAG_TYPE_NONE = 0
+   DXGK_DIAG_TYPE_SDC = 1
+   DXGK_DIAG_TYPE_HPD = 2
+   DXGK_DIAG_TYPE_DC_ORIGIN = 3
+   DXGK_DIAG_TYPE_USER_CDS = 4
+   DXGK_DIAG_TYPE_DRV_CDS = 5
+   DXGK_DIAG_TYPE_CODE_POINT = 6
+   DXGK_DIAG_TYPE_QDC = 7
+   DXGK_DIAG_TYPE_MONITOR_MGR = 8
+   DXGK_DIAG_TYPE_CONNECTEDSET_NOT_FOUND = 9
+   DXGK_DIAG_TYPE_DISPDIAG_COLLECTED = 10
+   DXGK_DIAG_TYPE_BML_PACKET = 11
+   DXGK_DIAG_TYPE_BML_PACKET_EX = 12
+   DXGK_DIAG_TYPE_COMMIT_VIDPN_FAILED = 13
+   DXGK_DIAG_TYPE_DRIVER_RECOMMEND_VIDPN = 14
+   DXGK_DIAG_TYPE_MAX = 14
+   DXGK_DIAG_TYPE_FORCE_UINT32 = -1
+kd> dt win32k!_DXGK_DIAG_TYPE
+   DXGK_DIAG_TYPE_NONE = 0
+   DXGK_DIAG_TYPE_SDC = 1
+   DXGK_DIAG_TYPE_HPD = 2
+   DXGK_DIAG_TYPE_DC_ORIGIN = 3
+   DXGK_DIAG_TYPE_USER_CDS = 4
+   DXGK_DIAG_TYPE_DRV_CDS = 5
+   DXGK_DIAG_TYPE_CODE_POINT = 6
+   DXGK_DIAG_TYPE_QDC = 7
+   DXGK_DIAG_TYPE_MONITOR_MGR = 8
+   DXGK_DIAG_TYPE_CONNECTEDSET_NOT_FOUND = 9
+   DXGK_DIAG_TYPE_DISPDIAG_COLLECTED = 10
+   DXGK_DIAG_TYPE_BML_PACKET = 11
+   DXGK_DIAG_TYPE_BML_PACKET_EX = 12
+   DXGK_DIAG_TYPE_COMMIT_VIDPN_FAILED = 13
+   DXGK_DIAG_TYPE_DRIVER_RECOMMEND_VIDPN = 14
+   DXGK_DIAG_TYPE_MAX = 14
+   DXGK_DIAG_TYPE_FORCE_UINT32 = -1
+kd> dt win32k!_DXGK_DIAG_CODE_POINT_PACKET
+   +0x000 Header           : _DXGK_DIAG_HEADER
+   +0x030 CodePointType    : _DXGK_DIAG_CODE_POINT_TYPE
+   +0x034 Param1           : Uint4B
+   +0x038 Param2           : Uint4B
+   +0x03c Param3           : Uint4B
+kd> dt win32k!_DXGK_DIAG_CODE_POINT_TYPE
+   DXGK_DIAG_CODE_POINT_TYPE_NONE = 0
+   DXGK_DIAG_CODE_POINT_TYPE_RECOMMEND_FUNC_VIDPN = 1
+   DXGK_DIAG_CODE_POINT_TYPE_OS_RECOMMENDED_VIDPN = 2
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_LOG_FAILURE = 3
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_INVALIDATE_ERROR = 4
+   DXGK_DIAG_CODE_POINT_TYPE_CDS_LOG_FAILURE = 5
+   DXGK_DIAG_CODE_POINT_TYPE_CDS_FAILURE_DB = 7
+   DXGK_DIAG_CODE_POINT_TYPE_RETRIEVE_BTL = 8
+   DXGK_DIAG_CODE_POINT_TYPE_RETRIEVE_DB = 9
+   DXGK_DIAG_CODE_POINT_TYPE_QDC_LOG_FAILURE = 10
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_ON_GDI = 11
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_OFF_GDI = 12
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_ON_MONITOR = 13
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_OFF_MONITOR = 14
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_DIM_MONITOR = 15
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_UNDIM_MONITOR = 16
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BACKTRACK = 17
+   DXGK_DIAG_CODE_POINT_TYPE_BML_CLOSEST_TARGET_MODE = 18
+   DXGK_DIAG_CODE_POINT_TYPE_BML_NO_EXACT_SOURCE_MODE = 19
+   DXGK_DIAG_CODE_POINT_TYPE_BML_NO_EXACT_TARGET_MODE = 20
+   DXGK_DIAG_CODE_POINT_TYPE_BML_SOURCE_MODE_NOT_PINNED = 21
+   DXGK_DIAG_CODE_POINT_TYPE_BML_TARGET_MODE_NOT_PINNED = 22
+   DXGK_DIAG_CODE_POINT_TYPE_BML_RESTARTED = 23
+   DXGK_DIAG_CODE_POINT_TYPE_TDR = 24
+   DXGK_DIAG_CODE_POINT_TYPE_ACPI_EVENT_NOTIFICATION = 25
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEMDEV_USE_DEFAULT_MODE = 26
+   DXGK_DIAG_CODE_POINT_TYPE_CONNECTED_SET_LOG_FAILURE = 27
+   DXGK_DIAG_CODE_POINT_TYPE_INVALIDATE_DXGK_MODE_CACHE = 28
+   DXGK_DIAG_CODE_POINT_TYPE_REBUILD_DXGK_MODE_CACHE = 29
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEFUNVIDPN_RELAX_REFRESH_MATCH = 30
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEFUNVIDPN_CCDBML_FAIL_VISTABML_SUCCESSED = 31
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BEST_SOURCE_MODE = 32
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BEST_TARGET_MODE = 33
+   DXGK_DIAG_CODE_POINT_TYPE_ADD_DEVICE = 34
+   DXGK_DIAG_CODE_POINT_TYPE_START_ADAPTER = 35
+   DXGK_DIAG_CODE_POINT_TYPE_STOP_ADAPTER = 36
+   DXGK_DIAG_CODE_POINT_TYPE_CHILD_POLLING = 37
+   DXGK_DIAG_CODE_POINT_TYPE_CHILD_POLLING_TARGET = 38
+   DXGK_DIAG_CODE_POINT_TYPE_INDICATE_CHILD_STATUS = 39
+   DXGK_DIAG_CODE_POINT_TYPE_HANDLE_IRP = 40
+   DXGK_DIAG_CODE_POINT_TYPE_CHANGE_UNSUPPORTED_MONITOR_MODE_FLAG = 41
+   DXGK_DIAG_CODE_POINT_TYPE_ACPI_NOTIFY_CALLBACK = 42
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_EVICTALL_DISABLEGDI = 43
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_EVICTALL_ENABLEGDI = 44
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_MODESWITCH = 45
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_SYNC_MONITOR_EVENT = 46
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_PNP_NOTIFY_GDI = 47
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_PNP_ENABLE_VGA = 48
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_TDR_SWITCH_GDI = 49
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_CREATE_DEVICE_FAILED = 50
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_DEVICE_REMOVED = 51
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_DRVASSERTMODE_TRUE_FAILED = 52
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_RECREATE_DEVICE_FAILED = 53
+   DXGK_DIAG_CODE_POINT_TYPE_CDD_MAPSHADOWBUFFER_FAILED = 54
+   DXGK_DIAG_CODE_POINT_TYPE_COMMIT_VIDPN_LOG_FAILURE = 55
+   DXGK_DIAG_CODE_POINT_TYPE_DRIVER_RECOMMEND_LOG_FAILURE = 56
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_ENFORCED_CLONE_PATH_INVALID_SOURCE_IDX = 57
+   DXGK_DIAG_CODE_POINT_TYPE_DRVPROBEANDCAPTURE_FAILED = 58
+   DXGK_DIAG_CODE_POINT_TYPE_DXGKCDDENABLE_OPTIMIZED_MODE_CHANGE = 59
+   DXGK_DIAG_CODE_POINT_TYPE_DXGKSETDISPLAYMODE_OPTIMIZED_MODE_CHANGE = 60
+   DXGK_DIAG_CODE_POINT_TYPE_MON_DEPART_GETRECENTTOP_FAIL = 61
+   DXGK_DIAG_CODE_POINT_TYPE_MON_ARRIVE_INC_ADD_FAIL = 62
+   DXGK_DIAG_CODE_POINT_TYPE_CCD_DATABASE_PERSIST = 63
+   DXGK_DIAG_CODE_POINT_TYPE_CCD_DATABASE_PERSIST_NO_CONNECTIVITY_HASH = 64
+   DXGK_DIAG_CODE_POINT_TYPE_MAX = 64
+   DXGK_DIAG_CODE_POINT_TYPE_FORCE_UINT32 = -1
+kd> dt win32k!_DXGK_DIAG_CODE_POINT_TYPE
+   DXGK_DIAG_CODE_POINT_TYPE_NONE = 0
+   DXGK_DIAG_CODE_POINT_TYPE_RECOMMEND_FUNC_VIDPN = 1
+   DXGK_DIAG_CODE_POINT_TYPE_OS_RECOMMENDED_VIDPN = 2
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_LOG_FAILURE = 3
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_INVALIDATE_ERROR = 4
+   DXGK_DIAG_CODE_POINT_TYPE_CDS_LOG_FAILURE = 5
+   DXGK_DIAG_CODE_POINT_TYPE_CDS_FAILURE_DB = 7
+   DXGK_DIAG_CODE_POINT_TYPE_RETRIEVE_BTL = 8
+   DXGK_DIAG_CODE_POINT_TYPE_RETRIEVE_DB = 9
+   DXGK_DIAG_CODE_POINT_TYPE_QDC_LOG_FAILURE = 10
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_ON_GDI = 11
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_OFF_GDI = 12
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_ON_MONITOR = 13
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_OFF_MONITOR = 14
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_DIM_MONITOR = 15
+   DXGK_DIAG_CODE_POINT_TYPE_POWER_UNDIM_MONITOR = 16
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BACKTRACK = 17
+   DXGK_DIAG_CODE_POINT_TYPE_BML_CLOSEST_TARGET_MODE = 18
+   DXGK_DIAG_CODE_POINT_TYPE_BML_NO_EXACT_SOURCE_MODE = 19
+   DXGK_DIAG_CODE_POINT_TYPE_BML_NO_EXACT_TARGET_MODE = 20
+   DXGK_DIAG_CODE_POINT_TYPE_BML_SOURCE_MODE_NOT_PINNED = 21
+   DXGK_DIAG_CODE_POINT_TYPE_BML_TARGET_MODE_NOT_PINNED = 22
+   DXGK_DIAG_CODE_POINT_TYPE_BML_RESTARTED = 23
+   DXGK_DIAG_CODE_POINT_TYPE_TDR = 24
+   DXGK_DIAG_CODE_POINT_TYPE_ACPI_EVENT_NOTIFICATION = 25
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEMDEV_USE_DEFAULT_MODE = 26
+   DXGK_DIAG_CODE_POINT_TYPE_CONNECTED_SET_LOG_FAILURE = 27
+   DXGK_DIAG_CODE_POINT_TYPE_INVALIDATE_DXGK_MODE_CACHE = 28
+   DXGK_DIAG_CODE_POINT_TYPE_REBUILD_DXGK_MODE_CACHE = 29
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEFUNVIDPN_RELAX_REFRESH_MATCH = 30
+   DXGK_DIAG_CODE_POINT_TYPE_CREATEFUNVIDPN_CCDBML_FAIL_VISTABML_SUCCESSED = 31
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BEST_SOURCE_MODE = 32
+   DXGK_DIAG_CODE_POINT_TYPE_BML_BEST_TARGET_MODE = 33
+   DXGK_DIAG_CODE_POINT_TYPE_ADD_DEVICE = 34
+   DXGK_DIAG_CODE_POINT_TYPE_START_ADAPTER = 35
+   DXGK_DIAG_CODE_POINT_TYPE_STOP_ADAPTER = 36
+   DXGK_DIAG_CODE_POINT_TYPE_CHILD_POLLING = 37
+   DXGK_DIAG_CODE_POINT_TYPE_CHILD_POLLING_TARGET = 38
+   DXGK_DIAG_CODE_POINT_TYPE_INDICATE_CHILD_STATUS = 39
+   DXGK_DIAG_CODE_POINT_TYPE_HANDLE_IRP = 40
+   DXGK_DIAG_CODE_POINT_TYPE_CHANGE_UNSUPPORTED_MONITOR_MODE_FLAG = 41
+   DXGK_DIAG_CODE_POINT_TYPE_ACPI_NOTIFY_CALLBACK = 42
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_EVICTALL_DISABLEGDI = 43
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_EVICTALL_ENABLEGDI = 44
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_EXCLUDE_MODESWITCH = 45
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_SYNC_MONITOR_EVENT = 46
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_PNP_NOTIFY_GDI = 47
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_PNP_ENABLE_VGA = 48
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_TDR_SWITCH_GDI = 49
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_CREATE_DEVICE_FAILED = 50
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_DEVICE_REMOVED = 51
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_DRVASSERTMODE_TRUE_FAILED = 52
+   DXGK_DIAG_CODE_POINT_TYPE_VIDEOPORTCALLOUT_CDD_RECREATE_DEVICE_FAILED = 53
+   DXGK_DIAG_CODE_POINT_TYPE_CDD_MAPSHADOWBUFFER_FAILED = 54
+   DXGK_DIAG_CODE_POINT_TYPE_COMMIT_VIDPN_LOG_FAILURE = 55
+   DXGK_DIAG_CODE_POINT_TYPE_DRIVER_RECOMMEND_LOG_FAILURE = 56
+   DXGK_DIAG_CODE_POINT_TYPE_SDC_ENFORCED_CLONE_PATH_INVALID_SOURCE_IDX = 57
+   DXGK_DIAG_CODE_POINT_TYPE_DRVPROBEANDCAPTURE_FAILED = 58
+   DXGK_DIAG_CODE_POINT_TYPE_DXGKCDDENABLE_OPTIMIZED_MODE_CHANGE = 59
+   DXGK_DIAG_CODE_POINT_TYPE_DXGKSETDISPLAYMODE_OPTIMIZED_MODE_CHANGE = 60
+   DXGK_DIAG_CODE_POINT_TYPE_MON_DEPART_GETRECENTTOP_FAIL = 61
+   DXGK_DIAG_CODE_POINT_TYPE_MON_ARRIVE_INC_ADD_FAIL = 62
+   DXGK_DIAG_CODE_POINT_TYPE_CCD_DATABASE_PERSIST = 63
+   DXGK_DIAG_CODE_POINT_TYPE_CCD_DATABASE_PERSIST_NO_CONNECTIVITY_HASH = 64
+   DXGK_DIAG_CODE_POINT_TYPE_MAX = 64
+   DXGK_DIAG_CODE_POINT_TYPE_FORCE_UINT32 = -1
+kd> dt win32k!_SECTION_OBJECT_POINTERS
+   +0x000 DataSectionObject : Ptr32 Void
+   +0x004 SharedCacheMap   : Ptr32 Void
+   +0x008 ImageSectionObject : Ptr32 Void
+kd> dt win32k!_IO_COMPLETION_CONTEXT
+   +0x000 Port             : Ptr32 Void
+   +0x004 Key              : Ptr32 Void
+kd> dt win32k!_EX_POOL_PRIORITY
+   LowPoolPriority = 0
+   LowPoolPrioritySpecialPoolOverrun = 8
+   LowPoolPrioritySpecialPoolUnderrun = 9
+   NormalPoolPriority = 16
+   NormalPoolPrioritySpecialPoolOverrun = 24
+   NormalPoolPrioritySpecialPoolUnderrun = 25
+   HighPoolPriority = 32
+   HighPoolPrioritySpecialPoolOverrun = 40
+   HighPoolPrioritySpecialPoolUnderrun = 41
+kd> dt win32k!tagRECT
+   +0x000 left             : Int4B
+   +0x004 top              : Int4B
+   +0x008 right            : Int4B
+   +0x00c bottom           : Int4B
+kd> dt win32k!tagRECT
+   +0x000 left             : Int4B
+   +0x004 top              : Int4B
+   +0x008 right            : Int4B
+   +0x00c bottom           : Int4B
+kd> dt win32k!_HANDLEENTRY
+   +0x000 phead            : Ptr32 _HEAD
+   +0x004 pOwner           : Ptr32 Void
+   +0x008 bType            : UChar
+   +0x009 bFlags           : UChar
+   +0x00a wUniq            : Uint2B
+kd> dt win32k!_HEAD
+   +0x000 h                : Ptr32 Void
+   +0x004 cLockObj         : Uint4B
+kd> dt win32k!tagCLIENTTHREADINFO
+   +0x000 CTIF_flags       : Uint4B
+   +0x004 fsChangeBits     : Uint2B
+   +0x006 fsWakeBits       : Uint2B
+   +0x008 fsWakeBitsJournal : Uint2B
+   +0x00a fsWakeMask       : Uint2B
+   +0x00c tickLastMsgChecked : Uint4B
+kd> dt win32k!_ERESOURCE
+   +0x000 SystemResourcesList : _LIST_ENTRY
+   +0x008 OwnerTable       : Ptr32 _OWNER_ENTRY
+   +0x00c ActiveCount      : Int2B
+   +0x00e Flag             : Uint2B
+   +0x010 SharedWaiters    : Ptr32 _KSEMAPHORE
+   +0x014 ExclusiveWaiters : Ptr32 _KEVENT
+   +0x018 OwnerEntry       : _OWNER_ENTRY
+   +0x020 ActiveEntries    : Uint4B
+   +0x024 ContentionCount  : Uint4B
+   +0x028 NumberOfSharedWaiters : Uint4B
+   +0x02c NumberOfExclusiveWaiters : Uint4B
+   +0x030 Address          : Ptr32 Void
+   +0x030 CreatorBackTraceIndex : Uint4B
+   +0x034 SpinLock         : Uint4B
+kd> dt win32k!_OWNER_ENTRY
+   +0x000 OwnerThread      : Uint4B
+   +0x004 IoPriorityBoosted : Pos 0, 1 Bit
+   +0x004 OwnerReferenced  : Pos 1, 1 Bit
+   +0x004 OwnerCount       : Pos 2, 30 Bits
+   +0x004 TableSize        : Uint4B
+kd> dt win32k!_KSEMAPHORE
+   +0x000 Header           : _DISPATCHER_HEADER
+   +0x010 Limit            : Int4B
+kd> dt win32k!tagHID_TLC_INFO
+   +0x000 link             : _LIST_ENTRY
+   +0x008 usUsagePage      : Uint2B
+   +0x00a usUsage          : Uint2B
+   +0x00c cDevices         : Uint4B
+   +0x010 cDirectRequest   : Uint4B
+   +0x014 cUsagePageRequest : Uint4B
+   +0x018 cExcludeRequest  : Uint4B
+   +0x01c cExcludeOrphaned : Uint4B
+kd> dt win32k!tagMSGPPINFO
+   +0x000 dwIndexMsgPP     : Uint4B
+kd> dt win32k!tagTHREADINFO
+   +0x000 pEThread         : Ptr32 _ETHREAD
+   +0x004 RefCount         : Uint4B
+   +0x008 ptlW32           : Ptr32 _TL
+   +0x00c pgdiDcattr       : Ptr32 Void
+   +0x010 pgdiBrushAttr    : Ptr32 Void
+   +0x014 pUMPDObjs        : Ptr32 Void
+   +0x018 pUMPDHeap        : Ptr32 Void
+   +0x01c pUMPDObj         : Ptr32 Void
+   +0x020 GdiTmpTgoList    : _LIST_ENTRY
+   +0x028 pRBRecursionCount : Uint4B
+   +0x02c pNonRBRecursionCount : Uint4B
+   +0x030 tlSpriteState    : _TLSPRITESTATE
+   +0x090 pSpriteState     : Ptr32 Void
+   +0x094 pDevHTInfo       : Ptr32 Void
+   +0x098 ulDevHTInfoUniqueness : Uint4B
+   +0x09c pdcoAA           : Ptr32 Void
+   +0x0a0 pdcoRender       : Ptr32 Void
+   +0x0a4 pdcoSrc          : Ptr32 Void
+   +0x0a8 bEnableEngUpdateDeviceSurface : UChar
+   +0x0a9 bIncludeSprites  : UChar
+   +0x0ac ulWindowSystemRendering : Uint4B
+   +0x0b0 iVisRgnUniqueness : Uint4B
+   +0x0b4 ptl              : Ptr32 _TL
+   +0x0b8 ppi              : Ptr32 tagPROCESSINFO
+   +0x0bc pq               : Ptr32 tagQ
+   +0x0c0 spklActive       : Ptr32 tagKL
+   +0x0c4 pcti             : Ptr32 tagCLIENTTHREADINFO
+   +0x0c8 rpdesk           : Ptr32 tagDESKTOP
+   +0x0cc pDeskInfo        : Ptr32 tagDESKTOPINFO
+   +0x0d0 ulClientDelta    : Uint4B
+   +0x0d4 pClientInfo      : Ptr32 tagCLIENTINFO
+   +0x0d8 TIF_flags        : Uint4B
+   +0x0dc pstrAppName      : Ptr32 _UNICODE_STRING
+   +0x0e0 psmsSent         : Ptr32 tagSMS
+   +0x0e4 psmsCurrent      : Ptr32 tagSMS
+   +0x0e8 psmsReceiveList  : Ptr32 tagSMS
+   +0x0ec timeLast         : Int4B
+   +0x0f0 idLast           : Uint4B
+   +0x0f4 exitCode         : Int4B
+   +0x0f8 hdesk            : Ptr32 HDESK__
+   +0x0fc cPaintsReady     : Int4B
+   +0x100 cTimersReady     : Uint4B
+   +0x104 pMenuState       : Ptr32 tagMENUSTATE
+   +0x108 ptdb             : Ptr32 tagTDB
+   +0x108 pwinsta          : Ptr32 tagWINDOWSTATION
+   +0x10c psiiList         : Ptr32 tagSVR_INSTANCE_INFO
+   +0x110 dwExpWinVer      : Uint4B
+   +0x114 dwCompatFlags    : Uint4B
+   +0x114 IgnoreNoDiscard  : Pos 0, 1 Bit
+   +0x114 ForceTextBand    : Pos 1, 1 Bit
+   +0x114 UsePrintingEscape : Pos 2, 1 Bit
+   +0x114 IgnoreTopMost    : Pos 3, 1 Bit
+   +0x114 CallTTDevice     : Pos 4, 1 Bit
+   +0x114 MultipleBands    : Pos 5, 1 Bit
+   +0x114 AlwaysSendSyncPaint : Pos 6, 1 Bit
+   +0x114 EditSetTextMunge : Pos 7, 1 Bit
+   +0x114 MoreExtraWndWords : Pos 8, 1 Bit
+   +0x114 TTIgnoreRasterDupe : Pos 9, 1 Bit
+   +0x114 HackWinFlags     : Pos 10, 1 Bit
+   +0x114 DealyHwndShakeChk : Pos 11, 1 Bit
+   +0x114 EnumHelv         : Pos 12, 1 Bit
+   +0x114 EnumTTNotDevice  : Pos 13, 1 Bit
+   +0x114 SubtractClips    : Pos 14, 1 Bit
+   +0x114 ForceTTGrapchis  : Pos 15, 1 Bit
+   +0x114 NoHRGN1          : Pos 16, 1 Bit
+   +0x114 NcCalcSizeOnMove : Pos 17, 1 Bit
+   +0x114 SendMnuDblClk    : Pos 18, 1 Bit
+   +0x114 Win30AvgWidth    : Pos 19, 1 Bit
+   +0x114 GetDeviceCaps    : Pos 20, 1 Bit
+   +0x114 Winver31         : Pos 21, 1 Bit
+   +0x114 IncreaseStack    : Pos 22, 1 Bit
+   +0x114 Win31DevModeSize : Pos 23, 1 Bit
+   +0x114 DisableFontAssoc : Pos 24, 1 Bit
+   +0x114 IgnoreFaults     : Pos 25, 1 Bit
+   +0x114 NoEMFSpooling    : Pos 26, 1 Bit
+   +0x114 Random31Ux       : Pos 27, 1 Bit
+   +0x114 DontJournalAttach : Pos 28, 1 Bit
+   +0x114 DisableDBCSProp  : Pos 29, 1 Bit
+   +0x114 SmoothScrolling  : Pos 30, 1 Bit
+   +0x114 NoScrollBarCtxMenu : Pos 31, 1 Bit
+   +0x118 dwCompatFlags2   : Uint4B
+   +0x118 qwCompatFlags2   : Uint8B
+   +0x118 AnimationOff     : Pos 0, 1 Bit
+   +0x118 KCOff            : Pos 1, 1 Bit
+   +0x118 No50ExStyles     : Pos 2, 1 Bit
+   +0x118 NoDrawPatRect    : Pos 3, 1 Bit
+   +0x118 MsShellDlg       : Pos 4, 1 Bit
+   +0x118 NoDDETrackDying  : Pos 5, 1 Bit
+   +0x118 GiveUpForegound  : Pos 6, 1 Bit
+   +0x118 ActiveMenus      : Pos 7, 1 Bit
+   +0x118 EditNoMouseHide  : Pos 8, 1 Bit
+   +0x118 NoBatching       : Pos 9, 1 Bit
+   +0x118 FontSubs         : Pos 10, 1 Bit
+   +0x118 No50ExStyleBits  : Pos 11, 1 Bit
+   +0x118 NoCustomPaperSize : Pos 12, 1 Bit
+   +0x118 DDE              : Pos 13, 1 Bit
+   +0x118 DefaultCharset   : Pos 14, 1 Bit
+   +0x118 NoCharDeadKey    : Pos 15, 1 Bit
+   +0x118 TryExceptCallWndProc : Pos 16, 1 Bit
+   +0x118 NoInitFlagsOnFocus : Pos 17, 1 Bit
+   +0x118 DDENoSync        : Pos 18, 1 Bit
+   +0x118 NoGhost          : Pos 19, 1 Bit
+   +0x118 DDENoAsyncReg    : Pos 20, 1 Bit
+   +0x118 StrictLLHook     : Pos 21, 1 Bit
+   +0x118 NoShadow         : Pos 22, 1 Bit
+   +0x118 ForceFusion      : Pos 23, 1 Bit
+   +0x118 NoTimeCbProtect  : Pos 24, 1 Bit
+   +0x118 DpiAware         : Pos 25, 1 Bit
+   +0x118 OpenGLEMF        : Pos 26, 1 Bit
+   +0x118 TransparentBltMirror : Pos 27, 1 Bit
+   +0x118 NoPaddedBorder   : Pos 28, 1 Bit
+   +0x118 ForceLegacyResizeNCMetr : Pos 29, 1 Bit
+   +0x118 HardwareMixer    : Pos 30, 1 Bit
+   +0x118 NoSoftCursOnMoveSize : Pos 31, 1 Bit
+   +0x118 NoWindowArrangement : Pos 32, 1 Bit
+   +0x118 SpareCompatFlags2 : Pos 33, 31 Bits
+   +0x120 pqAttach         : Ptr32 tagQ
+   +0x124 ptiSibling       : Ptr32 tagTHREADINFO
+   +0x128 pmsd             : Ptr32 _MOVESIZEDATA
+   +0x12c fsHooks          : Uint4B
+   +0x130 sphkCurrent      : Ptr32 tagHOOK
+   +0x134 lParamHkCurrent  : Int4B
+   +0x138 wParamHkCurrent  : Uint4B
+   +0x13c pSBTrack         : Ptr32 tagSBTRACK
+   +0x140 hEventQueueClient : Ptr32 Void
+   +0x144 pEventQueueServer : Ptr32 _KEVENT
+   +0x148 PtiLink          : _LIST_ENTRY
+   +0x150 iCursorLevel     : Int4B
+   +0x154 ptLast           : tagPOINT
+   +0x15c ptLastReal       : tagPOINT
+   +0x164 spwndDefaultIme  : Ptr32 tagWND
+   +0x168 spDefaultImc     : Ptr32 tagIMC
+   +0x16c hklPrev          : Ptr32 HKL__
+   +0x170 cEnterCount      : Int4B
+   +0x174 mlPost           : tagMLIST
+   +0x180 fsChangeBitsRemoved : Uint2B
+   +0x182 wchInjected      : Wchar
+   +0x184 fsReserveKeys    : Uint4B
+   +0x188 apEvent          : Ptr32 Ptr32 _KEVENT
+   +0x18c amdesk           : Uint4B
+   +0x190 cWindows         : Uint4B
+   +0x194 cVisWindows      : Uint4B
+   +0x198 aphkStart        : [16] Ptr32 tagHOOK
+   +0x1d8 cti              : tagCLIENTTHREADINFO
+   +0x1e8 hPrevHidData     : Ptr32 Void
+   +0x1ec hTouchInputCurrent : Ptr32 HTOUCHINPUT__
+   +0x1f0 hGestureInfoCurrent : Ptr32 HGESTUREINFO__
+   +0x1f4 MsgPPInfo        : tagMSGPPINFO
+   +0x1f8 cNestedStableVisRgn : Uint4B
+   +0x1fc readyHead        : _LIST_ENTRY
+   +0x204 fSpecialInitialization : Pos 0, 1 Bit
+   +0x204 fgfSwitchInProgressSetter : Pos 1, 1 Bit
+   +0x204 fPack            : Pos 2, 26 Bits
+   +0x204 fThreadCleanupFinished : Pos 28, 1 Bit
+   +0x204 fETWReserved     : Pos 29, 3 Bits
+   +0x204 ulThreadFlags2   : Uint4B
+kd> dt win32k!tagPROCESSINFO
+   +0x000 Process          : Ptr32 _EPROCESS
+   +0x004 RefCount         : Uint4B
+   +0x008 W32PF_Flags      : Uint4B
+   +0x00c InputIdleEvent   : Ptr32 _KEVENT
+   +0x010 StartCursorHideTime : Uint4B
+   +0x014 NextStart        : Ptr32 _W32PROCESS
+   +0x018 pDCAttrList      : Ptr32 Void
+   +0x01c pBrushAttrList   : Ptr32 Void
+   +0x020 W32Pid           : Uint4B
+   +0x024 GDIHandleCount   : Int4B
+   +0x028 GDIHandleCountPeak : Uint4B
+   +0x02c UserHandleCount  : Int4B
+   +0x030 UserHandleCountPeak : Uint4B
+   +0x034 GDIPushLock      : _EX_PUSH_LOCK
+   +0x038 GDIEngUserMemAllocTable : _RTL_AVL_TABLE
+   +0x070 GDIDcAttrFreeList : _LIST_ENTRY
+   +0x078 GDIBrushAttrFreeList : _LIST_ENTRY
+   +0x080 GDIW32PIDLockedBitmaps : _LIST_ENTRY
+   +0x088 hSecureGdiSharedHandleTable : Ptr32 Void
+   +0x08c DxProcess        : Ptr32 Void
+   +0x090 ptiList          : Ptr32 tagTHREADINFO
+   +0x094 ptiMainThread    : Ptr32 tagTHREADINFO
+   +0x098 rpdeskStartup    : Ptr32 tagDESKTOP
+   +0x09c pclsPrivateList  : Ptr32 tagCLS
+   +0x0a0 pclsPublicList   : Ptr32 tagCLS
+   +0x0a4 pwpi             : Ptr32 tagWOWPROCESSINFO
+   +0x0a8 ppiNext          : Ptr32 tagPROCESSINFO
+   +0x0ac ppiNextRunning   : Ptr32 tagPROCESSINFO
+   +0x0b0 cThreads         : Uint4B
+   +0x0b4 hdeskStartup     : Ptr32 HDESK__
+   +0x0b8 cSysExpunge      : Uint4B
+   +0x0bc dwhmodLibLoadedMask : Uint4B
+   +0x0c0 ahmodLibLoaded   : [32] Ptr32 Void
+   +0x140 rpwinsta         : Ptr32 tagWINDOWSTATION
+   +0x144 hwinsta          : Ptr32 HWINSTA__
+   +0x148 amwinsta         : Uint4B
+   +0x14c dwHotkey         : Uint4B
+   +0x150 hMonitor         : Ptr32 HMONITOR__
+   +0x154 pdvList          : Ptr32 tagDESKTOPVIEW
+   +0x158 iClipSerialNumber : Uint4B
+   +0x15c bmHandleFlags    : _RTL_BITMAP
+   +0x164 pCursorCache     : Ptr32 tagCURSOR
+   +0x168 pClientBase      : Ptr32 Void
+   +0x16c dwLpkEntryPoints : Uint4B
+   +0x170 pW32Job          : Ptr32 tagW32JOB
+   +0x174 dwImeCompatFlags : Uint4B
+   +0x178 luidSession      : _LUID
+   +0x180 usi              : tagUSERSTARTUPINFO
+   +0x19c Flags            : Uint4B
+   +0x19c fHasMagContext   : Pos 0, 1 Bit
+   +0x19c Unused           : Pos 1, 31 Bits
+   +0x1a0 dwLayout         : Uint4B
+   +0x1a4 pHidTable        : Ptr32 tagPROCESS_HID_TABLE
+   +0x1a8 dwRegisteredClasses : Uint4B
+   +0x1ac pvwplWndGCList   : Ptr32 VWPL
+kd> dt win32k!tagQ
+   +0x000 mlInput          : tagMLIST
+   +0x00c ptiSysLock       : Ptr32 tagTHREADINFO
+   +0x010 idSysLock        : Uint4B
+   +0x014 idSysPeek        : Uint4B
+   +0x018 ptiMouse         : Ptr32 tagTHREADINFO
+   +0x01c ptiKeyboard      : Ptr32 tagTHREADINFO
+   +0x020 spwndCapture     : Ptr32 tagWND
+   +0x024 spwndFocus       : Ptr32 tagWND
+   +0x028 spwndActive      : Ptr32 tagWND
+   +0x02c spwndActivePrev  : Ptr32 tagWND
+   +0x030 codeCapture      : Uint4B
+   +0x034 msgDblClk        : Uint4B
+   +0x038 xbtnDblClk       : Uint2B
+   +0x03c timeDblClk       : Uint4B
+   +0x040 hwndDblClk       : Ptr32 HWND__
+   +0x044 ptDblClk         : tagPOINT
+   +0x04c ptMouseMove      : tagPOINT
+   +0x054 afKeyRecentDown  : [32] UChar
+   +0x074 afKeyState       : [64] UChar
+   +0x0b4 caret            : tagCARET
+   +0x0ec spcurCurrent     : Ptr32 tagCURSOR
+   +0x0f0 iCursorLevel     : Int4B
+   +0x0f4 QF_flags         : Uint4B
+   +0x0f8 cThreads         : Uint2B
+   +0x0fa cLockCount       : Uint2B
+   +0x0fc msgJournal       : Uint4B
+   +0x100 ExtraInfo        : Int4B
+   +0x104 ulEtwReserved1   : Uint4B
+kd> dt win32k!tagKL
+   +0x000 head             : _HEAD
+   +0x008 pklNext          : Ptr32 tagKL
+   +0x00c pklPrev          : Ptr32 tagKL
+   +0x010 dwKL_Flags       : Uint4B
+   +0x014 hkl              : Ptr32 HKL__
+   +0x018 spkf             : Ptr32 tagKBDFILE
+   +0x01c spkfPrimary      : Ptr32 tagKBDFILE
+   +0x020 dwFontSigs       : Uint4B
+   +0x024 iBaseCharset     : Uint4B
+   +0x028 CodePage         : Uint2B
+   +0x02a wchDiacritic     : Wchar
+   +0x02c piiex            : Ptr32 tagIMEINFOEX
+   +0x030 uNumTbl          : Uint4B
+   +0x034 pspkfExtra       : Ptr32 Ptr32 tagKBDFILE
+   +0x038 dwLastKbdType    : Uint4B
+   +0x03c dwLastKbdSubType : Uint4B
+   +0x040 dwKLID           : Uint4B
+kd> dt win32k!tagDESKTOP
+   +0x000 dwSessionId      : Uint4B
+   +0x004 pDeskInfo        : Ptr32 tagDESKTOPINFO
+   +0x008 pDispInfo        : Ptr32 tagDISPLAYINFO
+   +0x00c rpdeskNext       : Ptr32 tagDESKTOP
+   +0x010 rpwinstaParent   : Ptr32 tagWINDOWSTATION
+   +0x014 dwDTFlags        : Uint4B
+   +0x018 dwDesktopId      : Uint4B
+   +0x01c spmenuSys        : Ptr32 tagMENU
+   +0x020 spmenuDialogSys  : Ptr32 tagMENU
+   +0x024 spmenuHScroll    : Ptr32 tagMENU
+   +0x028 spmenuVScroll    : Ptr32 tagMENU
+   +0x02c spwndForeground  : Ptr32 tagWND
+   +0x030 spwndTray        : Ptr32 tagWND
+   +0x034 spwndMessage     : Ptr32 tagWND
+   +0x038 spwndTooltip     : Ptr32 tagWND
+   +0x03c hsectionDesktop  : Ptr32 Void
+   +0x040 pheapDesktop     : Ptr32 tagWIN32HEAP
+   +0x044 ulHeapSize       : Uint4B
+   +0x048 cciConsole       : _CONSOLE_CARET_INFO
+   +0x05c PtiList          : _LIST_ENTRY
+   +0x064 spwndTrack       : Ptr32 tagWND
+   +0x068 htEx             : Int4B
+   +0x06c rcMouseHover     : tagRECT
+   +0x07c dwMouseHoverTime : Uint4B
+   +0x080 pMagInputTransform : Ptr32 _MAGNIFICATION_INPUT_TRANSFORM
+kd> dt win32k!tagDESKTOPINFO
+   +0x000 pvDesktopBase    : Ptr32 Void
+   +0x004 pvDesktopLimit   : Ptr32 Void
+   +0x008 spwnd            : Ptr32 tagWND
+   +0x00c fsHooks          : Uint4B
+   +0x010 aphkStart        : [16] Ptr32 tagHOOK
+   +0x050 spwndShell       : Ptr32 tagWND
+   +0x054 ppiShellProcess  : Ptr32 tagPROCESSINFO
+   +0x058 spwndBkGnd       : Ptr32 tagWND
+   +0x05c spwndTaskman     : Ptr32 tagWND
+   +0x060 spwndProgman     : Ptr32 tagWND
+   +0x064 pvwplShellHook   : Ptr32 VWPL
+   +0x068 cntMBox          : Int4B
+   +0x06c spwndGestureEngine : Ptr32 tagWND
+   +0x070 pvwplMessagePPHandler : Ptr32 VWPL
+   +0x074 fComposited      : Pos 0, 1 Bit
+   +0x074 fIsDwmDesktop    : Pos 1, 1 Bit
+kd> dt win32k!tagCLIENTINFO
+   +0x000 CI_flags         : Uint4B
+   +0x004 cSpins           : Uint4B
+   +0x008 dwExpWinVer      : Uint4B
+   +0x00c dwCompatFlags    : Uint4B
+   +0x010 dwCompatFlags2   : Uint4B
+   +0x014 dwTIFlags        : Uint4B
+   +0x018 pDeskInfo        : Ptr32 tagDESKTOPINFO
+   +0x01c ulClientDelta    : Uint4B
+   +0x020 phkCurrent       : Ptr32 tagHOOK
+   +0x024 fsHooks          : Uint4B
+   +0x028 CallbackWnd      : _CALLBACKWND
+   +0x034 dwHookCurrent    : Uint4B
+   +0x038 cInDDEMLCallback : Int4B
+   +0x03c pClientThreadInfo : Ptr32 tagCLIENTTHREADINFO
+   +0x040 dwHookData       : Uint4B
+   +0x044 dwKeyCache       : Uint4B
+   +0x048 afKeyState       : [8] UChar
+   +0x050 dwAsyncKeyCache  : Uint4B
+   +0x054 afAsyncKeyState  : [8] UChar
+   +0x05c afAsyncKeyStateRecentDown : [8] UChar
+   +0x064 hKL              : Ptr32 HKL__
+   +0x068 CodePage         : Uint2B
+   +0x06a achDbcsCF        : [2] UChar
+   +0x06c msgDbcsCB        : tagMSG
+   +0x088 lpdwRegisteredClasses : Ptr32 Uint4B
+kd> dt win32k!tagSMS
+   +0x000 psmsNext         : Ptr32 tagSMS
+   +0x004 psmsReceiveNext  : Ptr32 tagSMS
+   +0x008 ptiSender        : Ptr32 tagTHREADINFO
+   +0x00c ptiReceiver      : Ptr32 tagTHREADINFO
+   +0x010 lpResultCallBack : Ptr32     void 
+   +0x014 dwData           : Uint4B
+   +0x018 ptiCallBackSender : Ptr32 tagTHREADINFO
+   +0x01c lRet             : Int4B
+   +0x020 tSent            : Uint4B
+   +0x024 flags            : Uint4B
+   +0x028 wParam           : Uint4B
+   +0x02c lParam           : Int4B
+   +0x030 message          : Uint4B
+   +0x034 spwnd            : Ptr32 tagWND
+   +0x038 pvCapture        : Ptr32 Void
+kd> dt win32k!HDESK__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagMENUSTATE
+   +0x000 pGlobalPopupMenu : Ptr32 tagPOPUPMENU
+   +0x004 fMenuStarted     : Pos 0, 1 Bit
+   +0x004 fIsSysMenu       : Pos 1, 1 Bit
+   +0x004 fInsideMenuLoop  : Pos 2, 1 Bit
+   +0x004 fButtonDown      : Pos 3, 1 Bit
+   +0x004 fInEndMenu       : Pos 4, 1 Bit
+   +0x004 fUnderline       : Pos 5, 1 Bit
+   +0x004 fButtonAlwaysDown : Pos 6, 1 Bit
+   +0x004 fDragging        : Pos 7, 1 Bit
+   +0x004 fModelessMenu    : Pos 8, 1 Bit
+   +0x004 fInCallHandleMenuMessages : Pos 9, 1 Bit
+   +0x004 fDragAndDrop     : Pos 10, 1 Bit
+   +0x004 fAutoDismiss     : Pos 11, 1 Bit
+   +0x004 fAboutToAutoDismiss : Pos 12, 1 Bit
+   +0x004 fIgnoreButtonUp  : Pos 13, 1 Bit
+   +0x004 fMouseOffMenu    : Pos 14, 1 Bit
+   +0x004 fInDoDragDrop    : Pos 15, 1 Bit
+   +0x004 fActiveNoForeground : Pos 16, 1 Bit
+   +0x004 fNotifyByPos     : Pos 17, 1 Bit
+   +0x004 fSetCapture      : Pos 18, 1 Bit
+   +0x004 iAniDropDir      : Pos 19, 5 Bits
+   +0x008 ptMouseLast      : tagPOINT
+   +0x010 mnFocus          : Int4B
+   +0x014 cmdLast          : Int4B
+   +0x018 ptiMenuStateOwner : Ptr32 tagTHREADINFO
+   +0x01c dwLockCount      : Uint4B
+   +0x020 pmnsPrev         : Ptr32 tagMENUSTATE
+   +0x024 ptButtonDown     : tagPOINT
+   +0x02c uButtonDownHitArea : Uint4B
+   +0x030 uButtonDownIndex : Uint4B
+   +0x034 vkButtonDown     : Int4B
+   +0x038 uDraggingHitArea : Uint4B
+   +0x03c uDraggingIndex   : Uint4B
+   +0x040 uDraggingFlags   : Uint4B
+   +0x044 hdcWndAni        : Ptr32 HDC__
+   +0x048 dwAniStartTime   : Uint4B
+   +0x04c ixAni            : Int4B
+   +0x050 iyAni            : Int4B
+   +0x054 cxAni            : Int4B
+   +0x058 cyAni            : Int4B
+   +0x05c hbmAni           : Ptr32 HBITMAP__
+   +0x060 hdcAni           : Ptr32 HDC__
+kd> dt win32k!tagTDB
+   +0x000 ptdbNext         : Ptr32 tagTDB
+   +0x004 nEvents          : Int4B
+   +0x008 nPriority        : Int4B
+   +0x00c pti              : Ptr32 tagTHREADINFO
+   +0x010 pwti             : Ptr32 tagWOWTHREADINFO
+   +0x014 hTaskWow         : Uint2B
+   +0x016 TDB_Flags        : Uint2B
+kd> dt win32k!tagWINDOWSTATION
+   +0x000 dwSessionId      : Uint4B
+   +0x004 rpwinstaNext     : Ptr32 tagWINDOWSTATION
+   +0x008 rpdeskList       : Ptr32 tagDESKTOP
+   +0x00c pTerm            : Ptr32 tagTERMINAL
+   +0x010 dwWSF_Flags      : Uint4B
+   +0x014 spklList         : Ptr32 tagKL
+   +0x018 ptiClipLock      : Ptr32 tagTHREADINFO
+   +0x01c ptiDrawingClipboard : Ptr32 tagTHREADINFO
+   +0x020 spwndClipOpen    : Ptr32 tagWND
+   +0x024 spwndClipViewer  : Ptr32 tagWND
+   +0x028 spwndClipOwner   : Ptr32 tagWND
+   +0x02c pClipBase        : Ptr32 tagCLIP
+   +0x030 cNumClipFormats  : Uint4B
+   +0x034 iClipSerialNumber : Uint4B
+   +0x038 iClipSequenceNumber : Uint4B
+   +0x03c spwndClipboardListener : Ptr32 tagWND
+   +0x040 pGlobalAtomTable : Ptr32 Void
+   +0x044 luidEndSession   : _LUID
+   +0x04c luidUser         : _LUID
+   +0x054 psidUser         : Ptr32 Void
+kd> dt win32k!tagSVR_INSTANCE_INFO
+   +0x000 head             : _THROBJHEAD
+   +0x00c next             : Ptr32 tagSVR_INSTANCE_INFO
+   +0x010 nextInThisThread : Ptr32 tagSVR_INSTANCE_INFO
+   +0x014 afCmd            : Uint4B
+   +0x018 spwndEvent       : Ptr32 tagWND
+   +0x01c pcii             : Ptr32 Void
+kd> dt win32k!_MOVESIZEDATA
+   +0x000 spwnd            : Ptr32 tagWND
+   +0x004 rcDrag           : tagRECT
+   +0x014 rcDragCursor     : tagRECT
+   +0x024 rcPreview        : tagRECT
+   +0x034 rcPreviewCursor  : tagRECT
+   +0x044 rcParent         : tagRECT
+   +0x054 ptMinTrack       : tagPOINT
+   +0x05c ptMaxTrack       : tagPOINT
+   +0x064 rcWindow         : tagRECT
+   +0x074 rcNormalStartCheckPt : tagRECT
+   +0x084 dxMouse          : Int4B
+   +0x088 dyMouse          : Int4B
+   +0x08c cmd              : Int4B
+   +0x090 impx             : Int4B
+   +0x094 impy             : Int4B
+   +0x098 ptRestore        : tagPOINT
+   +0x0a0 Flags            : Uint4B
+   +0x0a0 fInitSize        : Pos 0, 1 Bit
+   +0x0a0 fmsKbd           : Pos 1, 1 Bit
+   +0x0a0 fLockWindowUpdate : Pos 2, 1 Bit
+   +0x0a0 fTrackCancelled  : Pos 3, 1 Bit
+   +0x0a0 fForeground      : Pos 4, 1 Bit
+   +0x0a0 fDragFullWindows : Pos 5, 1 Bit
+   +0x0a0 fOffScreen       : Pos 6, 1 Bit
+   +0x0a0 fMoveFromMax     : Pos 7, 1 Bit
+   +0x0a0 fVerticallyMaximizedLeft : Pos 8, 1 Bit
+   +0x0a0 fVerticallyMaximizedRight : Pos 9, 1 Bit
+   +0x0a0 fSnapSizing      : Pos 10, 1 Bit
+   +0x0a0 fSnapMoving      : Pos 11, 1 Bit
+   +0x0a0 fWindowWasSuperMaximized : Pos 12, 1 Bit
+   +0x0a0 fStartVerticallyMaximizedLeft : Pos 13, 1 Bit
+   +0x0a0 fStartVerticallyMaximizedRight : Pos 14, 1 Bit
+   +0x0a0 fThresholdSelector : Pos 15, 3 Bits
+   +0x0a0 fCheckPtForcefullyRestored : Pos 18, 1 Bit
+   +0x0a0 fForceSizing     : Pos 19, 1 Bit
+   +0x0a0 fIsMoveSizeLoop  : Pos 20, 1 Bit
+   +0x0a0 fIsHitPtOffScreen : Pos 21, 1 Bit
+   +0x0a0 fSnapSizingTemporaryAllowed : Pos 22, 1 Bit
+   +0x0a0 fSnapMovingTemporaryAllowed : Pos 23, 1 Bit
+   +0x0a0 frcNormalCheckPtValid : Pos 24, 1 Bit
+   +0x0a0 fHasPreviewRect  : Pos 25, 1 Bit
+   +0x0a0 fUsePreviewRect  : Pos 26, 1 Bit
+   +0x0a0 fHasSoftwareCursor : Pos 27, 1 Bit
+   +0x0a0 Unused           : Pos 28, 4 Bits
+   +0x0a4 pStartMonitorCurrentHitTarget : Ptr32 tagMONITOR
+   +0x0a8 StartCurrentHitTarget : eTHRESHOLD_MARGIN_DIRECTION
+   +0x0ac pMonitorCurrentHitTarget : Ptr32 tagMONITOR
+   +0x0b0 CurrentHitTarget : eTHRESHOLD_MARGIN_DIRECTION
+   +0x0b4 MoveRectStyle    : _MOVERECT_STYLE
+   +0x0b8 ptHitWindowRelative : tagPOINT
+   +0x0c0 ptStartHitWindowRelative : tagPOINT
+   +0x0c8 ptLastTrack      : tagPOINT
+   +0x0d0 ulCountDragOutOfTopTarget : Uint4B
+   +0x0d4 ulCountDragOutOfLeftRightTarget : Uint4B
+   +0x0d8 ulCountSizeOutOfTopBottomTarget : Uint4B
+kd> dt win32k!tagHOOK
+   +0x000 head             : _THRDESKHEAD
+   +0x014 phkNext          : Ptr32 tagHOOK
+   +0x018 iHook            : Int4B
+   +0x01c offPfn           : Uint4B
+   +0x020 flags            : Uint4B
+   +0x024 ihmod            : Int4B
+   +0x028 ptiHooked        : Ptr32 tagTHREADINFO
+   +0x02c rpdesk           : Ptr32 tagDESKTOP
+   +0x030 nTimeout         : Pos 0, 7 Bits
+   +0x030 fLastHookHung    : Pos 7, 1 Bit
+kd> dt win32k!tagSBTRACK
+   +0x000 fHitOld          : Pos 0, 1 Bit
+   +0x000 fTrackVert       : Pos 1, 1 Bit
+   +0x000 fCtlSB           : Pos 2, 1 Bit
+   +0x000 fTrackRecalc     : Pos 3, 1 Bit
+   +0x004 spwndTrack       : Ptr32 tagWND
+   +0x008 spwndSB          : Ptr32 tagWND
+   +0x00c spwndSBNotify    : Ptr32 tagWND
+   +0x010 rcTrack          : tagRECT
+   +0x020 xxxpfnSB         : Ptr32     void 
+   +0x024 cmdSB            : Uint4B
+   +0x028 hTimerSB         : Uint4B
+   +0x02c dpxThumb         : Int4B
+   +0x030 pxOld            : Int4B
+   +0x034 posOld           : Int4B
+   +0x038 posNew           : Int4B
+   +0x03c nBar             : Int4B
+   +0x040 pSBCalc          : Ptr32 tagSBCALC
+kd> dt win32k!tagPOINT
+   +0x000 x                : Int4B
+   +0x004 y                : Int4B
+kd> dt win32k!tagWND
+   +0x000 head             : _THRDESKHEAD
+   +0x014 state            : Uint4B
+   +0x014 bHasMeun         : Pos 0, 1 Bit
+   +0x014 bHasVerticalScrollbar : Pos 1, 1 Bit
+   +0x014 bHasHorizontalScrollbar : Pos 2, 1 Bit
+   +0x014 bHasCaption      : Pos 3, 1 Bit
+   +0x014 bSendSizeMoveMsgs : Pos 4, 1 Bit
+   +0x014 bMsgBox          : Pos 5, 1 Bit
+   +0x014 bActiveFrame     : Pos 6, 1 Bit
+   +0x014 bHasSPB          : Pos 7, 1 Bit
+   +0x014 bNoNCPaint       : Pos 8, 1 Bit
+   +0x014 bSendEraseBackground : Pos 9, 1 Bit
+   +0x014 bEraseBackground : Pos 10, 1 Bit
+   +0x014 bSendNCPaint     : Pos 11, 1 Bit
+   +0x014 bInternalPaint   : Pos 12, 1 Bit
+   +0x014 bUpdateDirty     : Pos 13, 1 Bit
+   +0x014 bHiddenPopup     : Pos 14, 1 Bit
+   +0x014 bForceMenuDraw   : Pos 15, 1 Bit
+   +0x014 bDialogWindow    : Pos 16, 1 Bit
+   +0x014 bHasCreatestructName : Pos 17, 1 Bit
+   +0x014 bServerSideWindowProc : Pos 18, 1 Bit
+   +0x014 bAnsiWindowProc  : Pos 19, 1 Bit
+   +0x014 bBeingActivated  : Pos 20, 1 Bit
+   +0x014 bHasPalette      : Pos 21, 1 Bit
+   +0x014 bPaintNotProcessed : Pos 22, 1 Bit
+   +0x014 bSyncPaintPending : Pos 23, 1 Bit
+   +0x014 bRecievedQuerySuspendMsg : Pos 24, 1 Bit
+   +0x014 bRecievedSuspendMsg : Pos 25, 1 Bit
+   +0x014 bToggleTopmost   : Pos 26, 1 Bit
+   +0x014 bRedrawIfHung    : Pos 27, 1 Bit
+   +0x014 bRedrawFrameIfHung : Pos 28, 1 Bit
+   +0x014 bAnsiCreator     : Pos 29, 1 Bit
+   +0x014 bMaximizesToMonitor : Pos 30, 1 Bit
+   +0x014 bDestroyed       : Pos 31, 1 Bit
+   +0x018 state2           : Uint4B
+   +0x018 bWMPaintSent     : Pos 0, 1 Bit
+   +0x018 bEndPaintInvalidate : Pos 1, 1 Bit
+   +0x018 bStartPaint      : Pos 2, 1 Bit
+   +0x018 bOldUI           : Pos 3, 1 Bit
+   +0x018 bHasClientEdge   : Pos 4, 1 Bit
+   +0x018 bBottomMost      : Pos 5, 1 Bit
+   +0x018 bFullScreen      : Pos 6, 1 Bit
+   +0x018 bInDestroy       : Pos 7, 1 Bit
+   +0x018 bWin31Compat     : Pos 8, 1 Bit
+   +0x018 bWin40Compat     : Pos 9, 1 Bit
+   +0x018 bWin50Compat     : Pos 10, 1 Bit
+   +0x018 bMaximizeMonitorRegion : Pos 11, 1 Bit
+   +0x018 bCloseButtonDown : Pos 12, 1 Bit
+   +0x018 bMaximizeButtonDown : Pos 13, 1 Bit
+   +0x018 bMinimizeButtonDown : Pos 14, 1 Bit
+   +0x018 bHelpButtonDown  : Pos 15, 1 Bit
+   +0x018 bScrollBarLineUpBtnDown : Pos 16, 1 Bit
+   +0x018 bScrollBarPageUpBtnDown : Pos 17, 1 Bit
+   +0x018 bScrollBarPageDownBtnDown : Pos 18, 1 Bit
+   +0x018 bScrollBarLineDownBtnDown : Pos 19, 1 Bit
+   +0x018 bAnyScrollButtonDown : Pos 20, 1 Bit
+   +0x018 bScrollBarVerticalTracking : Pos 21, 1 Bit
+   +0x018 bForceNCPaint    : Pos 22, 1 Bit
+   +0x018 bForceFullNCPaintClipRgn : Pos 23, 1 Bit
+   +0x018 FullScreenMode   : Pos 24, 3 Bits
+   +0x018 bCaptionTextTruncated : Pos 27, 1 Bit
+   +0x018 bNoMinmaxAnimatedRects : Pos 28, 1 Bit
+   +0x018 bSmallIconFromWMQueryDrag : Pos 29, 1 Bit
+   +0x018 bShellHookRegistered : Pos 30, 1 Bit
+   +0x018 bWMCreateMsgProcessed : Pos 31, 1 Bit
+   +0x01c ExStyle          : Uint4B
+   +0x01c bWS_EX_DLGMODALFRAME : Pos 0, 1 Bit
+   +0x01c bUnused1         : Pos 1, 1 Bit
+   +0x01c bWS_EX_NOPARENTNOTIFY : Pos 2, 1 Bit
+   +0x01c bWS_EX_TOPMOST   : Pos 3, 1 Bit
+   +0x01c bWS_EX_ACCEPTFILE : Pos 4, 1 Bit
+   +0x01c bWS_EX_TRANSPARENT : Pos 5, 1 Bit
+   +0x01c bWS_EX_MDICHILD  : Pos 6, 1 Bit
+   +0x01c bWS_EX_TOOLWINDOW : Pos 7, 1 Bit
+   +0x01c bWS_EX_WINDOWEDGE : Pos 8, 1 Bit
+   +0x01c bWS_EX_CLIENTEDGE : Pos 9, 1 Bit
+   +0x01c bWS_EX_CONTEXTHELP : Pos 10, 1 Bit
+   +0x01c bMakeVisibleWhenUnghosted : Pos 11, 1 Bit
+   +0x01c bWS_EX_RIGHT     : Pos 12, 1 Bit
+   +0x01c bWS_EX_RTLREADING : Pos 13, 1 Bit
+   +0x01c bWS_EX_LEFTSCROLLBAR : Pos 14, 1 Bit
+   +0x01c bUnused2         : Pos 15, 1 Bit
+   +0x01c bWS_EX_CONTROLPARENT : Pos 16, 1 Bit
+   +0x01c bWS_EX_STATICEDGE : Pos 17, 1 Bit
+   +0x01c bWS_EX_APPWINDOW : Pos 18, 1 Bit
+   +0x01c bWS_EX_LAYERED   : Pos 19, 1 Bit
+   +0x01c bWS_EX_NOINHERITLAYOUT : Pos 20, 1 Bit
+   +0x01c bUnused3         : Pos 21, 1 Bit
+   +0x01c bWS_EX_LAYOUTRTL : Pos 22, 1 Bit
+   +0x01c bWS_EX_NOPADDEDBORDER : Pos 23, 1 Bit
+   +0x01c bUnused4         : Pos 24, 1 Bit
+   +0x01c bWS_EX_COMPOSITED : Pos 25, 1 Bit
+   +0x01c bUIStateActive   : Pos 26, 1 Bit
+   +0x01c bWS_EX_NOACTIVATE : Pos 27, 1 Bit
+   +0x01c bWS_EX_COMPOSITEDCompositing : Pos 28, 1 Bit
+   +0x01c bRedirected      : Pos 29, 1 Bit
+   +0x01c bUIStateKbdAccelHidden : Pos 30, 1 Bit
+   +0x01c bUIStateFocusRectHidden : Pos 31, 1 Bit
+   +0x020 style            : Uint4B
+   +0x020 bReserved1       : Pos 0, 16 Bits
+   +0x020 bWS_MAXIMIZEBOX  : Pos 16, 1 Bit
+   +0x020 bReserved2       : Pos 0, 16 Bits
+   +0x020 bWS_TABSTOP      : Pos 16, 1 Bit
+   +0x020 bReserved3       : Pos 0, 16 Bits
+   +0x020 bUnused5         : Pos 16, 1 Bit
+   +0x020 bWS_MINIMIZEBOX  : Pos 17, 1 Bit
+   +0x020 bReserved4       : Pos 0, 16 Bits
+   +0x020 bUnused6         : Pos 16, 1 Bit
+   +0x020 bWS_GROUP        : Pos 17, 1 Bit
+   +0x020 bReserved5       : Pos 0, 16 Bits
+   +0x020 bUnused7         : Pos 16, 2 Bits
+   +0x020 bWS_THICKFRAME   : Pos 18, 1 Bit
+   +0x020 bReserved6       : Pos 0, 16 Bits
+   +0x020 bUnused8         : Pos 16, 2 Bits
+   +0x020 bWS_SIZEBOX      : Pos 18, 1 Bit
+   +0x020 bReserved7       : Pos 0, 16 Bits
+   +0x020 bUnused9         : Pos 16, 3 Bits
+   +0x020 bWS_SYSMENU      : Pos 19, 1 Bit
+   +0x020 bWS_HSCROLL      : Pos 20, 1 Bit
+   +0x020 bWS_VSCROLL      : Pos 21, 1 Bit
+   +0x020 bWS_DLGFRAME     : Pos 22, 1 Bit
+   +0x020 bWS_BORDER       : Pos 23, 1 Bit
+   +0x020 bMaximized       : Pos 24, 1 Bit
+   +0x020 bWS_CLIPCHILDREN : Pos 25, 1 Bit
+   +0x020 bWS_CLIPSIBLINGS : Pos 26, 1 Bit
+   +0x020 bDisabled        : Pos 27, 1 Bit
+   +0x020 bVisible         : Pos 28, 1 Bit
+   +0x020 bMinimized       : Pos 29, 1 Bit
+   +0x020 bWS_CHILD        : Pos 30, 1 Bit
+   +0x020 bWS_POPUP        : Pos 31, 1 Bit
+   +0x024 hModule          : Ptr32 Void
+   +0x028 hMod16           : Uint2B
+   +0x02a fnid             : Uint2B
+   +0x02c spwndNext        : Ptr32 tagWND
+   +0x030 spwndPrev        : Ptr32 tagWND
+   +0x034 spwndParent      : Ptr32 tagWND
+   +0x038 spwndChild       : Ptr32 tagWND
+   +0x03c spwndOwner       : Ptr32 tagWND
+   +0x040 rcWindow         : tagRECT
+   +0x050 rcClient         : tagRECT
+   +0x060 lpfnWndProc      : Ptr32     long 
+   +0x064 pcls             : Ptr32 tagCLS
+   +0x068 hrgnUpdate       : Ptr32 HRGN__
+   +0x06c ppropList        : Ptr32 tagPROPLIST
+   +0x070 pSBInfo          : Ptr32 tagSBINFO
+   +0x074 spmenuSys        : Ptr32 tagMENU
+   +0x078 spmenu           : Ptr32 tagMENU
+   +0x07c hrgnClip         : Ptr32 HRGN__
+   +0x080 hrgnNewFrame     : Ptr32 HRGN__
+   +0x084 strName          : _LARGE_UNICODE_STRING
+   +0x090 cbwndExtra       : Int4B
+   +0x094 spwndLastActive  : Ptr32 tagWND
+   +0x098 hImc             : Ptr32 HIMC__
+   +0x09c dwUserData       : Uint4B
+   +0x0a0 pActCtx          : Ptr32 _ACTIVATION_CONTEXT
+   +0x0a4 pTransform       : Ptr32 _D3DMATRIX
+   +0x0a8 spwndClipboardListenerNext : Ptr32 tagWND
+   +0x0ac ExStyle2         : Uint4B
+   +0x0ac bClipboardListener : Pos 0, 1 Bit
+   +0x0ac bLayeredInvalidate : Pos 1, 1 Bit
+   +0x0ac bRedirectedForPrint : Pos 2, 1 Bit
+   +0x0ac bLinked          : Pos 3, 1 Bit
+   +0x0ac bLayeredForDWM   : Pos 4, 1 Bit
+   +0x0ac bLayeredLimbo    : Pos 5, 1 Bit
+   +0x0ac bHIGHDPI_UNAWARE_Unused : Pos 6, 1 Bit
+   +0x0ac bVerticallyMaximizedLeft : Pos 7, 1 Bit
+   +0x0ac bVerticallyMaximizedRight : Pos 8, 1 Bit
+   +0x0ac bHasOverlay      : Pos 9, 1 Bit
+   +0x0ac bConsoleWindow   : Pos 10, 1 Bit
+   +0x0ac bChildNoActivate : Pos 11, 1 Bit
+kd> dt win32k!tagIMC
+   +0x000 head             : _THRDESKHEAD
+   +0x014 pImcNext         : Ptr32 tagIMC
+   +0x018 dwClientImcData  : Uint4B
+   +0x01c hImeWnd          : Ptr32 HWND__
+kd> dt win32k!HKL__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagMLIST
+   +0x000 pqmsgRead        : Ptr32 tagQMSG
+   +0x004 pqmsgWriteLast   : Ptr32 tagQMSG
+   +0x008 cMsgs            : Uint4B
+kd> dt win32k!HTOUCHINPUT__
+   +0x000 unused           : Int4B
+kd> dt win32k!HGESTUREINFO__
+   +0x000 unused           : Int4B
+kd> dt win32k!_W32PROCESS
+   +0x000 Process          : Ptr32 _EPROCESS
+   +0x004 RefCount         : Uint4B
+   +0x008 W32PF_Flags      : Uint4B
+   +0x00c InputIdleEvent   : Ptr32 _KEVENT
+   +0x010 StartCursorHideTime : Uint4B
+   +0x014 NextStart        : Ptr32 _W32PROCESS
+   +0x018 pDCAttrList      : Ptr32 Void
+   +0x01c pBrushAttrList   : Ptr32 Void
+   +0x020 W32Pid           : Uint4B
+   +0x024 GDIHandleCount   : Int4B
+   +0x028 GDIHandleCountPeak : Uint4B
+   +0x02c UserHandleCount  : Int4B
+   +0x030 UserHandleCountPeak : Uint4B
+   +0x034 GDIPushLock      : _EX_PUSH_LOCK
+   +0x038 GDIEngUserMemAllocTable : _RTL_AVL_TABLE
+   +0x070 GDIDcAttrFreeList : _LIST_ENTRY
+   +0x078 GDIBrushAttrFreeList : _LIST_ENTRY
+   +0x080 GDIW32PIDLockedBitmaps : _LIST_ENTRY
+   +0x088 hSecureGdiSharedHandleTable : Ptr32 Void
+   +0x08c DxProcess        : Ptr32 Void
+kd> dt win32k!_RTL_AVL_TABLE
+   +0x000 BalancedRoot     : _RTL_BALANCED_LINKS
+   +0x010 OrderedPointer   : Ptr32 Void
+   +0x014 WhichOrderedElement : Uint4B
+   +0x018 NumberGenericTableElements : Uint4B
+   +0x01c DepthOfTree      : Uint4B
+   +0x020 RestartKey       : Ptr32 _RTL_BALANCED_LINKS
+   +0x024 DeleteCount      : Uint4B
+   +0x028 CompareRoutine   : Ptr32     _RTL_GENERIC_COMPARE_RESULTS 
+   +0x02c AllocateRoutine  : Ptr32     void* 
+   +0x030 FreeRoutine      : Ptr32     void 
+   +0x034 TableContext     : Ptr32 Void
+kd> dt win32k!tagCLS
+   +0x000 pclsNext         : Ptr32 tagCLS
+   +0x004 atomClassName    : Uint2B
+   +0x006 atomNVClassName  : Uint2B
+   +0x008 fnid             : Uint2B
+   +0x00c rpdeskParent     : Ptr32 tagDESKTOP
+   +0x010 pdce             : Ptr32 tagDCE
+   +0x014 hTaskWow         : Uint2B
+   +0x016 CSF_flags        : Uint2B
+   +0x018 lpszClientAnsiMenuName : Ptr32 Char
+   +0x01c lpszClientUnicodeMenuName : Ptr32 Uint2B
+   +0x020 spcpdFirst       : Ptr32 _CALLPROCDATA
+   +0x024 pclsBase         : Ptr32 tagCLS
+   +0x028 pclsClone        : Ptr32 tagCLS
+   +0x02c cWndReferenceCount : Int4B
+   +0x030 style            : Uint4B
+   +0x034 lpfnWndProc      : Ptr32     long 
+   +0x038 cbclsExtra       : Int4B
+   +0x03c cbwndExtra       : Int4B
+   +0x040 hModule          : Ptr32 Void
+   +0x044 spicn            : Ptr32 tagCURSOR
+   +0x048 spcur            : Ptr32 tagCURSOR
+   +0x04c hbrBackground    : Ptr32 HBRUSH__
+   +0x050 lpszMenuName     : Ptr32 Uint2B
+   +0x054 lpszAnsiClassName : Ptr32 Char
+   +0x058 spicnSm          : Ptr32 tagCURSOR
+kd> dt win32k!tagWOWPROCESSINFO
+   +0x000 pwpiNext         : Ptr32 tagWOWPROCESSINFO
+   +0x004 ptiScheduled     : Ptr32 tagTHREADINFO
+   +0x008 ptdbHead         : Ptr32 tagTDB
+   +0x00c lpfnWowExitTask  : Ptr32 Void
+   +0x010 pEventWowExec    : Ptr32 _KEVENT
+   +0x014 hEventWowExecClient : Ptr32 Void
+   +0x018 nSendLock        : Uint4B
+   +0x01c nRecvLock        : Uint4B
+   +0x020 CSOwningThread   : Ptr32 tagTHREADINFO
+   +0x024 CSLockCount      : Int4B
+kd> dt win32k!HWINSTA__
+   +0x000 unused           : Int4B
+kd> dt win32k!HMONITOR__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagDESKTOPVIEW
+   +0x000 pdvNext          : Ptr32 tagDESKTOPVIEW
+   +0x004 pdesk            : Ptr32 tagDESKTOP
+   +0x008 ulClientDelta    : Uint4B
+kd> dt win32k!_RTL_BITMAP
+   +0x000 SizeOfBitMap     : Uint4B
+   +0x004 Buffer           : Ptr32 Uint4B
+kd> dt win32k!tagCURSOR
+   +0x000 head             : _PROCMARKHEAD
+   +0x010 pcurNext         : Ptr32 tagCURSOR
+   +0x014 strName          : _UNICODE_STRING
+   +0x01c atomModName      : Uint2B
+   +0x01e rt               : Uint2B
+   +0x020 CURSORF_flags    : Uint4B
+   +0x024 xHotspot         : Int2B
+   +0x026 yHotspot         : Int2B
+   +0x028 hbmMask          : Ptr32 HBITMAP__
+   +0x02c hbmColor         : Ptr32 HBITMAP__
+   +0x030 hbmAlpha         : Ptr32 HBITMAP__
+   +0x034 rcBounds         : tagRECT
+   +0x044 hbmUserAlpha     : Ptr32 HBITMAP__
+   +0x048 bpp              : Uint4B
+   +0x04c cx               : Uint4B
+   +0x050 cy               : Uint4B
+kd> dt win32k!tagW32JOB
+   +0x000 pNext            : Ptr32 tagW32JOB
+   +0x004 Job              : Ptr32 _EJOB
+   +0x008 pAtomTable       : Ptr32 Void
+   +0x00c restrictions     : Uint4B
+   +0x010 uProcessCount    : Uint4B
+   +0x014 uMaxProcesses    : Uint4B
+   +0x018 ppiTable         : Ptr32 Ptr32 tagPROCESSINFO
+   +0x01c ughCrt           : Uint4B
+   +0x020 ughMax           : Uint4B
+   +0x024 pgh              : Ptr32 Uint4B
+kd> dt win32k!tagUSERSTARTUPINFO
+   +0x000 cb               : Uint4B
+   +0x004 dwX              : Uint4B
+   +0x008 dwY              : Uint4B
+   +0x00c dwXSize          : Uint4B
+   +0x010 dwYSize          : Uint4B
+   +0x014 dwFlags          : Uint4B
+   +0x018 wShowWindow      : Uint2B
+   +0x01a cbReserved2      : Uint2B
+kd> dt win32k!tagPROCESS_HID_TABLE
+   +0x000 link             : _LIST_ENTRY
+   +0x008 InclusionList    : _LIST_ENTRY
+   +0x010 UsagePageList    : _LIST_ENTRY
+   +0x018 ExclusionList    : _LIST_ENTRY
+   +0x020 spwndTargetMouse : Ptr32 tagWND
+   +0x024 spwndTargetKbd   : Ptr32 tagWND
+   +0x028 nSinks           : Int4B
+   +0x02c pLastRequest     : Ptr32 tagPROCESS_HID_REQUEST
+   +0x030 UsagePageLast    : Uint2B
+   +0x032 UsageLast        : Uint2B
+   +0x034 fRawMouse        : Pos 0, 1 Bit
+   +0x034 fNoLegacyMouse   : Pos 1, 1 Bit
+   +0x034 fRawMouseSink    : Pos 2, 1 Bit
+   +0x034 fExclusiveMouseSink : Pos 3, 1 Bit
+   +0x034 fRawKeyboard     : Pos 4, 1 Bit
+   +0x034 fNoLegacyKeyboard : Pos 5, 1 Bit
+   +0x034 fRawKeyboardSink : Pos 6, 1 Bit
+   +0x034 fExclusiveKeyboardSink : Pos 7, 1 Bit
+   +0x034 fCaptureMouse    : Pos 8, 1 Bit
+   +0x034 fNoHotKeys       : Pos 9, 1 Bit
+   +0x034 fAppKeys         : Pos 10, 1 Bit
+kd> dt win32k!VWPL
+   +0x000 cPwnd            : Uint4B
+   +0x004 cElem            : Uint4B
+   +0x008 cThreshhold      : Uint4B
+   +0x00c fTagged          : Int4B
+   +0x010 aElement         : [0] VWPLELEMENT
+kd> dt win32k!_CALLBACKWND
+   +0x000 hwnd             : Ptr32 HWND__
+   +0x004 pwnd             : Ptr32 tagWND
+   +0x008 pActCtx          : Ptr32 _ACTIVATION_CONTEXT
+kd> dt win32k!tagMSG
+   +0x000 hwnd             : Ptr32 HWND__
+   +0x004 message          : Uint4B
+   +0x008 wParam           : Uint4B
+   +0x00c lParam           : Int4B
+   +0x010 time             : Uint4B
+   +0x014 pt               : tagPOINT
+kd> dt win32k!tagKBDFILE
+   +0x000 head             : _HEAD
+   +0x008 pkfNext          : Ptr32 tagKBDFILE
+   +0x00c hBase            : Ptr32 Void
+   +0x010 pKbdTbl          : Ptr32 tagKbdLayer
+   +0x014 Size             : Uint4B
+   +0x018 pKbdNlsTbl       : Ptr32 tagKbdNlsLayer
+   +0x01c awchDllName      : [32] Wchar
+kd> dt win32k!tagIMEINFOEX
+   +0x000 hkl              : Ptr32 HKL__
+   +0x004 ImeInfo          : tagIMEINFO
+   +0x020 wszUIClass       : [16] Wchar
+   +0x040 fdwInitConvMode  : Uint4B
+   +0x044 fInitOpen        : Int4B
+   +0x048 fLoadFlag        : Int4B
+   +0x04c dwProdVersion    : Uint4B
+   +0x050 dwImeWinVersion  : Uint4B
+   +0x054 wszImeDescription : [50] Wchar
+   +0x0b8 wszImeFile       : [80] Wchar
+   +0x158 fSysWow64Only    : Pos 0, 1 Bit
+   +0x158 fCUASLayer       : Pos 1, 1 Bit
+kd> dt win32k!HWND__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagCARET
+   +0x000 spwnd            : Ptr32 tagWND
+   +0x004 fVisible         : Pos 0, 1 Bit
+   +0x004 fOn              : Pos 1, 1 Bit
+   +0x008 iHideLevel       : Int4B
+   +0x00c x                : Int4B
+   +0x010 y                : Int4B
+   +0x014 cy               : Int4B
+   +0x018 cx               : Int4B
+   +0x01c hBitmap          : Ptr32 HBITMAP__
+   +0x020 hTimer           : Uint4B
+   +0x024 tid              : Uint4B
+   +0x028 xOwnDc           : Int4B
+   +0x02c yOwnDc           : Int4B
+   +0x030 cxOwnDc          : Int4B
+   +0x034 cyOwnDc          : Int4B
+kd> dt win32k!_THRDESKHEAD
+   +0x000 h                : Ptr32 Void
+   +0x004 cLockObj         : Uint4B
+   +0x008 pti              : Ptr32 tagTHREADINFO
+   +0x00c rpdesk           : Ptr32 tagDESKTOP
+   +0x010 pSelf            : Ptr32 UChar
+kd> dt win32k!HRGN__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagPROPLIST
+   +0x000 cEntries         : Uint4B
+   +0x004 iFirstFree       : Uint4B
+   +0x008 aprop            : [1] tagPROP
+kd> dt win32k!tagSBINFO
+   +0x000 WSBflags         : Int4B
+   +0x004 Horz             : tagSBDATA
+   +0x014 Vert             : tagSBDATA
+kd> dt win32k!tagMENU
+   +0x000 head             : _PROCDESKHEAD
+   +0x014 fFlags           : Uint4B
+   +0x018 iItem            : Int4B
+   +0x01c cAlloced         : Uint4B
+   +0x020 cItems           : Uint4B
+   +0x024 cxMenu           : Uint4B
+   +0x028 cyMenu           : Uint4B
+   +0x02c cxTextAlign      : Uint4B
+   +0x030 spwndNotify      : Ptr32 tagWND
+   +0x034 rgItems          : Ptr32 tagITEM
+   +0x038 pParentMenus     : Ptr32 tagMENULIST
+   +0x03c dwContextHelpId  : Uint4B
+   +0x040 cyMax            : Uint4B
+   +0x044 dwMenuData       : Uint4B
+   +0x048 hbrBack          : Ptr32 HBRUSH__
+   +0x04c iTop             : Int4B
+   +0x050 iMaxTop          : Int4B
+   +0x054 dwArrowsOn       : Pos 0, 2 Bits
+   +0x058 umpm             : tagUAHMENUPOPUPMETRICS
+kd> dt win32k!_LARGE_UNICODE_STRING
+   +0x000 Length           : Uint4B
+   +0x004 MaximumLength    : Pos 0, 31 Bits
+   +0x004 bAnsi            : Pos 31, 1 Bit
+   +0x008 Buffer           : Ptr32 Uint2B
+kd> dt win32k!HIMC__
+   +0x000 unused           : Int4B
+kd> dt win32k!_D3DMATRIX
+   +0x000 _11              : Float
+   +0x004 _12              : Float
+   +0x008 _13              : Float
+   +0x00c _14              : Float
+   +0x010 _21              : Float
+   +0x014 _22              : Float
+   +0x018 _23              : Float
+   +0x01c _24              : Float
+   +0x020 _31              : Float
+   +0x024 _32              : Float
+   +0x028 _33              : Float
+   +0x02c _34              : Float
+   +0x030 _41              : Float
+   +0x034 _42              : Float
+   +0x038 _43              : Float
+   +0x03c _44              : Float
+kd> dt win32k!_THROBJHEAD
+   +0x000 h                : Ptr32 Void
+   +0x004 cLockObj         : Uint4B
+   +0x008 pti              : Ptr32 tagTHREADINFO
+kd> dt win32k!tagTOUCHINPUTINFO
+   +0x000 head             : _THROBJHEAD
+   +0x00c dwcInputs        : Uint4B
+   +0x010 uFlags           : Uint4B
+   +0x014 TouchInput       : [1] tagTOUCHINPUT
+kd> dt win32k!tagTOUCHINPUT
+   +0x000 x                : Int4B
+   +0x004 y                : Int4B
+   +0x008 hSource          : Ptr32 Void
+   +0x00c dwID             : Uint4B
+   +0x010 dwFlags          : Uint4B
+   +0x014 dwMask           : Uint4B
+   +0x018 dwTime           : Uint4B
+   +0x01c dwExtraInfo      : Uint4B
+   +0x020 cxContact        : Uint4B
+   +0x024 cyContact        : Uint4B
+kd> dt win32k!tagQMSG
+   +0x000 pqmsgNext        : Ptr32 tagQMSG
+   +0x004 pqmsgPrev        : Ptr32 tagQMSG
+   +0x008 msg              : tagMSG
+   +0x024 ExtraInfo        : Int4B
+   +0x028 ptMouseReal      : tagPOINT
+   +0x030 dwQEvent         : Pos 0, 30 Bits
+   +0x030 Padding          : Pos 30, 2 Bits
+   +0x034 Wow64Message     : Pos 0, 1 Bit
+   +0x034 NoCoalesce       : Pos 1, 1 Bit
+   +0x034 FromTouch        : Pos 2, 1 Bit
+   +0x034 FromPen          : Pos 3, 1 Bit
+   +0x038 pti              : Ptr32 tagTHREADINFO
+   +0x03c MsgPPInfo        : tagMSGPPINFO
+kd> dt win32k!tagPOPUPMENU
+   +0x000 fIsMenuBar       : Pos 0, 1 Bit
+   +0x000 fHasMenuBar      : Pos 1, 1 Bit
+   +0x000 fIsSysMenu       : Pos 2, 1 Bit
+   +0x000 fIsTrackPopup    : Pos 3, 1 Bit
+   +0x000 fDroppedLeft     : Pos 4, 1 Bit
+   +0x000 fHierarchyDropped : Pos 5, 1 Bit
+   +0x000 fRightButton     : Pos 6, 1 Bit
+   +0x000 fToggle          : Pos 7, 1 Bit
+   +0x000 fSynchronous     : Pos 8, 1 Bit
+   +0x000 fFirstClick      : Pos 9, 1 Bit
+   +0x000 fDropNextPopup   : Pos 10, 1 Bit
+   +0x000 fNoNotify        : Pos 11, 1 Bit
+   +0x000 fAboutToHide     : Pos 12, 1 Bit
+   +0x000 fShowTimer       : Pos 13, 1 Bit
+   +0x000 fHideTimer       : Pos 14, 1 Bit
+   +0x000 fDestroyed       : Pos 15, 1 Bit
+   +0x000 fDelayedFree     : Pos 16, 1 Bit
+   +0x000 fFlushDelayedFree : Pos 17, 1 Bit
+   +0x000 fFreed           : Pos 18, 1 Bit
+   +0x000 fInCancel        : Pos 19, 1 Bit
+   +0x000 fTrackMouseEvent : Pos 20, 1 Bit
+   +0x000 fSendUninit      : Pos 21, 1 Bit
+   +0x000 fRtoL            : Pos 22, 1 Bit
+   +0x000 iDropDir         : Pos 23, 5 Bits
+   +0x000 fUseMonitorRect  : Pos 28, 1 Bit
+   +0x004 spwndNotify      : Ptr32 tagWND
+   +0x008 spwndPopupMenu   : Ptr32 tagWND
+   +0x00c spwndNextPopup   : Ptr32 tagWND
+   +0x010 spwndPrevPopup   : Ptr32 tagWND
+   +0x014 spmenu           : Ptr32 tagMENU
+   +0x018 spmenuAlternate  : Ptr32 tagMENU
+   +0x01c spwndActivePopup : Ptr32 tagWND
+   +0x020 ppopupmenuRoot   : Ptr32 tagPOPUPMENU
+   +0x024 ppmDelayedFree   : Ptr32 tagPOPUPMENU
+   +0x028 posSelectedItem  : Uint4B
+   +0x02c posDropped       : Uint4B
+kd> dt win32k!HDC__
+   +0x000 unused           : Int4B
+kd> dt win32k!HBITMAP__
+   +0x000 unused           : Int4B
+kd> dt win32k!_PROCDESKHEAD
+   +0x000 h                : Ptr32 Void
+   +0x004 cLockObj         : Uint4B
+   +0x008 hTaskWow         : Uint4B
+   +0x00c rpdesk           : Ptr32 tagDESKTOP
+   +0x010 pSelf            : Ptr32 UChar
+kd> dt win32k!tagITEM
+   +0x000 fType            : Uint4B
+   +0x004 fState           : Uint4B
+   +0x008 wID              : Uint4B
+   +0x00c spSubMenu        : Ptr32 tagMENU
+   +0x010 hbmpChecked      : Ptr32 Void
+   +0x014 hbmpUnchecked    : Ptr32 Void
+   +0x018 lpstr            : Ptr32 Uint2B
+   +0x01c cch              : Uint4B
+   +0x020 dwItemData       : Uint4B
+   +0x024 xItem            : Uint4B
+   +0x028 yItem            : Uint4B
+   +0x02c cxItem           : Uint4B
+   +0x030 cyItem           : Uint4B
+   +0x034 dxTab            : Uint4B
+   +0x038 ulX              : Uint4B
+   +0x03c ulWidth          : Uint4B
+   +0x040 hbmp             : Ptr32 HBITMAP__
+   +0x044 cxBmp            : Int4B
+   +0x048 cyBmp            : Int4B
+   +0x04c umim             : tagUAHMENUITEMMETRICS
+kd> dt win32k!tagMENULIST
+   +0x000 pNext            : Ptr32 tagMENULIST
+   +0x004 pMenu            : Ptr32 tagMENU
+kd> dt win32k!HBRUSH__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagUAHMENUPOPUPMETRICS
+   +0x000 rgcx             : [4] Int4B
+   +0x010 fUpdateMaxWidths : Pos 0, 1 Bit
+kd> dt win32k!tagUAHMENUITEMMETRICS
+   +0x000 rgsizeBar        : [2] tagSIZE
+   +0x000 rgsizePopup      : [4] tagSIZE
+kd> dt win32k!tagDISPLAYINFO
+   +0x000 hDev             : Ptr32 Void
+   +0x004 pmdev            : Ptr32 Void
+   +0x008 hDevInfo         : Ptr32 Void
+   +0x00c hdcScreen        : Ptr32 HDC__
+   +0x010 hdcBits          : Ptr32 HDC__
+   +0x014 hdcGray          : Ptr32 HDC__
+   +0x018 hbmGray          : Ptr32 HBITMAP__
+   +0x01c cxGray           : Int4B
+   +0x020 cyGray           : Int4B
+   +0x024 pdceFirst        : Ptr32 tagDCE
+   +0x028 pspbFirst        : Ptr32 tagSPB
+   +0x02c cMonitors        : Uint4B
+   +0x030 pMonitorPrimary  : Ptr32 tagMONITOR
+   +0x034 pMonitorFirst    : Ptr32 tagMONITOR
+   +0x038 rcScreenReal     : tagRECT
+   +0x048 hrgnScreenReal   : Ptr32 HRGN__
+   +0x04c dmLogPixels      : Uint2B
+   +0x04e BitCountMax      : Uint2B
+   +0x050 fDesktopIsRect   : Pos 0, 1 Bit
+   +0x050 fAnyPalette      : Pos 1, 1 Bit
+   +0x054 DockThresholdMax : Uint4B
+   +0x058 SpatialListHead  : _KLIST_ENTRY
+   +0x060 cFullScreen      : Int2B
+   +0x062 Spare0           : Int2B
+kd> dt win32k!tagWIN32HEAP
+Symbol win32k!tagWIN32HEAP not found.
+kd> dt win32k!_CONSOLE_CARET_INFO
+   +0x000 hwnd             : Ptr32 HWND__
+   +0x004 rc               : tagRECT
+kd> dt win32k!_MAGNIFICATION_INPUT_TRANSFORM
+   +0x000 rcSource         : tagRECT
+   +0x010 rcScreen         : tagRECT
+   +0x020 ptiMagThreadInfo : Ptr32 tagTHREADINFO
+   +0x024 magFactorX       : Int4B
+   +0x028 magFactorY       : Int4B
+kd> dt win32k!tagTERMINAL
+   +0x000 dwTERMF_Flags    : Uint4B
+   +0x004 spwndDesktopOwner : Ptr32 tagWND
+   +0x008 ptiDesktop       : Ptr32 tagTHREADINFO
+   +0x00c pqDesktop        : Ptr32 tagQ
+   +0x010 dwNestedLevel    : Uint4B
+   +0x014 pEventTermInit   : Ptr32 _KEVENT
+   +0x018 rpdeskDestroy    : Ptr32 tagDESKTOP
+   +0x01c pEventInputReady : Ptr32 _KEVENT
+kd> dt win32k!tagPROFILEVALUEINFO
+   +0x000 dwValue          : Uint4B
+   +0x004 uSection         : Uint4B
+   +0x008 pwszKeyName      : Ptr32 Wchar
+kd> dt win32k!tagDCE
+   +0x000 pdceNext         : Ptr32 tagDCE
+   +0x004 hdc              : Ptr32 HDC__
+   +0x008 pwndOrg          : Ptr32 tagWND
+   +0x00c pwndClip         : Ptr32 tagWND
+   +0x010 pwndRedirect     : Ptr32 tagWND
+   +0x014 hrgnClip         : Ptr32 HRGN__
+   +0x018 hrgnClipPublic   : Ptr32 HRGN__
+   +0x01c hrgnSavedVis     : Ptr32 HRGN__
+   +0x020 DCX_flags        : Uint4B
+   +0x024 ptiOwner         : Ptr32 tagTHREADINFO
+   +0x028 ppiOwner         : Ptr32 tagPROCESSINFO
+   +0x02c pMonitor         : Ptr32 tagMONITOR
+kd> dt win32k!tagSPB
+   +0x000 pspbNext         : Ptr32 tagSPB
+   +0x004 spwnd            : Ptr32 tagWND
+   +0x008 hbm              : Ptr32 HBITMAP__
+   +0x00c rc               : tagRECT
+   +0x01c hrgn             : Ptr32 HRGN__
+   +0x020 flags            : Uint4B
+   +0x024 ulSaveId         : Uint4B
+kd> dt win32k!tagMONITOR
+   +0x000 head             : _HEAD
+   +0x008 pMonitorNext     : Ptr32 tagMONITOR
+   +0x00c dwMONFlags       : Uint4B
+   +0x010 rcMonitorReal    : tagRECT
+   +0x020 rcWorkReal       : tagRECT
+   +0x030 hrgnMonitorReal  : Ptr32 HRGN__
+   +0x034 Spare0           : Int2B
+   +0x036 cWndStack        : Int2B
+   +0x038 hDev             : Ptr32 Void
+   +0x03c hDevReal         : Ptr32 Void
+   +0x040 DockTargets      : [7] [4] UChar
+   +0x05c Flink            : Ptr32 tagMONITOR
+   +0x060 Blink            : Ptr32 tagMONITOR
+kd> dt win32k!_KLIST_ENTRY
+   +0x000 Flink            : Ptr32 _KLIST_ENTRY
+   +0x004 Blink            : Ptr32 _KLIST_ENTRY
+kd> dt win32k!_KFLOATING_SAVE
+   +0x000 ControlWord      : Uint4B
+   +0x004 StatusWord       : Uint4B
+   +0x008 ErrorOffset      : Uint4B
+   +0x00c ErrorSelector    : Uint4B
+   +0x010 DataOffset       : Uint4B
+   +0x014 DataSelector     : Uint4B
+   +0x018 Cr0NpxState      : Uint4B
+   +0x01c Spare1           : Uint4B
+kd> dt win32k!_ETW_THREAD_FLAG
+   ETW_THREAD_FLAG_HAD_INPUT = 0
+   ETW_THREAD_FLAG_HAD_VISIBLE_WINDOWS = 1
+   ETW_THREAD_FLAG_HAS_NEW_INPUT = 2
+   ETW_THREAD_FLAG_MAX = 3
+kd> dt win32k!WINDOWCOMPOSITIONATTRIB
+   WCA_UNDEFINED = 0
+   WCA_NCRENDERING_ENABLED = 1
+   WCA_NCRENDERING_POLICY = 2
+   WCA_TRANSITIONS_FORCEDISABLED = 3
+   WCA_ALLOW_NCPAINT = 4
+   WCA_CAPTION_BUTTON_BOUNDS = 5
+   WCA_NONCLIENT_RTL_LAYOUT = 6
+   WCA_FORCE_ICONIC_REPRESENTATION = 7
+   WCA_FLIP3D_POLICY = 8
+   WCA_EXTENDED_FRAME_BOUNDS = 9
+   WCA_HAS_ICONIC_BITMAP = 10
+   WCA_THEME_ATTRIBUTES = 11
+   WCA_NCRENDERING_EXILED = 12
+   WCA_NCADORNMENTINFO = 13
+   WCA_EXCLUDED_FROM_LIVEPREVIEW = 14
+   WCA_VIDEO_OVERLAY_ACTIVE = 15
+   WCA_FORCE_ACTIVEWINDOW_APPEARANCE = 16
+   WCA_DISALLOW_PEEK = 17
+   WCA_LAST = 18
+kd> dt win32k!_INTERFACE_TYPE
+   InterfaceTypeUndefined = -1
+   Internal = 0
+   Isa = 1
+   Eisa = 2
+   MicroChannel = 3
+   TurboChannel = 4
+   PCIBus = 5
+   VMEBus = 6
+   NuBus = 7
+   PCMCIABus = 8
+   CBus = 9
+   MPIBus = 10
+   MPSABus = 11
+   ProcessorInternal = 12
+   InternalPowerBus = 13
+   PNPISABus = 14
+   PNPBus = 15
+   Vmcs = 16
+   MaximumInterfaceType = 17
+kd> dt win32k!_IO_RESOURCE_LIST
+   +0x000 Version          : Uint2B
+   +0x002 Revision         : Uint2B
+   +0x004 Count            : Uint4B
+   +0x008 Descriptors      : [1] _IO_RESOURCE_DESCRIPTOR
+kd> dt win32k!_LUID_AND_ATTRIBUTES
+   +0x000 Luid             : _LUID
+   +0x008 Attributes       : Uint4B
+kd> dt win32k!_CALLPROCDATA
+   +0x000 head             : _PROCDESKHEAD
+   +0x014 spcpdNext        : Ptr32 _CALLPROCDATA
+   +0x018 pfnClientPrevious : Uint4B
+   +0x01c wType            : Uint2B
+kd> dt win32k!_TEB_ACTIVE_FRAME_CONTEXT
+   +0x000 Flags            : Uint4B
+   +0x004 FrameName        : Ptr32 Char
+kd> dt win32k!_TEB_ACTIVE_FRAME_CONTEXT
+   +0x000 Flags            : Uint4B
+   +0x004 FrameName        : Ptr32 Char
+kd> dt win32k!DISPLAYCONFIG_SCANLINE_ORDERING
+   DISPLAYCONFIG_SCANLINE_ORDERING_UNSPECIFIED = 0
+   DISPLAYCONFIG_SCANLINE_ORDERING_PROGRESSIVE = 1
+   DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED = 2
+   DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_UPPERFIELDFIRST = 2
+   DISPLAYCONFIG_SCANLINE_ORDERING_INTERLACED_LOWERFIELDFIRST = 3
+   DISPLAYCONFIG_SCANLINE_ORDERING_FORCE_UINT32 = -1
+kd> dt win32k!tagKbdLayer
+   +0x000 pCharModifiers   : Ptr32 MODIFIERS
+   +0x004 pVkToWcharTable  : Ptr32 _VK_TO_WCHAR_TABLE
+   +0x008 pDeadKey         : Ptr32 DEADKEY
+   +0x00c pKeyNames        : Ptr32 VSC_LPWSTR
+   +0x010 pKeyNamesExt     : Ptr32 VSC_LPWSTR
+   +0x014 pKeyNamesDead    : Ptr32 Ptr32 Uint2B
+   +0x018 pusVSCtoVK       : Ptr32 Uint2B
+   +0x01c bMaxVSCtoVK      : UChar
+   +0x020 pVSCtoVK_E0      : Ptr32 _VSC_VK
+   +0x024 pVSCtoVK_E1      : Ptr32 _VSC_VK
+   +0x028 fLocaleFlags     : Uint4B
+   +0x02c nLgMax           : UChar
+   +0x02d cbLgEntry        : UChar
+   +0x030 pLigature        : Ptr32 _LIGATURE1
+   +0x034 dwType           : Uint4B
+   +0x038 dwSubType        : Uint4B
+kd> dt win32k!tagKbdNlsLayer
+   +0x000 OEMIdentifier    : Uint2B
+   +0x002 LayoutInformation : Uint2B
+   +0x004 NumOfVkToF       : Uint4B
+   +0x008 pVkToF           : Ptr32 _VK_TO_FUNCTION_TABLE
+   +0x00c NumOfMouseVKey   : Int4B
+   +0x010 pusMouseVKey     : Ptr32 Uint2B
+kd> dt win32k!_PROFILE_MAP
+   PMAP_COLORS = 0
+   PMAP_CURSORS = 1
+   PMAP_WINDOWSM = 2
+   PMAP_WINDOWSU = 3
+   PMAP_DESKTOP = 4
+   PMAP_ICONS = 5
+   PMAP_FONTS = 6
+   PMAP_TRUETYPE = 7
+   PMAP_KBDLAYOUT = 8
+   PMAP_INPUT = 9
+   PMAP_SUBSYSTEMS = 10
+   PMAP_BEEP = 11
+   PMAP_MOUSE = 12
+   PMAP_KEYBOARD = 13
+   PMAP_STICKYKEYS = 14
+   PMAP_KEYBOARDRESPONSE = 15
+   PMAP_MOUSEKEYS = 16
+   PMAP_TOGGLEKEYS = 17
+   PMAP_TIMEOUT = 18
+   PMAP_SOUNDSENTRY = 19
+   PMAP_SHOWSOUNDS = 20
+   PMAP_AEDEBUG = 21
+   PMAP_NETWORK = 22
+   PMAP_METRICS = 23
+   PMAP_UKBDLAYOUT = 24
+   PMAP_UKBDLAYOUTTOGGLE = 25
+   PMAP_WINLOGON = 26
+   PMAP_KEYBOARDPREF = 27
+   PMAP_SCREENREADER = 28
+   PMAP_HIGHCONTRAST = 29
+   PMAP_IMECOMPAT = 30
+   PMAP_IMM = 31
+   PMAP_POOLLIMITS = 32
+   PMAP_COMPAT32 = 33
+   PMAP_SETUPPROGRAMNAMES = 34
+   PMAP_INPUTMETHOD = 35
+   PMAP_MOUCLASS_PARAMS = 36
+   PMAP_KBDCLASS_PARAMS = 37
+   PMAP_COMPUTERNAME = 38
+   PMAP_TS = 39
+   PMAP_TABLETPC = 40
+   PMAP_MEDIACENTER = 41
+   PMAP_TS_EXCLUDE_DESKTOP_VERSION = 42
+   PMAP_WOW64_COMPAT32 = 43
+   PMAP_WOW64_IMECOMPAT = 44
+   PMAP_SERVERR2 = 45
+   PMAP_STARTER = 46
+   PMAP_ACCESS = 47
+   PMAP_AUDIODESCRIPTION = 48
+   PMAP_CONTROL = 49
+   PMAP_LAST = 49
+kd> dt win32k!_EXCEPTION_REGISTRATION_RECORD
+   +0x000 Next             : Ptr32 _EXCEPTION_REGISTRATION_RECORD
+   +0x004 Handler          : Ptr32     _EXCEPTION_DISPOSITION 
+kd> dt win32k!_WHEA_ERROR_RECORD_HEADER_VALIDBITS
+   +0x000 PlatformId       : Pos 0, 1 Bit
+   +0x000 Timestamp        : Pos 1, 1 Bit
+   +0x000 PartitionId      : Pos 2, 1 Bit
+   +0x000 Reserved         : Pos 3, 29 Bits
+   +0x000 AsULONG          : Uint4B
+kd> dt win32k!_WHEA_TIMESTAMP
+   +0x000 Seconds          : Pos 0, 8 Bits
+   +0x000 Minutes          : Pos 8, 8 Bits
+   +0x000 Hours            : Pos 16, 8 Bits
+   +0x000 Precise          : Pos 24, 1 Bit
+   +0x000 Reserved         : Pos 25, 7 Bits
+   +0x000 Day              : Pos 32, 8 Bits
+   +0x000 Month            : Pos 40, 8 Bits
+   +0x000 Year             : Pos 48, 8 Bits
+   +0x000 Century          : Pos 56, 8 Bits
+   +0x000 AsLARGE_INTEGER  : _LARGE_INTEGER
+kd> dt win32k!_WHEA_ERROR_RECORD_HEADER_FLAGS
+   +0x000 Recovered        : Pos 0, 1 Bit
+   +0x000 PreviousError    : Pos 1, 1 Bit
+   +0x000 Simulated        : Pos 2, 1 Bit
+   +0x000 Reserved         : Pos 3, 29 Bits
+   +0x000 AsULONG          : Uint4B
+kd> dt win32k!_WHEA_PERSISTENCE_INFO
+   +0x000 Signature        : Pos 0, 16 Bits
+   +0x000 Length           : Pos 16, 24 Bits
+   +0x000 Identifier       : Pos 40, 16 Bits
+   +0x000 Attributes       : Pos 56, 2 Bits
+   +0x000 DoNotLog         : Pos 58, 1 Bit
+   +0x000 Reserved         : Pos 59, 5 Bits
+   +0x000 AsULONGLONG      : Uint8B
+kd> dt win32k!_DMM_MONITOR_PRESENCE_EVENT_TYPE
+   DMM_MPET_UNINITIALIZED = 0
+   DMM_MPET_ADDMONITOR = 1
+   DMM_MPET_REMOVEMONITOR = 2
+   DMM_MPET_DRIVERARRIVAL = 3
+   DMM_MPET_DRIVERQUERYREMOVE = 4
+   DMM_MPET_DRIVERREMOVECANCELLED = 5
+   DMM_MPET_DRIVERREMOVECOMPLETE = 6
+   DMM_MPET_DEVICENODEREADY = 7
+   DMM_MPET_EDIDCHANGE = 8
+   DMM_MPET_MONITORDISABLE = 9
+   DMM_MPET_MONITORENABLE = 10
+   DMM_MPET_ADAPTERADD = 11
+   DMM_MPET_ADAPTERREMOVAL = 12
+   DMM_MPET_INVALIDATION = 13
+   DMM_MPET_ADDSIMULATEDMONITOR = 0x40000001
+   DMM_MPET_REMOVESIMULATEDMONITOR = 0x40000002
+   DMM_MPET_MAXVALID = 0x40000002
+kd> dt win32k!TOUCHSTATE
+   TOUCHSTATE_INVALID = -1
+   TOUCHSTATE_NONE = 0
+   TOUCHSTATE_DOWN = 1
+   TOUCHSTATE_MOVE = 2
+   TOUCHSTATE_UPOUTOFRANGE = 3
+   TOUCHSTATE_INAIR = 4
+   TOUCHSTATE_INAIRMOVE = 5
+   TOUCHSTATE_INAIROUTOFRANGE = 6
+   TOUCHSTATE_COUNT = 7
+kd> dt win32k!_VK_VALUES_STRINGS
+   +0x000 pszMultiNames    : Ptr32 Char
+   +0x004 fReserved        : UChar
+kd> dt win32k!_DRIVER_EXTENSION
+   +0x000 DriverObject     : Ptr32 _DRIVER_OBJECT
+   +0x004 AddDevice        : Ptr32     long 
+   +0x008 Count            : Uint4B
+   +0x00c ServiceKeyName   : _UNICODE_STRING
+kd> dt win32k!_FAST_IO_DISPATCH
+   +0x000 SizeOfFastIoDispatch : Uint4B
+   +0x004 FastIoCheckIfPossible : Ptr32     unsigned char 
+   +0x008 FastIoRead       : Ptr32     unsigned char 
+   +0x00c FastIoWrite      : Ptr32     unsigned char 
+   +0x010 FastIoQueryBasicInfo : Ptr32     unsigned char 
+   +0x014 FastIoQueryStandardInfo : Ptr32     unsigned char 
+   +0x018 FastIoLock       : Ptr32     unsigned char 
+   +0x01c FastIoUnlockSingle : Ptr32     unsigned char 
+   +0x020 FastIoUnlockAll  : Ptr32     unsigned char 
+   +0x024 FastIoUnlockAllByKey : Ptr32     unsigned char 
+   +0x028 FastIoDeviceControl : Ptr32     unsigned char 
+   +0x02c AcquireFileForNtCreateSection : Ptr32     void 
+   +0x030 ReleaseFileForNtCreateSection : Ptr32     void 
+   +0x034 FastIoDetachDevice : Ptr32     void 
+   +0x038 FastIoQueryNetworkOpenInfo : Ptr32     unsigned char 
+   +0x03c AcquireForModWrite : Ptr32     long 
+   +0x040 MdlRead          : Ptr32     unsigned char 
+   +0x044 MdlReadComplete  : Ptr32     unsigned char 
+   +0x048 PrepareMdlWrite  : Ptr32     unsigned char 
+   +0x04c MdlWriteComplete : Ptr32     unsigned char 
+   +0x050 FastIoReadCompressed : Ptr32     unsigned char 
+   +0x054 FastIoWriteCompressed : Ptr32     unsigned char 
+   +0x058 MdlReadCompleteCompressed : Ptr32     unsigned char 
+   +0x05c MdlWriteCompleteCompressed : Ptr32     unsigned char 
+   +0x060 FastIoQueryOpen  : Ptr32     unsigned char 
+   +0x064 ReleaseForModWrite : Ptr32     long 
+   +0x068 AcquireForCcFlush : Ptr32     long 
+   +0x06c ReleaseForCcFlush : Ptr32     long 
+kd> dt win32k!_D3DKMDT_MONITOR_DESCRIPTOR_TYPE
+   D3DKMDT_MDT_UNINITIALIZED = 0
+   D3DKMDT_MDT_VESA_EDID_V1_BASEBLOCK = 1
+   D3DKMDT_MDT_VESA_EDID_V1_BLOCKMAP = 2
+   D3DKMDT_MDT_OTHER = 255
+kd> dt win32k!_D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+   D3DKMDT_MCO_UNINITIALIZED = 0
+   D3DKMDT_MCO_DEFAULTMONITORPROFILE = 1
+   D3DKMDT_MCO_MONITORDESCRIPTOR = 2
+   D3DKMDT_MCO_MONITORDESCRIPTOR_REGISTRYOVERRIDE = 3
+   D3DKMDT_MCO_SPECIFICCAP_REGISTRYOVERRIDE = 4
+   D3DKMDT_MCO_DRIVER = 5
+   D3DKMDT_MCO_MAXVALID = 5
+kd> dt win32k!tagSHAREDINFO
+   +0x000 psi              : Ptr32 tagSERVERINFO
+   +0x004 aheList          : Ptr32 _HANDLEENTRY
+   +0x008 HeEntrySize      : Uint4B
+   +0x00c pDispInfo        : Ptr32 tagDISPLAYINFO
+   +0x010 ulSharedDelta    : Uint4B
+   +0x014 awmControl       : [31] _WNDMSG
+   +0x10c DefWindowMsgs    : _WNDMSG
+   +0x114 DefWindowSpecMsgs : _WNDMSG
+kd> dt win32k!tagSERVERINFO
+   +0x000 dwSRVIFlags      : Uint4B
+   +0x004 cHandleEntries   : Uint4B
+   +0x008 mpFnidPfn        : [32] Ptr32     long 
+   +0x088 aStoCidPfn       : [7] Ptr32     long 
+   +0x0a4 mpFnid_serverCBWndProc : [31] Uint2B
+   +0x0e4 apfnClientA      : _PFNCLIENT
+   +0x140 apfnClientW      : _PFNCLIENT
+   +0x19c apfnClientWorker : _PFNCLIENTWORKER
+   +0x1c8 cbHandleTable    : Uint4B
+   +0x1cc atomSysClass     : [25] Uint2B
+   +0x200 dwDefaultHeapBase : Uint4B
+   +0x204 dwDefaultHeapSize : Uint4B
+   +0x208 uiShellMsg       : Uint4B
+   +0x20c MBStrings        : [11] tagMBSTRING
+   +0x3c4 atomIconSmProp   : Uint2B
+   +0x3c6 atomIconProp     : Uint2B
+   +0x3c8 atomContextHelpIdProp : Uint2B
+   +0x3ca atomFrostedWindowProp : Uint2B
+   +0x3cc acOemToAnsi      : [256] Char
+   +0x4cc acAnsiToOem      : [256] Char
+   +0x5cc dwInstalledEventHooks : Uint4B
+   +0x5d0 aiSysMet         : [97] Int4B
+   +0x754 argbSystemUnmatched : [31] Uint4B
+   +0x7d0 argbSystem       : [31] Uint4B
+   +0x84c ahbrSystem       : [31] Ptr32 HBRUSH__
+   +0x8c8 hbrGray          : Ptr32 HBRUSH__
+   +0x8cc ptCursor         : tagPOINT
+   +0x8d4 ptCursorReal     : tagPOINT
+   +0x8dc dwLastRITEventTickCount : Uint4B
+   +0x8e0 nEvents          : Int4B
+   +0x8e4 dtScroll         : Uint4B
+   +0x8e8 dtLBSearch       : Uint4B
+   +0x8ec dtCaretBlink     : Uint4B
+   +0x8f0 ucWheelScrollLines : Uint4B
+   +0x8f4 ucWheelScrollChars : Uint4B
+   +0x8f8 wMaxLeftOverlapChars : Int4B
+   +0x8fc wMaxRightOverlapChars : Int4B
+   +0x900 cxSysFontChar    : Int4B
+   +0x904 cySysFontChar    : Int4B
+   +0x908 tmSysFont        : tagTEXTMETRICW
+   +0x944 dpiSystem        : tagDPISERVERINFO
+   +0x95c hIconSmWindows   : Ptr32 HICON__
+   +0x960 hIcoWindows      : Ptr32 HICON__
+   +0x964 dwKeyCache       : Uint4B
+   +0x968 dwAsyncKeyCache  : Uint4B
+   +0x96c cCaptures        : Uint4B
+   +0x970 oembmi           : [93] tagOEMBITMAPINFO
+   +0xf40 rcScreenReal     : tagRECT
+   +0xf50 BitCount         : Uint2B
+   +0xf52 dmLogPixels      : Uint2B
+   +0xf54 Planes           : UChar
+   +0xf55 BitsPixel        : UChar
+   +0xf58 PUSIFlags        : Uint4B
+   +0xf5c uCaretWidth      : Uint4B
+   +0xf60 UILangID         : Uint2B
+   +0xf64 dwLastSystemRITEventTickCountUpdate : Uint4B
+   +0xf68 adwDBGTAGFlags   : [35] Uint4B
+   +0xff4 dwTagCount       : Uint4B
+   +0xff8 dwRIPFlags       : Uint4B
+kd> dt win32k!tagSERVERINFO
+   +0x000 dwSRVIFlags      : Uint4B
+   +0x004 cHandleEntries   : Uint4B
+   +0x008 mpFnidPfn        : [32] Ptr32     long 
+   +0x088 aStoCidPfn       : [7] Ptr32     long 
+   +0x0a4 mpFnid_serverCBWndProc : [31] Uint2B
+   +0x0e4 apfnClientA      : _PFNCLIENT
+   +0x140 apfnClientW      : _PFNCLIENT
+   +0x19c apfnClientWorker : _PFNCLIENTWORKER
+   +0x1c8 cbHandleTable    : Uint4B
+   +0x1cc atomSysClass     : [25] Uint2B
+   +0x200 dwDefaultHeapBase : Uint4B
+   +0x204 dwDefaultHeapSize : Uint4B
+   +0x208 uiShellMsg       : Uint4B
+   +0x20c MBStrings        : [11] tagMBSTRING
+   +0x3c4 atomIconSmProp   : Uint2B
+   +0x3c6 atomIconProp     : Uint2B
+   +0x3c8 atomContextHelpIdProp : Uint2B
+   +0x3ca atomFrostedWindowProp : Uint2B
+   +0x3cc acOemToAnsi      : [256] Char
+   +0x4cc acAnsiToOem      : [256] Char
+   +0x5cc dwInstalledEventHooks : Uint4B
+   +0x5d0 aiSysMet         : [97] Int4B
+   +0x754 argbSystemUnmatched : [31] Uint4B
+   +0x7d0 argbSystem       : [31] Uint4B
+   +0x84c ahbrSystem       : [31] Ptr32 HBRUSH__
+   +0x8c8 hbrGray          : Ptr32 HBRUSH__
+   +0x8cc ptCursor         : tagPOINT
+   +0x8d4 ptCursorReal     : tagPOINT
+   +0x8dc dwLastRITEventTickCount : Uint4B
+   +0x8e0 nEvents          : Int4B
+   +0x8e4 dtScroll         : Uint4B
+   +0x8e8 dtLBSearch       : Uint4B
+   +0x8ec dtCaretBlink     : Uint4B
+   +0x8f0 ucWheelScrollLines : Uint4B
+   +0x8f4 ucWheelScrollChars : Uint4B
+   +0x8f8 wMaxLeftOverlapChars : Int4B
+   +0x8fc wMaxRightOverlapChars : Int4B
+   +0x900 cxSysFontChar    : Int4B
+   +0x904 cySysFontChar    : Int4B
+   +0x908 tmSysFont        : tagTEXTMETRICW
+   +0x944 dpiSystem        : tagDPISERVERINFO
+   +0x95c hIconSmWindows   : Ptr32 HICON__
+   +0x960 hIcoWindows      : Ptr32 HICON__
+   +0x964 dwKeyCache       : Uint4B
+   +0x968 dwAsyncKeyCache  : Uint4B
+   +0x96c cCaptures        : Uint4B
+   +0x970 oembmi           : [93] tagOEMBITMAPINFO
+   +0xf40 rcScreenReal     : tagRECT
+   +0xf50 BitCount         : Uint2B
+   +0xf52 dmLogPixels      : Uint2B
+   +0xf54 Planes           : UChar
+   +0xf55 BitsPixel        : UChar
+   +0xf58 PUSIFlags        : Uint4B
+   +0xf5c uCaretWidth      : Uint4B
+   +0xf60 UILangID         : Uint2B
+   +0xf64 dwLastSystemRITEventTickCountUpdate : Uint4B
+   +0xf68 adwDBGTAGFlags   : [35] Uint4B
+   +0xff4 dwTagCount       : Uint4B
+   +0xff8 dwRIPFlags       : Uint4B
+kd> dt win32k!_WNDMSG
+   +0x000 maxMsgs          : Uint4B
+   +0x004 abMsgs           : Ptr32 UChar
+kd> dt win32k!MODIFIERS
+   +0x000 pVkToBit         : Ptr32 VK_TO_BIT
+   +0x004 wMaxModBits      : Uint2B
+   +0x006 ModNumber        : [0] UChar
+kd> dt win32k!_VK_TO_WCHAR_TABLE
+   +0x000 pVkToWchars      : Ptr32 _VK_TO_WCHARS1
+   +0x004 nModifications   : UChar
+   +0x005 cbSize           : UChar
+kd> dt win32k!DEADKEY
+   +0x000 dwBoth           : Uint4B
+   +0x004 wchComposed      : Wchar
+   +0x006 uFlags           : Uint2B
+kd> dt win32k!VSC_LPWSTR
+   +0x000 vsc              : UChar
+   +0x004 pwsz             : Ptr32 Uint2B
+kd> dt win32k!_VSC_VK
+   +0x000 Vsc              : UChar
+   +0x002 Vk               : Uint2B
+kd> dt win32k!_LIGATURE1
+   +0x000 VirtualKey       : UChar
+   +0x002 ModificationNumber : Uint2B
+   +0x004 wch              : [1] Wchar
+kd> dt win32k!tagSIZE
+   +0x000 cx               : Int4B
+   +0x004 cy               : Int4B
+kd> dt win32k!_PEB_LDR_DATA
+   +0x000 Length           : Uint4B
+   +0x004 Initialized      : UChar
+   +0x008 SsHandle         : Ptr32 Void
+   +0x00c InLoadOrderModuleList : _LIST_ENTRY
+   +0x014 InMemoryOrderModuleList : _LIST_ENTRY
+   +0x01c InInitializationOrderModuleList : _LIST_ENTRY
+   +0x024 EntryInProgress  : Ptr32 Void
+   +0x028 ShutdownInProgress : UChar
+   +0x02c ShutdownThreadId : Ptr32 Void
+kd> dt win32k!_RTL_USER_PROCESS_PARAMETERS
+   +0x000 MaximumLength    : Uint4B
+   +0x004 Length           : Uint4B
+   +0x008 Flags            : Uint4B
+   +0x00c DebugFlags       : Uint4B
+   +0x010 ConsoleHandle    : Ptr32 Void
+   +0x014 ConsoleFlags     : Uint4B
+   +0x018 StandardInput    : Ptr32 Void
+   +0x01c StandardOutput   : Ptr32 Void
+   +0x020 StandardError    : Ptr32 Void
+   +0x024 CurrentDirectory : _CURDIR
+   +0x030 DllPath          : _UNICODE_STRING
+   +0x038 ImagePathName    : _UNICODE_STRING
+   +0x040 CommandLine      : _UNICODE_STRING
+   +0x048 Environment      : Ptr32 Void
+   +0x04c StartingX        : Uint4B
+   +0x050 StartingY        : Uint4B
+   +0x054 CountX           : Uint4B
+   +0x058 CountY           : Uint4B
+   +0x05c CountCharsX      : Uint4B
+   +0x060 CountCharsY      : Uint4B
+   +0x064 FillAttribute    : Uint4B
+   +0x068 WindowFlags      : Uint4B
+   +0x06c ShowWindowFlags  : Uint4B
+   +0x070 WindowTitle      : _UNICODE_STRING
+   +0x078 DesktopInfo      : _UNICODE_STRING
+   +0x080 ShellInfo        : _UNICODE_STRING
+   +0x088 RuntimeData      : _UNICODE_STRING
+   +0x090 CurrentDirectores : [32] _RTL_DRIVE_LETTER_CURDIR
+   +0x290 EnvironmentSize  : Uint4B
+   +0x294 EnvironmentVersion : Uint4B
+kd> dt win32k!_RTL_CRITICAL_SECTION
+   +0x000 DebugInfo        : Ptr32 _RTL_CRITICAL_SECTION_DEBUG
+   +0x004 LockCount        : Int4B
+   +0x008 RecursionCount   : Int4B
+   +0x00c OwningThread     : Ptr32 Void
+   +0x010 LockSemaphore    : Ptr32 Void
+   +0x014 SpinCount        : Uint4B
+kd> dt win32k!_ACTIVATION_CONTEXT_DATA
+Symbol win32k!_ACTIVATION_CONTEXT_DATA not found.
+kd> dt win32k!_ACTIVATION_CONTEXT_DATA
+Symbol win32k!_ACTIVATION_CONTEXT_DATA not found.
+kd> dt win32k!_ASSEMBLY_STORAGE_MAP
+Symbol win32k!_ASSEMBLY_STORAGE_MAP not found.
+kd> dt win32k!_FLS_CALLBACK_INFO
+Symbol win32k!_FLS_CALLBACK_INFO not found.
+kd> dt win32k!tagSBCALC
+   +0x000 posMin           : Int4B
+   +0x004 posMax           : Int4B
+   +0x008 page             : Int4B
+   +0x00c pos              : Int4B
+   +0x010 pxTop            : Int4B
+   +0x014 pxBottom         : Int4B
+   +0x018 pxLeft           : Int4B
+   +0x01c pxRight          : Int4B
+   +0x020 cpxThumb         : Int4B
+   +0x024 pxUpArrow        : Int4B
+   +0x028 pxDownArrow      : Int4B
+   +0x02c pxStart          : Int4B
+   +0x030 pxThumbBottom    : Int4B
+   +0x034 pxThumbTop       : Int4B
+   +0x038 cpx              : Int4B
+   +0x03c pxMin            : Int4B
+kd> dt win32k!_XSTATE_FEATURE
+   +0x000 Offset           : Uint4B
+   +0x004 Size             : Uint4B
+kd> dt win32k!_D3DKMDT_VIDPN_TARGET_MODE
+   +0x000 Id               : Uint4B
+   +0x004 VideoSignalInfo  : _D3DKMDT_VIDEO_SIGNAL_INFO
+   +0x030 Preference       : _D3DKMDT_MODE_PREFERENCE
+kd> dt win32k!_CM_FULL_RESOURCE_DESCRIPTOR
+   +0x000 InterfaceType    : _INTERFACE_TYPE
+   +0x004 BusNumber        : Uint4B
+   +0x008 PartialResourceList : _CM_PARTIAL_RESOURCE_LIST
+kd> dt win32k!_CM_PARTIAL_RESOURCE_LIST
+   +0x000 Version          : Uint2B
+   +0x002 Revision         : Uint2B
+   +0x004 Count            : Uint4B
+   +0x008 PartialDescriptors : [1] _CM_PARTIAL_RESOURCE_DESCRIPTOR
+kd> dt win32k!_D3DKMDT_FREQUENCY_RANGE
+   +0x000 MinVSyncFreq     : _D3DDDI_RATIONAL
+   +0x008 MaxVSyncFreq     : _D3DDDI_RATIONAL
+   +0x010 MinHSyncFreq     : _D3DDDI_RATIONAL
+   +0x018 MaxHSyncFreq     : _D3DDDI_RATIONAL
+kd> dt win32k!_D3DKMDT_MONITOR_FREQUENCY_RANGE_CONSTRAINT
+   D3DKMDT_MFRC_UNINITIALIZED = 0
+   D3DKMDT_MFRC_ACTIVESIZE = 1
+   D3DKMDT_MFRC_MAXPIXELRATE = 2
+kd> dt win32k!_D3DKMDT_2DREGION
+   +0x000 cx               : Uint4B
+   +0x004 cy               : Uint4B
+kd> dt win32k!tagWOWTHREADINFO
+   +0x000 pwtiNext         : Ptr32 tagWOWTHREADINFO
+   +0x004 idTask           : Uint4B
+   +0x008 idWaitObject     : Uint4B
+   +0x00c idParentProcess  : Uint4B
+   +0x010 pIdleEvent       : Ptr32 _KEVENT
+kd> dt win32k!VWPLELEMENT
+   +0x000 DataOrTag        : Uint4B
+   +0x004 pwnd             : Ptr32 tagWND
+kd> dt win32k!VK_TO_BIT
+   +0x000 Vk               : UChar
+   +0x001 ModBits          : UChar
+kd> dt win32k!_PFNCLIENT
+   +0x000 pfnScrollBarWndProc : Ptr32     int 
+   +0x004 pfnTitleWndProc  : Ptr32     int 
+   +0x008 pfnMenuWndProc   : Ptr32     int 
+   +0x00c pfnDesktopWndProc : Ptr32     int 
+   +0x010 pfnDefWindowProc : Ptr32     int 
+   +0x014 pfnMessageWindowProc : Ptr32     int 
+   +0x018 pfnSwitchWindowProc : Ptr32     int 
+   +0x01c pfnButtonWndProc : Ptr32     int 
+   +0x020 pfnComboBoxWndProc : Ptr32     int 
+   +0x024 pfnComboListBoxProc : Ptr32     int 
+   +0x028 pfnDialogWndProc : Ptr32     int 
+   +0x02c pfnEditWndProc   : Ptr32     int 
+   +0x030 pfnListBoxWndProc : Ptr32     int 
+   +0x034 pfnMDIClientWndProc : Ptr32     int 
+   +0x038 pfnStaticWndProc : Ptr32     int 
+   +0x03c pfnImeWndProc    : Ptr32     int 
+   +0x040 pfnGhostWndProc  : Ptr32     int 
+   +0x044 pfnHkINLPCWPSTRUCT : Ptr32     int 
+   +0x048 pfnHkINLPCWPRETSTRUCT : Ptr32     int 
+   +0x04c pfnDispatchHook  : Ptr32     int 
+   +0x050 pfnDispatchDefWindowProc : Ptr32     int 
+   +0x054 pfnDispatchMessage : Ptr32     int 
+   +0x058 pfnMDIActivateDlgProc : Ptr32     int 
+kd> dt win32k!_PFNCLIENTWORKER
+   +0x000 pfnButtonWndProc : Ptr32     int 
+   +0x004 pfnComboBoxWndProc : Ptr32     int 
+   +0x008 pfnComboListBoxProc : Ptr32     int 
+   +0x00c pfnDialogWndProc : Ptr32     int 
+   +0x010 pfnEditWndProc   : Ptr32     int 
+   +0x014 pfnListBoxWndProc : Ptr32     int 
+   +0x018 pfnMDIClientWndProc : Ptr32     int 
+   +0x01c pfnStaticWndProc : Ptr32     int 
+   +0x020 pfnImeWndProc    : Ptr32     int 
+   +0x024 pfnGhostWndProc  : Ptr32     int 
+   +0x028 pfnCtfHookProc   : Ptr32     int 
+kd> dt win32k!tagMBSTRING
+   +0x000 szName           : [15] Wchar
+   +0x020 uID              : Uint4B
+   +0x024 uStr             : Uint4B
+kd> dt win32k!tagTEXTMETRICW
+   +0x000 tmHeight         : Int4B
+   +0x004 tmAscent         : Int4B
+   +0x008 tmDescent        : Int4B
+   +0x00c tmInternalLeading : Int4B
+   +0x010 tmExternalLeading : Int4B
+   +0x014 tmAveCharWidth   : Int4B
+   +0x018 tmMaxCharWidth   : Int4B
+   +0x01c tmWeight         : Int4B
+   +0x020 tmOverhang       : Int4B
+   +0x024 tmDigitizedAspectX : Int4B
+   +0x028 tmDigitizedAspectY : Int4B
+   +0x02c tmFirstChar      : Wchar
+   +0x02e tmLastChar       : Wchar
+   +0x030 tmDefaultChar    : Wchar
+   +0x032 tmBreakChar      : Wchar
+   +0x034 tmItalic         : UChar
+   +0x035 tmUnderlined     : UChar
+   +0x036 tmStruckOut      : UChar
+   +0x037 tmPitchAndFamily : UChar
+   +0x038 tmCharSet        : UChar
+kd> dt win32k!tagDPISERVERINFO
+   +0x000 gclBorder        : Int4B
+   +0x004 hCaptionFont     : Ptr32 HFONT__
+   +0x008 hMsgFont         : Ptr32 HFONT__
+   +0x00c cxMsgFontChar    : Int4B
+   +0x010 cyMsgFontChar    : Int4B
+   +0x014 wMaxBtnSize      : Uint4B
+kd> dt win32k!HICON__
+   +0x000 unused           : Int4B
+kd> dt win32k!tagOEMBITMAPINFO
+   +0x000 x                : Int4B
+   +0x004 y                : Int4B
+   +0x008 cx               : Int4B
+   +0x00c cy               : Int4B
+kd> dt win32k!tagWin32AllocStats
+   +0x000 dwMaxMem         : Uint4B
+   +0x004 dwCrtMem         : Uint4B
+   +0x008 dwMaxAlloc       : Uint4B
+   +0x00c dwCrtAlloc       : Uint4B
+   +0x010 pHead            : Ptr32 tagWin32PoolHead
+kd> dt win32k!tagWin32PoolHead
+   +0x000 size             : Uint4B
+   +0x004 pPrev            : Ptr32 tagWin32PoolHead
+   +0x008 pNext            : Ptr32 tagWin32PoolHead
+   +0x00c pTrace           : Ptr32 Ptr32 Void
+kd> dt win32k!_D3DKMDT_VIDEO_SIGNAL_INFO
+   +0x000 VideoStandard    : _D3DKMDT_VIDEO_SIGNAL_STANDARD
+   +0x004 TotalSize        : _D3DKMDT_2DREGION
+   +0x00c ActiveSize       : _D3DKMDT_2DREGION
+   +0x014 VSyncFreq        : _D3DDDI_RATIONAL
+   +0x01c HSyncFreq        : _D3DDDI_RATIONAL
+   +0x024 PixelRate        : Uint4B
+   +0x028 ScanLineOrdering : _D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
+kd> dt win32k!_D3DKMDT_MODE_PREFERENCE
+   D3DKMDT_MP_UNINITIALIZED = 0
+   D3DKMDT_MP_PREFERRED = 1
+   D3DKMDT_MP_NOTPREFERRED = 2
+   D3DKMDT_MP_MAXVALID = 2
+kd> dt win32k!_D3DKMDT_VIDEO_SIGNAL_STANDARD
+   D3DKMDT_VSS_UNINITIALIZED = 0
+   D3DKMDT_VSS_VESA_DMT = 1
+   D3DKMDT_VSS_VESA_GTF = 2
+   D3DKMDT_VSS_VESA_CVT = 3
+   D3DKMDT_VSS_IBM = 4
+   D3DKMDT_VSS_APPLE = 5
+   D3DKMDT_VSS_NTSC_M = 6
+   D3DKMDT_VSS_NTSC_J = 7
+   D3DKMDT_VSS_NTSC_443 = 8
+   D3DKMDT_VSS_PAL_B = 9
+   D3DKMDT_VSS_PAL_B1 = 10
+   D3DKMDT_VSS_PAL_G = 11
+   D3DKMDT_VSS_PAL_H = 12
+   D3DKMDT_VSS_PAL_I = 13
+   D3DKMDT_VSS_PAL_D = 14
+   D3DKMDT_VSS_PAL_N = 15
+   D3DKMDT_VSS_PAL_NC = 16
+   D3DKMDT_VSS_SECAM_B = 17
+   D3DKMDT_VSS_SECAM_D = 18
+   D3DKMDT_VSS_SECAM_G = 19
+   D3DKMDT_VSS_SECAM_H = 20
+   D3DKMDT_VSS_SECAM_K = 21
+   D3DKMDT_VSS_SECAM_K1 = 22
+   D3DKMDT_VSS_SECAM_L = 23
+   D3DKMDT_VSS_SECAM_L1 = 24
+   D3DKMDT_VSS_EIA_861 = 25
+   D3DKMDT_VSS_EIA_861A = 26
+   D3DKMDT_VSS_EIA_861B = 27
+   D3DKMDT_VSS_PAL_K = 28
+   D3DKMDT_VSS_PAL_K1 = 29
+   D3DKMDT_VSS_PAL_L = 30
+   D3DKMDT_VSS_PAL_M = 31
+   D3DKMDT_VSS_OTHER = 255
+kd> dt win32k!_D3DDDI_RATIONAL
+   +0x000 Numerator        : Uint4B
+   +0x004 Denominator      : Uint4B
+kd> dt win32k!_D3DDDI_VIDEO_SIGNAL_SCANLINE_ORDERING
+   D3DDDI_VSSLO_UNINITIALIZED = 0
+   D3DDDI_VSSLO_PROGRESSIVE = 1
+   D3DDDI_VSSLO_INTERLACED_UPPERFIELDFIRST = 2
+   D3DDDI_VSSLO_INTERLACED_LOWERFIELDFIRST = 3
+   D3DDDI_VSSLO_OTHER = 255
+kd> dt win32k!_PROCMARKHEAD
+   +0x000 h                : Ptr32 Void
+   +0x004 cLockObj         : Uint4B
+   +0x008 hTaskWow         : Uint4B
+   +0x00c ppi              : Ptr32 tagPROCESSINFO
+kd> dt win32k!_DMM_CLIENT_TYPE
+   DMM_CT_UNINITIALIZED = 0
+   DMM_CT_CDD_NOPATHDATA = 1
+   DMM_CT_USERMODE = 2
+   DMM_CT_CDD_PATHDATA = 3
+   DMM_CT_DXGPORT = 4
+kd> dt win32k!_DMM_VIDPNCHANGE_TYPE
+   DMM_CVR_UNINITIALIZED = 0
+   DMM_CVR_UPDATEMODALITY = 1
+   DMM_CVR_ADDPATH = 2
+   DMM_CVR_ADDPATHS = 3
+   DMM_CVR_REMOVEPATH = 4
+   DMM_CVR_REMOVEALLPATHS = 5
+kd> dt win32k!eTHRESHOLD_MARGIN_DIRECTION
+   ThresholdMarginTop = 0
+   ThresholdMarginLeft = 1
+   ThresholdMarginRight = 2
+   ThresholdMarginBottom = 3
+   ThresholdMarginMax = 4
+kd> dt win32k!_MOVERECT_STYLE
+   MoveRectKeepPositionAtCursor = 0
+   MoveRectMidTopAtCursor = 1
+   MoveRectKeepAspectRatioAtCursor = 2
+   MoveRectSidewiseKeepPositionAtCursor = 3
+kd> dt win32k!_EJOB
+Symbol win32k!_EJOB not found.
+kd> dt win32k!_THRESHOLD_SELECTOR
+   ThresholdMouse = 0
+   ThresholdPen = 1
+   ThresholdMouseDragOut = 2
+   ThresholdPenDragOut = 3
+   ThresholdMouseSideMove = 4
+   ThresholdPenSideMove = 5
+   ThresholdAlways = 6
+   ThresholdLast = 7
+kd> dt win32k!_CM_PARTIAL_RESOURCE_DESCRIPTOR
+   +0x000 Type             : UChar
+   +0x001 ShareDisposition : UChar
+   +0x002 Flags            : Uint2B
+   +0x004 u                : <unnamed-tag>
+kd> dt win32k!_D3DKMDT_MONITOR_SOURCE_MODE
+   +0x000 Id               : Uint4B
+   +0x004 VideoSignalInfo  : _D3DKMDT_VIDEO_SIGNAL_INFO
+   +0x030 ColorBasis       : _D3DKMDT_COLOR_BASIS
+   +0x034 ColorCoeffDynamicRanges : _D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+   +0x044 Origin           : _D3DKMDT_MONITOR_CAPABILITIES_ORIGIN
+   +0x048 Preference       : _D3DKMDT_MODE_PREFERENCE
+kd> dt win32k!_D3DKMDT_MONITOR_TIMING_TYPE
+   D3DKMDT_MTT_UNINITIALIZED = 0
+   D3DKMDT_MTT_ESTABLISHED = 1
+   D3DKMDT_MTT_STANDARD = 2
+   D3DKMDT_MTT_EXTRASTANDARD = 3
+   D3DKMDT_MTT_DETAILED = 4
+   D3DKMDT_MTT_DEFAULTMONITORPROFILE = 5
+   D3DKMDT_MTT_DRIVER = 6
+   D3DKMDT_MTT_MAXVALID = 6
+kd> dt win32k!_OBJECT_DUMP_CONTROL
+   +0x000 Stream           : Ptr32 Void
+   +0x004 Detail           : Uint4B
+kd> dt win32k!_OB_OPEN_REASON
+   ObCreateHandle = 0
+   ObOpenHandle = 1
+   ObDuplicateHandle = 2
+   ObInheritHandle = 3
+   ObMaxOpenReason = 4
+kd> dt win32k!_SECURITY_QUALITY_OF_SERVICE
+   +0x000 Length           : Uint4B
+   +0x004 ImpersonationLevel : _SECURITY_IMPERSONATION_LEVEL
+   +0x008 ContextTrackingMode : UChar
+   +0x009 EffectiveOnly    : UChar
+kd> dt win32k!_SECURITY_OPERATION_CODE
+   SetSecurityDescriptor = 0
+   QuerySecurityDescriptor = 1
+   DeleteSecurityDescriptor = 2
+   AssignSecurityDescriptor = 3
+kd> dt win32k!_OBJECT_NAME_INFORMATION
+   +0x000 Name             : _UNICODE_STRING
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_IMPORTANCE
+   D3DKMDT_VPPI_UNINITIALIZED = 0
+   D3DKMDT_VPPI_PRIMARY = 1
+   D3DKMDT_VPPI_SECONDARY = 2
+   D3DKMDT_VPPI_TERTIARY = 3
+   D3DKMDT_VPPI_QUATERNARY = 4
+   D3DKMDT_VPPI_QUINARY = 5
+   D3DKMDT_VPPI_SENARY = 6
+   D3DKMDT_VPPI_SEPTENARY = 7
+   D3DKMDT_VPPI_OCTONARY = 8
+   D3DKMDT_VPPI_NONARY = 9
+   D3DKMDT_VPPI_DENARY = 10
+   D3DKMDT_VPPI_MAX = 32
+   D3DKMDT_VPPI_NOTSPECIFIED = 255
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_TRANSFORMATION
+   +0x000 Scaling          : _D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+   +0x004 ScalingSupport   : _D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
+   +0x008 Rotation         : _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
+   +0x00c RotationSupport  : _D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT
+kd> dt win32k!_D3DKMDT_COLOR_BASIS
+   D3DKMDT_CB_UNINITIALIZED = 0
+   D3DKMDT_CB_INTENSITY = 1
+   D3DKMDT_CB_SRGB = 2
+   D3DKMDT_CB_SCRGB = 3
+   D3DKMDT_CB_YCBCR = 4
+   D3DKMDT_CB_YPBPR = 5
+   D3DKMDT_CB_MAXVALID = 5
+kd> dt win32k!_D3DKMDT_COLOR_COEFF_DYNAMIC_RANGES
+   +0x000 FirstChannel     : Uint4B
+   +0x004 SecondChannel    : Uint4B
+   +0x008 ThirdChannel     : Uint4B
+   +0x00c FourthChannel    : Uint4B
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_CONTENT
+   D3DKMDT_VPPC_UNINITIALIZED = 0
+   D3DKMDT_VPPC_GRAPHICS = 1
+   D3DKMDT_VPPC_VIDEO = 2
+   D3DKMDT_VPPC_NOTSPECIFIED = 255
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION
+   +0x000 CopyProtectionType : _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+   +0x004 APSTriggerBits   : Uint4B
+   +0x008 OEMCopyProtection : [256] UChar
+   +0x108 CopyProtectionSupport : _D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
+kd> dt win32k!_D3DKMDT_GAMMA_RAMP
+   +0x000 Type             : _D3DDDI_GAMMARAMP_TYPE
+   +0x004 DataSize         : Uint4B
+   +0x008 Data             : <unnamed-tag>
+kd> dt win32k!tagPROCESS_HID_REQUEST
+   +0x000 link             : _LIST_ENTRY
+   +0x008 usUsagePage      : Uint2B
+   +0x00a usUsage          : Uint2B
+   +0x00c fSinkable        : Pos 0, 1 Bit
+   +0x00c fExSinkable      : Pos 1, 1 Bit
+   +0x00c fDevNotify       : Pos 2, 1 Bit
+   +0x00c fExclusiveOrphaned : Pos 3, 1 Bit
+   +0x010 pTLCInfo         : Ptr32 tagHID_TLC_INFO
+   +0x010 pPORequest       : Ptr32 tagHID_PAGEONLY_REQUEST
+   +0x010 ptr              : Ptr32 Void
+   +0x014 spwndTarget      : Ptr32 tagWND
+kd> dt win32k!HFONT__
+   +0x000 unused           : Int4B
+kd> dt win32k!_SECURITY_IMPERSONATION_LEVEL
+   SecurityAnonymous = 0
+   SecurityIdentification = 1
+   SecurityImpersonation = 2
+   SecurityDelegation = 3
+kd> dt win32k!_MEMORY_CACHING_TYPE_ORIG
+   MmFrameBufferCached = 2
+kd> dt win32k!_EXCEPTION_DISPOSITION
+   ExceptionContinueExecution = 0
+   ExceptionContinueSearch = 1
+   ExceptionNestedException = 2
+   ExceptionCollidedUnwind = 3
+kd> dt win32k!_EXCEPTION_RECORD
+   +0x000 ExceptionCode    : Int4B
+   +0x004 ExceptionFlags   : Uint4B
+   +0x008 ExceptionRecord  : Ptr32 _EXCEPTION_RECORD
+   +0x00c ExceptionAddress : Ptr32 Void
+   +0x010 NumberParameters : Uint4B
+   +0x014 ExceptionInformation : [15] Uint4B
+kd> dt win32k!_CONTEXT
+   +0x000 ContextFlags     : Uint4B
+   +0x004 Dr0              : Uint4B
+   +0x008 Dr1              : Uint4B
+   +0x00c Dr2              : Uint4B
+   +0x010 Dr3              : Uint4B
+   +0x014 Dr6              : Uint4B
+   +0x018 Dr7              : Uint4B
+   +0x01c FloatSave        : _FLOATING_SAVE_AREA
+   +0x08c SegGs            : Uint4B
+   +0x090 SegFs            : Uint4B
+   +0x094 SegEs            : Uint4B
+   +0x098 SegDs            : Uint4B
+   +0x09c Edi              : Uint4B
+   +0x0a0 Esi              : Uint4B
+   +0x0a4 Ebx              : Uint4B
+   +0x0a8 Edx              : Uint4B
+   +0x0ac Ecx              : Uint4B
+   +0x0b0 Eax              : Uint4B
+   +0x0b4 Ebp              : Uint4B
+   +0x0b8 Eip              : Uint4B
+   +0x0bc SegCs            : Uint4B
+   +0x0c0 EFlags           : Uint4B
+   +0x0c4 Esp              : Uint4B
+   +0x0c8 SegSs            : Uint4B
+   +0x0cc ExtendedRegisters : [512] UChar
+kd> dt win32k!_KSPIN_LOCK_QUEUE_NUMBER
+   LockQueueUnusedSpare0 = 0
+   LockQueueExpansionLock = 1
+   LockQueueUnusedSpare2 = 2
+   LockQueueSystemSpaceLock = 3
+   LockQueueVacbLock = 4
+   LockQueueMasterLock = 5
+   LockQueueNonPagedPoolLock = 6
+   LockQueueIoCancelLock = 7
+   LockQueueWorkQueueLock = 8
+   LockQueueIoVpbLock = 9
+   LockQueueIoDatabaseLock = 10
+   LockQueueIoCompletionLock = 11
+   LockQueueNtfsStructLock = 12
+   LockQueueAfdWorkQueueLock = 13
+   LockQueueBcbLock = 14
+   LockQueueMmNonPagedPoolLock = 15
+   LockQueueUnusedSpare16 = 16
+   LockQueueMaximumLock = 17
+kd> dt win32k!_FLOATING_SAVE_AREA
+   +0x000 ControlWord      : Uint4B
+   +0x004 StatusWord       : Uint4B
+   +0x008 TagWord          : Uint4B
+   +0x00c ErrorOffset      : Uint4B
+   +0x010 ErrorSelector    : Uint4B
+   +0x014 DataOffset       : Uint4B
+   +0x018 DataSelector     : Uint4B
+   +0x01c RegisterArea     : [80] UChar
+   +0x06c Cr0NpxState      : Uint4B
+kd> dt win32k!_IMAGE_DATA_DIRECTORY
+   +0x000 VirtualAddress   : Uint4B
+   +0x004 Size             : Uint4B
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_SCALING
+   D3DKMDT_VPPS_UNINITIALIZED = 0
+   D3DKMDT_VPPS_IDENTITY = 1
+   D3DKMDT_VPPS_CENTERED = 2
+   D3DKMDT_VPPS_STRETCHED = 3
+   D3DKMDT_VPPS_ASPECTRATIOCENTEREDMAX = 4
+   D3DKMDT_VPPS_CUSTOM = 5
+   D3DKMDT_VPPS_RESERVED1 = 253
+   D3DKMDT_VPPS_UNPINNED = 254
+   D3DKMDT_VPPS_NOTSPECIFIED = 255
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_SCALING_SUPPORT
+   +0x000 Identity         : Pos 0, 1 Bit
+   +0x000 Centered         : Pos 1, 1 Bit
+   +0x000 Stretched        : Pos 2, 1 Bit
+   +0x000 AspectRatioCenteredMax : Pos 3, 1 Bit
+   +0x000 Custom           : Pos 4, 1 Bit
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION
+   D3DKMDT_VPPR_UNINITIALIZED = 0
+   D3DKMDT_VPPR_IDENTITY = 1
+   D3DKMDT_VPPR_ROTATE90 = 2
+   D3DKMDT_VPPR_ROTATE180 = 3
+   D3DKMDT_VPPR_ROTATE270 = 4
+   D3DKMDT_VPPR_UNPINNED = 254
+   D3DKMDT_VPPR_NOTSPECIFIED = 255
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_ROTATION_SUPPORT
+   +0x000 Identity         : Pos 0, 1 Bit
+   +0x000 Rotate90         : Pos 1, 1 Bit
+   +0x000 Rotate180        : Pos 2, 1 Bit
+   +0x000 Rotate270        : Pos 3, 1 Bit
+kd> dt win32k!tagCLIP
+   +0x000 fmt              : Uint4B
+   +0x004 hData            : Ptr32 Void
+   +0x008 fGlobalHandle    : Int4B
+kd> dt win32k!tagSBDATA
+   +0x000 posMin           : Int4B
+   +0x004 posMax           : Int4B
+   +0x008 page             : Int4B
+   +0x00c pos              : Int4B
+kd> dt win32k!_MODE
+   KernelMode = 0
+   UserMode = 1
+   MaximumMode = 2
+kd> dt win32k!_IO_RESOURCE_DESCRIPTOR
+   +0x000 Option           : UChar
+   +0x001 Type             : UChar
+   +0x002 ShareDisposition : UChar
+   +0x003 Spare1           : UChar
+   +0x004 Flags            : Uint2B
+   +0x006 Spare2           : Uint2B
+   +0x008 u                : <unnamed-tag>
+kd> dt win32k!_RTL_CRITICAL_SECTION_DEBUG
+   +0x000 Type             : Uint2B
+   +0x002 CreatorBackTraceIndex : Uint2B
+   +0x004 CriticalSection  : Ptr32 _RTL_CRITICAL_SECTION
+   +0x008 ProcessLocksList : _LIST_ENTRY
+   +0x010 EntryCount       : Uint4B
+   +0x014 ContentionCount  : Uint4B
+   +0x018 Flags            : Uint4B
+   +0x01c CreatorBackTraceIndexHigh : Uint2B
+   +0x01e SpareUSHORT      : Uint2B
+kd> dt win32k!_IO_ALLOCATION_ACTION
+   KeepObject = 1
+   DeallocateObject = 2
+   DeallocateObjectKeepRegisters = 3
+kd> dt win32k!_VK_TO_FUNCTION_TABLE
+   +0x000 Vk               : UChar
+   +0x001 NLSFEProcType    : UChar
+   +0x002 NLSFEProcCurrent : UChar
+   +0x003 NLSFEProcSwitch  : UChar
+   +0x004 NLSFEProc        : [8] _VK_FUNCTION_PARAM
+   +0x044 NLSFEProcAlt     : [8] _VK_FUNCTION_PARAM
+kd> dt win32k!_D3DDDI_GAMMARAMP_TYPE
+   D3DDDI_GAMMARAMP_UNINITIALIZED = 0
+   D3DDDI_GAMMARAMP_DEFAULT = 1
+   D3DDDI_GAMMARAMP_RGB256x3x16 = 2
+   D3DDDI_GAMMARAMP_DXGI_1 = 3
+kd> dt win32k!_D3DDDI_GAMMA_RAMP_RGB256x3x16
+   +0x000 Red              : [256] Uint2B
+   +0x200 Green            : [256] Uint2B
+   +0x400 Blue             : [256] Uint2B
+kd> dt win32k!_D3DDDI_GAMMA_RAMP_DXGI_1
+   +0x000 Scale            : D3DDDI_DXGI_RGB
+   +0x00c Offset           : D3DDDI_DXGI_RGB
+   +0x018 GammaCurve       : [1025] D3DDDI_DXGI_RGB
+kd> dt win32k!_FILE_BASIC_INFORMATION
+   +0x000 CreationTime     : _LARGE_INTEGER
+   +0x008 LastAccessTime   : _LARGE_INTEGER
+   +0x010 LastWriteTime    : _LARGE_INTEGER
+   +0x018 ChangeTime       : _LARGE_INTEGER
+   +0x020 FileAttributes   : Uint4B
+kd> dt win32k!_FILE_STANDARD_INFORMATION
+   +0x000 AllocationSize   : _LARGE_INTEGER
+   +0x008 EndOfFile        : _LARGE_INTEGER
+   +0x010 NumberOfLinks    : Uint4B
+   +0x014 DeletePending    : UChar
+   +0x015 Directory        : UChar
+kd> dt win32k!_FILE_NETWORK_OPEN_INFORMATION
+   +0x000 CreationTime     : _LARGE_INTEGER
+   +0x008 LastAccessTime   : _LARGE_INTEGER
+   +0x010 LastWriteTime    : _LARGE_INTEGER
+   +0x018 ChangeTime       : _LARGE_INTEGER
+   +0x020 AllocationSize   : _LARGE_INTEGER
+   +0x028 EndOfFile        : _LARGE_INTEGER
+   +0x030 FileAttributes   : Uint4B
+kd> dt win32k!_COMPRESSED_DATA_INFO
+   +0x000 CompressionFormatAndEngine : Uint2B
+   +0x002 CompressionUnitShift : UChar
+   +0x003 ChunkShift       : UChar
+   +0x004 ClusterShift     : UChar
+   +0x005 Reserved         : UChar
+   +0x006 NumberOfChunks   : Uint2B
+   +0x008 CompressedChunkSizes : [1] Uint4B
+kd> dt win32k!_CURDIR
+   +0x000 DosPath          : _UNICODE_STRING
+   +0x008 Handle           : Ptr32 Void
+kd> dt win32k!_RTL_DRIVE_LETTER_CURDIR
+   +0x000 Flags            : Uint2B
+   +0x002 Length           : Uint2B
+   +0x004 TimeStamp        : Uint4B
+   +0x008 DosPath          : _STRING
+kd> dt win32k!_D3DDDIFORMAT
+   D3DDDIFMT_UNKNOWN = 0
+   D3DDDIFMT_R8G8B8 = 20
+   D3DDDIFMT_A8R8G8B8 = 21
+   D3DDDIFMT_X8R8G8B8 = 22
+   D3DDDIFMT_R5G6B5 = 23
+   D3DDDIFMT_X1R5G5B5 = 24
+   D3DDDIFMT_A1R5G5B5 = 25
+   D3DDDIFMT_A4R4G4B4 = 26
+   D3DDDIFMT_R3G3B2 = 27
+   D3DDDIFMT_A8 = 28
+   D3DDDIFMT_A8R3G3B2 = 29
+   D3DDDIFMT_X4R4G4B4 = 30
+   D3DDDIFMT_A2B10G10R10 = 31
+   D3DDDIFMT_A8B8G8R8 = 32
+   D3DDDIFMT_X8B8G8R8 = 33
+   D3DDDIFMT_G16R16 = 34
+   D3DDDIFMT_A2R10G10B10 = 35
+   D3DDDIFMT_A16B16G16R16 = 36
+   D3DDDIFMT_A8P8 = 40
+   D3DDDIFMT_P8 = 41
+   D3DDDIFMT_L8 = 50
+   D3DDDIFMT_A8L8 = 51
+   D3DDDIFMT_A4L4 = 52
+   D3DDDIFMT_V8U8 = 60
+   D3DDDIFMT_L6V5U5 = 61
+   D3DDDIFMT_X8L8V8U8 = 62
+   D3DDDIFMT_Q8W8V8U8 = 63
+   D3DDDIFMT_V16U16 = 64
+   D3DDDIFMT_W11V11U10 = 65
+   D3DDDIFMT_A2W10V10U10 = 67
+   D3DDDIFMT_UYVY = 0x59565955
+   D3DDDIFMT_R8G8_B8G8 = 0x47424752
+   D3DDDIFMT_YUY2 = 0x32595559
+   D3DDDIFMT_G8R8_G8B8 = 0x42475247
+   D3DDDIFMT_DXT1 = 0x31545844
+   D3DDDIFMT_DXT2 = 0x32545844
+   D3DDDIFMT_DXT3 = 0x33545844
+   D3DDDIFMT_DXT4 = 0x34545844
+   D3DDDIFMT_DXT5 = 0x35545844
+   D3DDDIFMT_D16_LOCKABLE = 70
+   D3DDDIFMT_D32 = 71
+   D3DDDIFMT_D15S1 = 73
+   D3DDDIFMT_D24S8 = 75
+   D3DDDIFMT_D24X8 = 77
+   D3DDDIFMT_D24X4S4 = 79
+   D3DDDIFMT_D16 = 80
+   D3DDDIFMT_D32F_LOCKABLE = 82
+   D3DDDIFMT_D24FS8 = 83
+   D3DDDIFMT_D32_LOCKABLE = 84
+   D3DDDIFMT_S8_LOCKABLE = 85
+   D3DDDIFMT_S1D15 = 72
+   D3DDDIFMT_S8D24 = 74
+   D3DDDIFMT_X8D24 = 76
+   D3DDDIFMT_X4S4D24 = 78
+   D3DDDIFMT_L16 = 81
+   D3DDDIFMT_VERTEXDATA = 100
+   D3DDDIFMT_INDEX16 = 101
+   D3DDDIFMT_INDEX32 = 102
+   D3DDDIFMT_Q16W16V16U16 = 110
+   D3DDDIFMT_MULTI2_ARGB8 = 0x3154454d
+   D3DDDIFMT_R16F = 111
+   D3DDDIFMT_G16R16F = 112
+   D3DDDIFMT_A16B16G16R16F = 113
+   D3DDDIFMT_R32F = 114
+   D3DDDIFMT_G32R32F = 115
+   D3DDDIFMT_A32B32G32R32F = 116
+   D3DDDIFMT_CxV8U8 = 117
+   D3DDDIFMT_A1 = 118
+   D3DDDIFMT_A2B10G10R10_XR_BIAS = 119
+   D3DDDIFMT_DXVACOMPBUFFER_BASE = 150
+   D3DDDIFMT_PICTUREPARAMSDATA = 150
+   D3DDDIFMT_MACROBLOCKDATA = 151
+   D3DDDIFMT_RESIDUALDIFFERENCEDATA = 152
+   D3DDDIFMT_DEBLOCKINGDATA = 153
+   D3DDDIFMT_INVERSEQUANTIZATIONDATA = 154
+   D3DDDIFMT_SLICECONTROLDATA = 155
+   D3DDDIFMT_BITSTREAMDATA = 156
+   D3DDDIFMT_MOTIONVECTORBUFFER = 157
+   D3DDDIFMT_FILMGRAINBUFFER = 158
+   D3DDDIFMT_DXVA_RESERVED9 = 159
+   D3DDDIFMT_DXVA_RESERVED10 = 160
+   D3DDDIFMT_DXVA_RESERVED11 = 161
+   D3DDDIFMT_DXVA_RESERVED12 = 162
+   D3DDDIFMT_DXVA_RESERVED13 = 163
+   D3DDDIFMT_DXVA_RESERVED14 = 164
+   D3DDDIFMT_DXVA_RESERVED15 = 165
+   D3DDDIFMT_DXVA_RESERVED16 = 166
+   D3DDDIFMT_DXVA_RESERVED17 = 167
+   D3DDDIFMT_DXVA_RESERVED18 = 168
+   D3DDDIFMT_DXVA_RESERVED19 = 169
+   D3DDDIFMT_DXVA_RESERVED20 = 170
+   D3DDDIFMT_DXVA_RESERVED21 = 171
+   D3DDDIFMT_DXVA_RESERVED22 = 172
+   D3DDDIFMT_DXVA_RESERVED23 = 173
+   D3DDDIFMT_DXVA_RESERVED24 = 174
+   D3DDDIFMT_DXVA_RESERVED25 = 175
+   D3DDDIFMT_DXVA_RESERVED26 = 176
+   D3DDDIFMT_DXVA_RESERVED27 = 177
+   D3DDDIFMT_DXVA_RESERVED28 = 178
+   D3DDDIFMT_DXVA_RESERVED29 = 179
+   D3DDDIFMT_DXVA_RESERVED30 = 180
+   D3DDDIFMT_DXVA_RESERVED31 = 181
+   D3DDDIFMT_DXVACOMPBUFFER_MAX = 181
+   D3DDDIFMT_BINARYBUFFER = 199
+   D3DDDIFMT_FORCE_UINT = 0x7fffffff
+kd> dt win32k!_D3DKMT_QUERYSTATISTICS_QUEUE_PACKET_TYPE
+   D3DKMT_RenderCommandBuffer = 0
+   D3DKMT_DeferredCommandBuffer = 1
+   D3DKMT_SystemCommandBuffer = 2
+   D3DKMT_MmIoFlipCommandBuffer = 3
+   D3DKMT_WaitCommandBuffer = 4
+   D3DKMT_SignalCommandBuffer = 5
+   D3DKMT_DeviceCommandBuffer = 6
+   D3DKMT_SoftwareCommandBuffer = 7
+   D3DKMT_QueuePacketTypeMax = 8
+kd> dt win32k!_D3DKMDT_VIDPN_SOURCE_MODE_TYPE
+   D3DKMDT_RMT_UNINITIALIZED = 0
+   D3DKMDT_RMT_GRAPHICS = 1
+   D3DKMDT_RMT_TEXT = 2
+kd> dt win32k!_D3DKMDT_GRAPHICS_RENDERING_FORMAT
+   +0x000 PrimSurfSize     : _D3DKMDT_2DREGION
+   +0x008 VisibleRegionSize : _D3DKMDT_2DREGION
+   +0x010 Stride           : Uint4B
+   +0x014 PixelFormat      : _D3DDDIFORMAT
+   +0x018 ColorBasis       : _D3DKMDT_COLOR_BASIS
+   +0x01c PixelValueAccessMode : _D3DKMDT_PIXEL_VALUE_ACCESS_MODE
+kd> dt win32k!_D3DKMDT_TEXT_RENDERING_FORMAT
+   D3DKMDT_TRF_UNINITIALIZED = 0
+kd> dt win32k!D3DDDI_DXGI_RGB
+   +0x000 Red              : Float
+   +0x004 Green            : Float
+   +0x008 Blue             : Float
+kd> dt win32k!_SM_STORAGE_MODIFIER
+   SmStorageActual = 0
+   SmStorageNonActual = 1
+kd> dt win32k!ReplacesCorHdrNumericDefines
+   COMIMAGE_FLAGS_ILONLY = 1
+   COMIMAGE_FLAGS_32BITREQUIRED = 2
+   COMIMAGE_FLAGS_IL_LIBRARY = 4
+   COMIMAGE_FLAGS_STRONGNAMESIGNED = 8
+   COMIMAGE_FLAGS_NATIVE_ENTRYPOINT = 16
+   COMIMAGE_FLAGS_TRACKDEBUGDATA = 0x10000
+   COR_VERSION_MAJOR_V2 = 2
+   COR_VERSION_MAJOR = 2
+   COR_VERSION_MINOR = 0
+   COR_DELETED_NAME_LENGTH = 8
+   COR_VTABLEGAP_NAME_LENGTH = 8
+   NATIVE_TYPE_MAX_CB = 1
+   COR_ILMETHOD_SECT_SMALL_MAX_DATASIZE = 255
+   IMAGE_COR_MIH_METHODRVA = 1
+   IMAGE_COR_MIH_EHRVA = 2
+   IMAGE_COR_MIH_BASICBLOCK = 8
+   COR_VTABLE_32BIT = 1
+   COR_VTABLE_64BIT = 2
+   COR_VTABLE_FROM_UNMANAGED = 4
+   COR_VTABLE_FROM_UNMANAGED_RETAIN_APPDOMAIN = 8
+   COR_VTABLE_CALL_MOST_DERIVED = 16
+   IMAGE_COR_EATJ_THUNK_SIZE = 32
+   MAX_CLASS_NAME = 1024
+   MAX_PACKAGE_NAME = 1024
+kd> dt win32k!_D3DKMT_QUERYRESULT_PREEMPTION_ATTEMPT_RESULT
+   D3DKMT_PreemptionAttempt = 0
+   D3DKMT_PreemptionAttemptSuccess = 1
+   D3DKMT_PreemptionAttemptMissNoCommand = 2
+   D3DKMT_PreemptionAttemptMissNotEnabled = 3
+   D3DKMT_PreemptionAttemptMissNextFence = 4
+   D3DKMT_PreemptionAttemptMissPagingCommand = 5
+   D3DKMT_PreemptionAttemptMissSplittedCommand = 6
+   D3DKMT_PreemptionAttemptMissFenceCommand = 7
+   D3DKMT_PreemptionAttemptMissRenderPendingFlip = 8
+   D3DKMT_PreemptionAttemptMissNotMakingProgress = 9
+   D3DKMT_PreemptionAttemptMissLessPriority = 10
+   D3DKMT_PreemptionAttemptMissRemainingQuantum = 11
+   D3DKMT_PreemptionAttemptMissRemainingPreemptionQuantum = 12
+   D3DKMT_PreemptionAttemptMissAlreadyPreempting = 13
+   D3DKMT_PreemptionAttemptMissGlobalBlock = 14
+   D3DKMT_PreemptionAttemptMissAlreadyRunning = 15
+   D3DKMT_PreemptionAttemptStatisticsMax = 16
+kd> dt win32k!tagIMEINFO
+   +0x000 dwPrivateDataSize : Uint4B
+   +0x004 fdwProperty      : Uint4B
+   +0x008 fdwConversionCaps : Uint4B
+   +0x00c fdwSentenceCaps  : Uint4B
+   +0x010 fdwUICaps        : Uint4B
+   +0x014 fdwSCSCaps       : Uint4B
+   +0x018 fdwSelectCaps    : Uint4B
+kd> dt win32k!_RTL_ACTIVATION_CONTEXT_STACK_FRAME
+   +0x000 Previous         : Ptr32 _RTL_ACTIVATION_CONTEXT_STACK_FRAME
+   +0x004 ActivationContext : Ptr32 _ACTIVATION_CONTEXT
+   +0x008 Flags            : Uint4B
+kd> dt win32k!tagPROP
+   +0x000 hData            : Ptr32 Void
+   +0x004 atomKey          : Uint2B
+   +0x006 fs               : Uint2B
+kd> dt win32k!_DEVICE_OBJECT_POWER_EXTENSION
+Symbol win32k!_DEVICE_OBJECT_POWER_EXTENSION not found.
+kd> dt win32k!_VK_FUNCTION_PARAM
+   +0x000 NLSFEProcIndex   : UChar
+   +0x004 NLSFEProcParam   : Uint4B
+kd> dt win32k!tagHID_PAGEONLY_REQUEST
+   +0x000 link             : _LIST_ENTRY
+   +0x008 usUsagePage      : Uint2B
+   +0x00c cRefCount        : Uint4B
+kd> dt win32k!_WM_VALUES_STRINGS
+   +0x000 pszName          : Ptr32 Char
+   +0x004 fInternal        : UChar
+   +0x005 fDefined         : UChar
+kd> dt win32k!_RTL_BALANCED_LINKS
+   +0x000 Parent           : Ptr32 _RTL_BALANCED_LINKS
+   +0x004 LeftChild        : Ptr32 _RTL_BALANCED_LINKS
+   +0x008 RightChild       : Ptr32 _RTL_BALANCED_LINKS
+   +0x00c Balance          : Char
+   +0x00d Reserved         : [3] UChar
+kd> dt win32k!_RTL_GENERIC_COMPARE_RESULTS
+   GenericLessThan = 0
+   GenericGreaterThan = 1
+   GenericEqual = 2
+kd> dt win32k!_DXGK_RECOMMENDFUNCTIONALVIDPN_REASON
+   DXGK_RFVR_UNINITIALIZED = 0
+   DXGK_RFVR_HOTKEY = 1
+   DXGK_RFVR_USERMODE = 2
+kd> dt win32k!_VK_TO_WCHARS1
+   +0x000 VirtualKey       : UChar
+   +0x001 Attributes       : UChar
+   +0x002 wch              : [1] Wchar
+kd> dt win32k!_D3DKMT_QUERYSTATISTICS_ALLOCATION_PRIORITY_CLASS
+   D3DKMT_AllocationPriorityClassMinimum = 0
+   D3DKMT_AllocationPriorityClassLow = 1
+   D3DKMT_AllocationPriorityClassNormal = 2
+   D3DKMT_AllocationPriorityClassHigh = 3
+   D3DKMT_AllocationPriorityClassMaximum = 4
+   D3DKMT_MaxAllocationPriorityClass = 5
+kd> dt win32k!_SM_VALUES_STRINGS
+   +0x000 pszName          : Ptr32 Char
+   +0x004 ulValue          : Uint4B
+   +0x008 RangeType        : _SM_RANGE_TYPES
+   +0x00c StorageType      : _SM_STORAGE_MODIFIER
+kd> dt win32k!_SM_RANGE_TYPES
+   SmRangeSharedInfo = 0
+   SmRangeNonSharedInfo = 1
+   SmRangeBool = 2
+kd> dt win32k!_D3DKMT_QUERYSTATISTICS_DMA_PACKET_TYPE
+   D3DKMT_ClientRenderBuffer = 0
+   D3DKMT_ClientPagingBuffer = 1
+   D3DKMT_SystemPagingBuffer = 2
+   D3DKMT_SystemPreemptionBuffer = 3
+   D3DKMT_DmaPacketTypeMax = 4
+kd> dt win32k!_KSPECIAL_REGISTERS
+   +0x000 Cr0              : Uint4B
+   +0x004 Cr2              : Uint4B
+   +0x008 Cr3              : Uint4B
+   +0x00c Cr4              : Uint4B
+   +0x010 KernelDr0        : Uint4B
+   +0x014 KernelDr1        : Uint4B
+   +0x018 KernelDr2        : Uint4B
+   +0x01c KernelDr3        : Uint4B
+   +0x020 KernelDr6        : Uint4B
+   +0x024 KernelDr7        : Uint4B
+   +0x028 Gdtr             : _DESCRIPTOR
+   +0x030 Idtr             : _DESCRIPTOR
+   +0x038 Tr               : Uint2B
+   +0x03a Ldtr             : Uint2B
+   +0x03c Reserved         : [6] Uint4B
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_TYPE
+   D3DKMDT_VPPMT_UNINITIALIZED = 0
+   D3DKMDT_VPPMT_NOPROTECTION = 1
+   D3DKMDT_VPPMT_MACROVISION_APSTRIGGER = 2
+   D3DKMDT_VPPMT_MACROVISION_FULLSUPPORT = 3
+   D3DKMDT_VPPMT_NOTSPECIFIED = 255
+kd> dt win32k!_D3DKMDT_VIDPN_PRESENT_PATH_COPYPROTECTION_SUPPORT
+   +0x000 NoProtection     : Pos 0, 1 Bit
+   +0x000 MacroVisionApsTrigger : Pos 1, 1 Bit
+   +0x000 MacroVisionFull  : Pos 2, 1 Bit
+   +0x000 Reserved         : Pos 3, 29 Bits
+kd> dt win32k!_REG_NOTIFY_CLASS
+   RegNtDeleteKey = 0
+   RegNtPreDeleteKey = 0
+   RegNtSetValueKey = 1
+   RegNtPreSetValueKey = 1
+   RegNtDeleteValueKey = 2
+   RegNtPreDeleteValueKey = 2
+   RegNtSetInformationKey = 3
+   RegNtPreSetInformationKey = 3
+   RegNtRenameKey = 4
+   RegNtPreRenameKey = 4
+   RegNtEnumerateKey = 5
+   RegNtPreEnumerateKey = 5
+   RegNtEnumerateValueKey = 6
+   RegNtPreEnumerateValueKey = 6
+   RegNtQueryKey = 7
+   RegNtPreQueryKey = 7
+   RegNtQueryValueKey = 8
+   RegNtPreQueryValueKey = 8
+   RegNtQueryMultipleValueKey = 9
+   RegNtPreQueryMultipleValueKey = 9
+   RegNtPreCreateKey = 10
+   RegNtPostCreateKey = 11
+   RegNtPreOpenKey = 12
+   RegNtPostOpenKey = 13
+   RegNtKeyHandleClose = 14
+   RegNtPreKeyHandleClose = 14
+   RegNtPostDeleteKey = 15
+   RegNtPostSetValueKey = 16
+   RegNtPostDeleteValueKey = 17
+   RegNtPostSetInformationKey = 18
+   RegNtPostRenameKey = 19
+   RegNtPostEnumerateKey = 20
+   RegNtPostEnumerateValueKey = 21
+   RegNtPostQueryKey = 22
+   RegNtPostQueryValueKey = 23
+   RegNtPostQueryMultipleValueKey = 24
+   RegNtPostKeyHandleClose = 25
+   RegNtPreCreateKeyEx = 26
+   RegNtPostCreateKeyEx = 27
+   RegNtPreOpenKeyEx = 28
+   RegNtPostOpenKeyEx = 29
+   RegNtPreFlushKey = 30
+   RegNtPostFlushKey = 31
+   RegNtPreLoadKey = 32
+   RegNtPostLoadKey = 33
+   RegNtPreUnLoadKey = 34
+   RegNtPostUnLoadKey = 35
+   RegNtPreQueryKeySecurity = 36
+   RegNtPostQueryKeySecurity = 37
+   RegNtPreSetKeySecurity = 38
+   RegNtPostSetKeySecurity = 39
+   RegNtCallbackObjectContextCleanup = 40
+   RegNtPreRestoreKey = 41
+   RegNtPostRestoreKey = 42
+   RegNtPreSaveKey = 43
+   RegNtPostSaveKey = 44
+   RegNtPreReplaceKey = 45
+   RegNtPostReplaceKey = 46
+   MaxRegNtNotifyClass = 47
+kd> dt win32k!tagPOOLRECORD
+   +0x000 ExtraData        : Ptr32 Void
+   +0x004 size             : Uint4B
+   +0x008 trace            : [6] Ptr32 Void
+kd> dt win32k!_WINDOW_ARRANGEMENT_COMMAND
+   WARR_MOVE_FIRST = 10
+   WARR_RESTORE_UP = 10
+   WARR_RESTORE_DOWN = 11
+   WARR_VRESTORE_UP = 12
+   WARR_VRESTORE_DOWN = 13
+   WARR_VMAXIMIZE_RIGHT = 14
+   WARR_VMAXIMIZE_LEFT = 15
+   WARR_MOVE_NEXT_MONITOR_LEFT = 16
+   WARR_MOVE_NEXT_MONITOR_RIGHT = 17
+   WARR_MOVE_LAST = 18
+kd> dt win32k!_IRQ_PRIORITY
+   IrqPriorityUndefined = 0
+   IrqPriorityLow = 1
+   IrqPriorityNormal = 2
+   IrqPriorityHigh = 3
+kd> dt win32k!_D3DKMDT_PIXEL_VALUE_ACCESS_MODE
+   D3DKMDT_PVAM_UNINITIALIZED = 0
+   D3DKMDT_PVAM_DIRECT = 1
+   D3DKMDT_PVAM_PRESETPALETTE = 2
+   D3DKMDT_PVAM_SETTABLEPALETTE = 3
+   D3DKMDT_PVAM_MAXVALID = 3
+kd> dt win32k!_DESCRIPTOR
+   +0x000 Pad              : Uint2B
+   +0x002 Limit            : Uint2B
+   +0x004 Base             : Uint4B
